@@ -1,0 +1,241 @@
+project_name: cha_hybrid_network_traffic
+random_seed: 42
+seeds:
+- 42
+- 123
+- 2024
+- 7
+- 31337
+paths:
+  data_raw: data/raw
+  data_processed: data/processed
+  results: outputs
+  figures: outputs/figures
+  logs: outputs/logs
+  experiments: pipeline
+  hp_search: outputs/hyperparameters
+  predictions: outputs/predictions
+  metrics: outputs/metrics
+datasets:
+  cesnet:
+    raw_dir: data/raw/cesnet
+    processed_file: data/processed/cesnet.parquet
+    zenodo_record: '13382427'
+    native_freq: 10min
+    resample_to: 1h
+    description: CESNET-TimeSeries24 ISP backbone traffic (Zenodo 13382427).
+  abilene:
+    raw_dir: data/raw/abilene
+    processed_file: data/processed/abilene.parquet
+    native_freq: 5min
+    resample_to: 1h
+    description: Abilene 5-minute traffic matrix, aggregated to hourly total.
+  geant:
+    raw_dir: data/raw/geant
+    processed_file: data/processed/geant.parquet
+    native_freq: 15min
+    resample_to: 1h
+    description: GEANT 15-minute traffic matrix, aggregated to hourly total.
+  nab_aws_cpu:
+    raw_dir: data/raw/nab_aws_cpu
+    processed_file: data/processed/nab_aws_cpu.parquet
+    native_freq: 5min
+    resample_to: 1h
+    description: NAB AWS CloudWatch EC2 ASG CPU utilisation (5-min, ~63d).
+  nab_twitter:
+    raw_dir: data/raw/nab_twitter
+    processed_file: data/processed/nab_twitter.parquet
+    native_freq: 5min
+    resample_to: 1h
+    description: "NAB Twitter @AAPL mention volume (5-min, ~55d) \u2014 web-service\
+      \ event-rate proxy."
+  burstgpt:
+    raw_dir: data/raw/burstgpt
+    processed_file: data/processed/burstgpt.parquet
+    native_freq: 1s
+    resample_to: 1h
+    description: "BurstGPT Azure-OpenAI ChatGPT/GPT-4 inference trace \u2014 hourly\
+      \ request count over ~120 days (HuggingFace lzzmm/BurstGPT)."
+  azure_llm_2024:
+    raw_dir: data/raw/azure_llm_2024
+    processed_file: data/processed/azure_llm_2024.parquet
+    native_freq: 1s
+    resample_to: 1h
+    description: "Azure OpenAI LLM inference trace (DynamoLLM HPCA'25), one week of\
+      \ conv+code requests aggregated to hourly count."
+  azure_llm_2024_5m:
+    raw_dir: data/raw/azure_llm_2024
+    processed_file: data/processed/azure_llm_2024_5m.parquet
+    native_freq: 1s
+    resample_to: 5min
+    description: "Azure OpenAI LLM inference trace, same raw source as azure_llm_2024\
+      \ but aggregated at 5-minute granularity (2592 samples)."
+  alibaba_pai:
+    raw_dir: data/raw/alibaba_pai
+    processed_file: data/processed/alibaba_pai.parquet
+    native_freq: 1s
+    resample_to: 1h
+    description: "Alibaba PAI 2020 GPU cluster trace \u2014 hourly ML job submission\
+      \ rate (~6.5k GPUs, ~1.05M jobs, 2 months)."
+preprocessing:
+  interpolation: time
+  scaler: standard
+  split:
+    train: 0.7
+    val: 0.15
+    test: 0.15
+  window_length: 168
+horizons:
+- 1
+- 3
+- 6
+- 12
+- 24
+models:
+  group_a:
+  - naive
+  - seasonal_naive
+  - arima
+  - holt_winters
+  - theta
+  group_b:
+  - xgboost
+  - lstm
+  - gru
+  - tcn
+  - nbeats
+  - dlinear
+  - patchtst
+  group_c:
+  - chronos
+  - timesfm
+  proposed:
+  - cha_hybrid
+foundation:
+  chronos:
+    pretrained: amazon/chronos-t5-small
+    finetune: true
+    finetune_epochs: 3
+    finetune_lr: 0.0001
+    lora_r: 8
+  timesfm:
+    pretrained: google/timesfm-1.0-200m-pytorch
+    finetune: false
+    finetune_epochs: 1
+cha_hybrid:
+  stl_period: 24
+  trend_model: arima
+  seasonal_model: seasonal_naive
+  residual_model: gru
+  global_model: lstm
+  alpha_search:
+  - 0.0
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
+  - 0.6
+  - 0.7
+  - 0.8
+  - 0.9
+  - 1.0
+  gru:
+    hidden_size: 64
+    num_layers: 1
+    dropout: 0.1
+    max_epochs: 50
+    batch_size: 64
+    lr: 0.001
+  lstm:
+    hidden_size: 64
+    num_layers: 1
+    dropout: 0.1
+    max_epochs: 50
+    batch_size: 64
+    lr: 0.001
+hp_search:
+  xgboost:
+    n_estimators:
+    - 200
+    - 500
+    - 1000
+    max_depth:
+    - 3
+    - 5
+    - 7
+    learning_rate:
+    - 0.01
+    - 0.05
+    - 0.1
+  lstm:
+    hidden_size:
+    - 32
+    - 64
+    - 128
+    num_layers:
+    - 1
+    - 2
+    dropout:
+    - 0.0
+    - 0.2
+  gru:
+    hidden_size:
+    - 32
+    - 64
+    - 128
+    num_layers:
+    - 1
+    - 2
+    dropout:
+    - 0.0
+    - 0.2
+  tcn:
+    num_filters:
+    - 16
+    - 32
+    kernel_size:
+    - 3
+    - 5
+    dropout:
+    - 0.0
+    - 0.2
+  nbeats:
+    num_stacks:
+    - 2
+    - 3
+    num_blocks:
+    - 1
+    - 3
+  dlinear:
+    kernel_size:
+    - 13
+    - 25
+  patchtst:
+    patch_len:
+    - 8
+    - 16
+    stride:
+    - 4
+    - 8
+    d_model:
+    - 64
+    - 128
+training:
+  max_epochs: 50
+  batch_size: 64
+  early_stopping_patience: 8
+  num_workers: 2
+  device: auto
+  log_every_n_steps: 50
+  smoke_test:
+    subset_steps: 2000
+    seed: 42
+evaluation:
+  metrics:
+  - rmse
+  - mae
+  - mape
+  - smape
+  - r2
+  dm_test_h: 1

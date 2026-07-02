@@ -1,0 +1,53 @@
+# ============================================================
+# CHA-Hybrid network traffic forecasting study
+# Python 3.10-3.12.  Last verified: 2026-05.
+# Upper bounds are deliberately loose so a fresh `pip install -r`
+# resolves cleanly against environments that already have a modern
+# torch/transformers installed (e.g. Anaconda + torch 2.8 + CUDA).
+# ============================================================
+
+# ---- core scientific stack ----
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.3
+statsmodels>=0.14
+matplotlib>=3.7
+seaborn>=0.13
+
+# ---- config / logging / io ----
+PyYAML>=6.0
+tqdm>=4.66
+joblib>=1.3
+requests>=2.31
+rich>=13.7
+pyarrow>=14.0          # for parquet IO
+
+# ---- forecasting libraries (uniform interface, fair baselines) ----
+darts>=0.30
+statsforecast>=1.7
+pmdarima>=2.0
+
+# ---- ML / DL ----
+xgboost>=2.0
+torch>=2.2
+torchmetrics>=1.3
+pytorch-lightning>=2.2
+einops>=0.7
+
+# ---- Foundation models ----
+chronos-forecasting>=1.4
+transformers>=4.40
+accelerate>=0.30
+peft>=0.10
+huggingface_hub>=0.23
+
+# Google TimesFM.
+# The official `timesfm` package pins Python <3.12 for 1.2+; on Python 3.12
+# we install the latest available compatible version (1.0.0) opportunistically
+# and otherwise fall back to loading the public HuggingFace TimesFM
+# checkpoint directly through `transformers` (no `timesfm` package needed).
+timesfm; python_version < "3.12"
+
+# ---- reproducibility ----
+python-dotenv>=1.0
