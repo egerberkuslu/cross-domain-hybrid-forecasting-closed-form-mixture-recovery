@@ -1,9 +1,10 @@
 # ============================================================
 # CHA-Hybrid network traffic forecasting study
-# Python 3.10-3.12.  Last verified: 2026-05.
-# Upper bounds are deliberately loose so a fresh `pip install -r`
-# resolves cleanly against environments that already have a modern
-# torch/transformers installed (e.g. Anaconda + torch 2.8 + CUDA).
+# Python 3.10-3.12.  Last verified: 2026-07 (Python 3.12.4,
+# torch 2.10.0, CUDA 12.8).
+# These bounds are deliberately loose for convenience; the EXACT
+# environment that produced every reported number is pinned in
+# requirements-lock.txt (use that file to reproduce the paper).
 # ============================================================
 
 # ---- core scientific stack ----

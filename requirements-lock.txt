@@ -1,0 +1,27 @@
+# ============================================================
+# CHA-Hybrid (Paper A) — exact environment lock.
+# This is the environment that produced every number reported in
+# the manuscript (verified 2026-07-21).
+# Python 3.12.4  |  CUDA 12.8  |  GPU: NVIDIA RTX 3060
+# Install: pip install -r requirements-lock.txt
+# ============================================================
+numpy==1.26.4
+pandas==3.0.3
+scipy==1.11.4
+scikit-learn==1.7.2
+statsmodels==0.14.6
+matplotlib==3.8.4
+seaborn==0.13.2
+darts==0.44.1
+statsforecast==2.0.3
+pmdarima==2.1.1
+xgboost==3.2.0
+torch==2.10.0
+torchmetrics==1.9.0
+pytorch-lightning==2.6.1
+einops==0.7.0
+chronos-forecasting==2.2.2
+transformers==4.57.6
+accelerate==1.10.1
+peft==0.19.1
+huggingface_hub==0.34.4
