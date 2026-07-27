@@ -8,6 +8,9 @@ provenance for the manuscript
 > Department of Computer Engineering, Ege University, İzmir, Türkiye
 > Submitted to *PeerJ Computer Science*.
 
+**Code repository:** <https://github.com/egerberkuslu/cross-domain-hybrid-forecasting-closed-form-mixture-recovery>
+**Large artifacts (checkpoints, predictions, metrics):** release v1.0.0 on the same repository's Releases page.
+
 ## Description
 
 CHA-S (Component-wise Horizon-Adaptive, Scalar variant) is a two-expert forecaster for
