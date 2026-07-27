@@ -10,7 +10,7 @@ provenance for the manuscript
 
 ## Description
 
-CHA-S (Chronos-Hybrid-Adaptive Scalar) is a two-expert forecaster for
+CHA-S (Component-wise Horizon-Adaptive, Scalar variant) is a two-expert forecaster for
 non-stationary network and AI-inference workloads. A decomposition expert
 factors the series with STL, extrapolates the trend with the Theta model,
 replicates the seasonal component with seasonal-naive, and models the residual
