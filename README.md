@@ -287,7 +287,9 @@ absent.
 
 ## Citation
 
-If you use this code, please cite the paper:
+A machine-readable [`CITATION.cff`](CITATION.cff) is included, so GitHub's
+"Cite this repository" button gives the same reference. If you use this
+code, please cite the paper:
 
 ```bibtex
 @article{uslu2026chas,
@@ -319,7 +321,11 @@ MIT. See [`LICENSE`](LICENSE). Copyright (c) 2026 Ege Erberk Uslu.
 The datasets are distributed by their respective owners under their own
 licenses and terms of use; check each source before redistribution.
 
-## Contributing and contact
+## Getting help, contributing, and contact
+
+For questions, reproduction problems, or bug reports, please open an issue on
+this repository; issues are the fastest channel and keep the answer public for
+the next reader.
 
 Issues and pull requests are welcome, particularly additional baselines: the
 harness exposes a drop-in model interface, so a new forecaster only has to

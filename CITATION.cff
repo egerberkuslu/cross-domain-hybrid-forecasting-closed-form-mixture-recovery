@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "CHA-S: Cross-Domain Hybrid Forecasting with Closed-Form Mixture Recovery for Networked AI Workloads"
+type: software
+authors:
+  - family-names: Uslu
+    given-names: Ege Erberk
+    orcid: "https://orcid.org/0000-0001-9119-8574"
+    affiliation: "Department of Computer Engineering, Ege University, İzmir, Türkiye"
+  - family-names: Dağdeviren
+    given-names: Orhan
+    orcid: "https://orcid.org/0000-0001-8789-5086"
+    affiliation: "Department of Computer Engineering, Ege University, İzmir, Türkiye"
+repository-code: "https://github.com/egerberkuslu/cross-domain-hybrid-forecasting-closed-form-mixture-recovery"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Cross-Domain Hybrid Forecasting with Closed-Form Mixture Recovery for Networked AI Workloads"
+  authors:
+    - family-names: Uslu
+      given-names: Ege Erberk
+      orcid: "https://orcid.org/0000-0001-9119-8574"
+    - family-names: Dağdeviren
+      given-names: Orhan
+      orcid: "https://orcid.org/0000-0001-8789-5086"
+  year: 2026
+  notes: "Submitted to PeerJ Computer Science"
