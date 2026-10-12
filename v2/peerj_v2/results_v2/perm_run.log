@@ -1,0 +1,4 @@
+1 {'better': 0, 'tie': 9, 'worse': 8, 'identical': 8} ['abilene h=3', 'abilene h=6', 'abilene h=12', 'abilene h=24', 'nab_twitter h=3', 'nab_twitter h=6', 'nab_twitter h=12', 'nab_twitter h=24'] raw {'better': 2, 'tie': 6, 'worse': 9, 'identical': 8}
+h {'better': 0, 'tie': 14, 'worse': 3, 'identical': 8} ['abilene h=3', 'abilene h=6', 'nab_twitter h=3'] raw {'better': 0, 'tie': 11, 'worse': 6, 'identical': 8}
+2h {'better': 0, 'tie': 16, 'worse': 1, 'identical': 8} ['abilene h=3'] raw {'better': 0, 'tie': 12, 'worse': 5, 'identical': 8}
+24 {'better': 0, 'tie': 17, 'worse': 0, 'identical': 8} [] raw {'better': 0, 'tie': 14, 'worse': 3, 'identical': 8}

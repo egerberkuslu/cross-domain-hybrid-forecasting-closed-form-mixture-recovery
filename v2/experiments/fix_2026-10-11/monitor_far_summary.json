@@ -1,0 +1,453 @@
+{
+  "horizon": 6,
+  "target": 0.05,
+  "legacy_reproduced": true,
+  "legacy_no_fault_comp_lag": {
+    "cesnet": 0.0,
+    "abilene": 0.0,
+    "geant": 69.0,
+    "nab_aws_cpu": NaN,
+    "nab_twitter": 20.0
+  },
+  "chronos2_zs/test_prefix/delay=h/ema/D3": {
+    "per_dataset": {
+      "abilene": {
+        "nofault_fa_mean": 0.06666666666666667,
+        "detection_rate": 1.0,
+        "lag_median": 43.0,
+        "pre_info_alarm_share": 0.3333333333333333
+      },
+      "cesnet": {
+        "nofault_fa_mean": 0.025796661608497723,
+        "detection_rate": 1.0,
+        "lag_median": 64.0,
+        "pre_info_alarm_share": 0.0
+      },
+      "geant": {
+        "nofault_fa_mean": 0.07007874015748031,
+        "detection_rate": 1.0,
+        "lag_median": 44.0,
+        "pre_info_alarm_share": 0.4666666666666667
+      },
+      "nab_aws_cpu": {
+        "nofault_fa_mean": 0.0,
+        "detection_rate": 0.0,
+        "lag_median": NaN,
+        "pre_info_alarm_share": 0.0
+      },
+      "nab_twitter": {
+        "nofault_fa_mean": 0.19148936170212766,
+        "detection_rate": 1.0,
+        "lag_median": 9.0,
+        "pre_info_alarm_share": 0.6666666666666666
+      }
+    },
+    "datasets_nofault_fa_le_target": 2,
+    "datasets_detection_rate_ge_0.9": 4
+  },
+  "chronos2_zs/test_prefix/delay=h/ema/D4": {
+    "abilene": {
+      "nofault_fa_mean": 0.29504504504504503,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "cesnet": {
+      "nofault_fa_mean": 0.06828528072837632,
+      "detection_rate": 1.0,
+      "lag_median": 85.0
+    },
+    "geant": {
+      "nofault_fa_mean": 0.19291338582677164,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "nab_aws_cpu": {
+      "nofault_fa_mean": 0.32142857142857145,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "nab_twitter": {
+      "nofault_fa_mean": 0.05319148936170213,
+      "detection_rate": 1.0,
+      "lag_median": 42.0
+    }
+  },
+  "chronos2_zs/legacy/delay=h/ema/D3": {
+    "per_dataset": {
+      "abilene": {
+        "nofault_fa_mean": 0.036762225969645866,
+        "detection_rate": 1.0,
+        "lag_median": 45.0,
+        "pre_info_alarm_share": 0.3333333333333333
+      },
+      "cesnet": {
+        "nofault_fa_mean": 0.031076581576026642,
+        "detection_rate": 1.0,
+        "lag_median": 62.0,
+        "pre_info_alarm_share": 0.0
+      },
+      "geant": {
+        "nofault_fa_mean": 0.044099378881987575,
+        "detection_rate": 0.9733333333333334,
+        "lag_median": 44.0,
+        "pre_info_alarm_share": 0.2
+      },
+      "nab_aws_cpu": {
+        "nofault_fa_mean": 0.01680672268907563,
+        "detection_rate": 0.06,
+        "lag_median": 67.0,
+        "pre_info_alarm_share": 0.0
+      },
+      "nab_twitter": {
+        "nofault_fa_mean": 0.1096774193548387,
+        "detection_rate": 1.0,
+        "lag_median": 9.0,
+        "pre_info_alarm_share": 0.6666666666666666
+      }
+    },
+    "datasets_nofault_fa_le_target": 4,
+    "datasets_detection_rate_ge_0.9": 4
+  },
+  "chronos2_zs/legacy/delay=h/ema/D4": {
+    "abilene": {
+      "nofault_fa_mean": 0.31871838111298484,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "cesnet": {
+      "nofault_fa_mean": 0.06548279689234185,
+      "detection_rate": 1.0,
+      "lag_median": 72.0
+    },
+    "geant": {
+      "nofault_fa_mean": 0.15527950310559005,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "nab_aws_cpu": {
+      "nofault_fa_mean": 0.31932773109243695,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "nab_twitter": {
+      "nofault_fa_mean": 0.06451612903225806,
+      "detection_rate": 1.0,
+      "lag_median": 37.0
+    }
+  },
+  "chronos_bolt_zs/val/delay=h/ema/D3": {
+    "per_dataset": {
+      "abilene": {
+        "nofault_fa_mean": 0.0,
+        "detection_rate": 1.0,
+        "lag_median": 90.0,
+        "pre_info_alarm_share": 0.0
+      },
+      "cesnet": {
+        "nofault_fa_mean": 0.0061636556854410204,
+        "detection_rate": 1.0,
+        "lag_median": 68.5,
+        "pre_info_alarm_share": 0.0
+      },
+      "geant": {
+        "nofault_fa_mean": 0.04419889502762431,
+        "detection_rate": 1.0,
+        "lag_median": 47.0,
+        "pre_info_alarm_share": 0.26666666666666666
+      },
+      "nab_aws_cpu": {
+        "nofault_fa_mean": 0.16352201257861634,
+        "detection_rate": 0.6733333333333333,
+        "lag_median": 55.0,
+        "pre_info_alarm_share": 0.0
+      },
+      "nab_twitter": {
+        "nofault_fa_mean": 0.09624060150375939,
+        "detection_rate": 1.0,
+        "lag_median": 9.0,
+        "pre_info_alarm_share": 0.6666666666666666
+      }
+    },
+    "datasets_nofault_fa_le_target": 3,
+    "datasets_detection_rate_ge_0.9": 4
+  },
+  "chronos_bolt_zs/val/delay=h/ema/D4": {
+    "abilene": {
+      "nofault_fa_mean": 0.20221169036334913,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "cesnet": {
+      "nofault_fa_mean": 0.0,
+      "detection_rate": 1.0,
+      "lag_median": 120.0
+    },
+    "geant": {
+      "nofault_fa_mean": 0.11878453038674033,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "nab_aws_cpu": {
+      "nofault_fa_mean": 0.32075471698113206,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "nab_twitter": {
+      "nofault_fa_mean": 0.15037593984962405,
+      "detection_rate": 1.0,
+      "lag_median": 22.0
+    }
+  },
+  "chronos_bolt_zs/test_prefix/delay=h/ema/D3": {
+    "per_dataset": {
+      "abilene": {
+        "nofault_fa_mean": 0.06171171171171171,
+        "detection_rate": 1.0,
+        "lag_median": 49.0,
+        "pre_info_alarm_share": 0.3333333333333333
+      },
+      "cesnet": {
+        "nofault_fa_mean": 0.06403641881638847,
+        "detection_rate": 1.0,
+        "lag_median": 63.0,
+        "pre_info_alarm_share": 0.0
+      },
+      "geant": {
+        "nofault_fa_mean": 0.05590551181102362,
+        "detection_rate": 0.9933333333333333,
+        "lag_median": 48.0,
+        "pre_info_alarm_share": 0.4
+      },
+      "nab_aws_cpu": {
+        "nofault_fa_mean": 0.0,
+        "detection_rate": 0.006666666666666667,
+        "lag_median": 68.0,
+        "pre_info_alarm_share": 0.0
+      },
+      "nab_twitter": {
+        "nofault_fa_mean": 0.19148936170212766,
+        "detection_rate": 1.0,
+        "lag_median": 9.0,
+        "pre_info_alarm_share": 0.6666666666666666
+      }
+    },
+    "datasets_nofault_fa_le_target": 1,
+    "datasets_detection_rate_ge_0.9": 4
+  },
+  "chronos_bolt_zs/test_prefix/delay=h/ema/D4": {
+    "abilene": {
+      "nofault_fa_mean": 0.2905405405405405,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "cesnet": {
+      "nofault_fa_mean": 0.10015174506828528,
+      "detection_rate": 1.0,
+      "lag_median": 83.0
+    },
+    "geant": {
+      "nofault_fa_mean": 0.1968503937007874,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "nab_aws_cpu": {
+      "nofault_fa_mean": 0.3125,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "nab_twitter": {
+      "nofault_fa_mean": 0.05319148936170213,
+      "detection_rate": 1.0,
+      "lag_median": 41.0
+    }
+  },
+  "chronos_bolt_zs/legacy/delay=h/ema/D3": {
+    "per_dataset": {
+      "abilene": {
+        "nofault_fa_mean": 0.03608768971332209,
+        "detection_rate": 1.0,
+        "lag_median": 54.0,
+        "pre_info_alarm_share": 0.3333333333333333
+      },
+      "cesnet": {
+        "nofault_fa_mean": 0.07192008879023307,
+        "detection_rate": 1.0,
+        "lag_median": 60.0,
+        "pre_info_alarm_share": 0.0
+      },
+      "geant": {
+        "nofault_fa_mean": 0.06894409937888199,
+        "detection_rate": 1.0,
+        "lag_median": 44.0,
+        "pre_info_alarm_share": 0.4
+      },
+      "nab_aws_cpu": {
+        "nofault_fa_mean": 0.0,
+        "detection_rate": 0.26666666666666666,
+        "lag_median": 67.0,
+        "pre_info_alarm_share": 0.0
+      },
+      "nab_twitter": {
+        "nofault_fa_mean": 0.1827956989247312,
+        "detection_rate": 1.0,
+        "lag_median": 9.0,
+        "pre_info_alarm_share": 0.6666666666666666
+      }
+    },
+    "datasets_nofault_fa_le_target": 2,
+    "datasets_detection_rate_ge_0.9": 4
+  },
+  "chronos_bolt_zs/legacy/delay=h/ema/D4": {
+    "abilene": {
+      "nofault_fa_mean": 0.31871838111298484,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "cesnet": {
+      "nofault_fa_mean": 0.042175360710321866,
+      "detection_rate": 1.0,
+      "lag_median": 73.5
+    },
+    "geant": {
+      "nofault_fa_mean": 0.2795031055900621,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "nab_aws_cpu": {
+      "nofault_fa_mean": 0.29411764705882354,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "nab_twitter": {
+      "nofault_fa_mean": 0.07526881720430108,
+      "detection_rate": 1.0,
+      "lag_median": 36.0
+    }
+  },
+  "tirex_zs/test_prefix/delay=h/ema/D3": {
+    "per_dataset": {
+      "abilene": {
+        "nofault_fa_mean": 0.06621621621621622,
+        "detection_rate": 1.0,
+        "lag_median": 42.5,
+        "pre_info_alarm_share": 0.3333333333333333
+      },
+      "cesnet": {
+        "nofault_fa_mean": 0.024886191198786038,
+        "detection_rate": 1.0,
+        "lag_median": 67.0,
+        "pre_info_alarm_share": 0.0
+      },
+      "geant": {
+        "nofault_fa_mean": 0.07480314960629922,
+        "detection_rate": 1.0,
+        "lag_median": 45.0,
+        "pre_info_alarm_share": 0.5333333333333333
+      },
+      "nab_aws_cpu": {
+        "nofault_fa_mean": 0.0,
+        "detection_rate": 0.0,
+        "lag_median": NaN,
+        "pre_info_alarm_share": 0.0
+      },
+      "nab_twitter": {
+        "nofault_fa_mean": 0.19148936170212766,
+        "detection_rate": 1.0,
+        "lag_median": 9.0,
+        "pre_info_alarm_share": 0.6666666666666666
+      }
+    },
+    "datasets_nofault_fa_le_target": 2,
+    "datasets_detection_rate_ge_0.9": 4
+  },
+  "tirex_zs/test_prefix/delay=h/ema/D4": {
+    "abilene": {
+      "nofault_fa_mean": 0.29504504504504503,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "cesnet": {
+      "nofault_fa_mean": 0.08801213960546282,
+      "detection_rate": 1.0,
+      "lag_median": 84.0
+    },
+    "geant": {
+      "nofault_fa_mean": 0.1889763779527559,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "nab_aws_cpu": {
+      "nofault_fa_mean": 0.3125,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "nab_twitter": {
+      "nofault_fa_mean": 0.05319148936170213,
+      "detection_rate": 1.0,
+      "lag_median": 41.0
+    }
+  },
+  "tirex_zs/legacy/delay=h/ema/D3": {
+    "per_dataset": {
+      "abilene": {
+        "nofault_fa_mean": 0.03811129848229342,
+        "detection_rate": 1.0,
+        "lag_median": 50.0,
+        "pre_info_alarm_share": 0.3333333333333333
+      },
+      "cesnet": {
+        "nofault_fa_mean": 0.0730299667036626,
+        "detection_rate": 1.0,
+        "lag_median": 61.0,
+        "pre_info_alarm_share": 0.0
+      },
+      "geant": {
+        "nofault_fa_mean": 0.058385093167701865,
+        "detection_rate": 0.96,
+        "lag_median": 45.0,
+        "pre_info_alarm_share": 0.26666666666666666
+      },
+      "nab_aws_cpu": {
+        "nofault_fa_mean": 0.01680672268907563,
+        "detection_rate": 0.02,
+        "lag_median": 67.0,
+        "pre_info_alarm_share": 0.0
+      },
+      "nab_twitter": {
+        "nofault_fa_mean": 0.1827956989247312,
+        "detection_rate": 1.0,
+        "lag_median": 9.0,
+        "pre_info_alarm_share": 0.6666666666666666
+      }
+    },
+    "datasets_nofault_fa_le_target": 2,
+    "datasets_detection_rate_ge_0.9": 4
+  },
+  "tirex_zs/legacy/delay=h/ema/D4": {
+    "abilene": {
+      "nofault_fa_mean": 0.31871838111298484,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "cesnet": {
+      "nofault_fa_mean": 0.04328523862375139,
+      "detection_rate": 1.0,
+      "lag_median": 74.5
+    },
+    "geant": {
+      "nofault_fa_mean": 0.15217391304347827,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "nab_aws_cpu": {
+      "nofault_fa_mean": 0.3025210084033613,
+      "detection_rate": 1.0,
+      "lag_median": 9.0
+    },
+    "nab_twitter": {
+      "nofault_fa_mean": 0.07526881720430108,
+      "detection_rate": 1.0,
+      "lag_median": 36.0
+    }
+  }
+}

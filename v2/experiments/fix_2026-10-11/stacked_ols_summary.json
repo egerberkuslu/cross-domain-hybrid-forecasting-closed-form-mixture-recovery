@@ -1,0 +1,22 @@
+{
+  "fit_split_counts": {
+    "validation": 125
+  },
+  "legacy_stacked_reproduced_max_abs_diff": 3.205629015567979e-07,
+  "cells": 25,
+  "ols_oos_beats_chas_grid": 16,
+  "ols_oos_vs_grid_pct_range": [
+    -3.04488118598204,
+    38.062971523591635
+  ],
+  "test_insample_ols_vs_grid_pct_range": [
+    -5.734852937178014,
+    -1.0151486315902347
+  ],
+  "nab_aws_cpu_h24": {
+    "rmse_ols_oos": 3.520135322781601,
+    "rmse_ols_test_insample": 3.4148577572010432,
+    "rmse_legacy_stacked": 3.8810816289888237,
+    "rmse_chas_grid": 3.5866906998215837
+  }
+}

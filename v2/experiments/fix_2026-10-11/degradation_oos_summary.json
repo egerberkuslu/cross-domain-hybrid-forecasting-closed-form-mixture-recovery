@@ -1,0 +1,113 @@
+{
+  "legacy_alpha_all_match": true,
+  "chronos2_zs/val_moments": {
+    "alpha_gamma0_range": [
+      0.024437274272695132,
+      0.08512900745406354
+    ],
+    "alpha_gamma2_range": [
+      0.6875684666429088,
+      0.8931293357487297
+    ],
+    "monotone_in_gamma_all_datasets": true,
+    "min_share_hyb_below_fnd_gamma_gt0": 0.0,
+    "cells_gamma_gt0_hyb_not_always_below_fnd": [
+      "abilene g=0.25",
+      "geant g=0.25",
+      "nab_aws_cpu g=0.25",
+      "nab_aws_cpu g=0.5",
+      "nab_twitter g=0.25"
+    ],
+    "min_share_floor_holds_gamma_gt0": 0.0,
+    "max_excess_over_better_pct": 1.226123465312856,
+    "nab_aws_cpu_gamma2": {
+      "rmse_hybrid_oos": 3.210188274311733,
+      "rmse_fnd_degraded": 5.24281075118935,
+      "rmse_decomp": 3.3589560519679607,
+      "alpha_val_mean": 0.8622442644009485
+    }
+  },
+  "chronos_bolt_zs/val_forecasts": {
+    "alpha_gamma0_range": [
+      0.0,
+      0.10831322456815239
+    ],
+    "alpha_gamma2_range": [
+      0.6737696276041558,
+      0.8922757892660015
+    ],
+    "monotone_in_gamma_all_datasets": true,
+    "min_share_hyb_below_fnd_gamma_gt0": 0.0,
+    "cells_gamma_gt0_hyb_not_always_below_fnd": [
+      "abilene g=0.25",
+      "abilene g=0.5",
+      "geant g=0.25",
+      "nab_aws_cpu g=0.25",
+      "nab_aws_cpu g=0.5",
+      "nab_twitter g=0.25",
+      "nab_twitter g=0.5"
+    ],
+    "min_share_floor_holds_gamma_gt0": 0.0,
+    "max_excess_over_better_pct": 1.8405383459806135,
+    "nab_aws_cpu_gamma2": {
+      "rmse_hybrid_oos": 3.1961609377925817,
+      "rmse_fnd_degraded": 5.391838271394489,
+      "rmse_decomp": 3.317058125828749,
+      "alpha_val_mean": 0.8616745067230509
+    }
+  },
+  "chronos_bolt_zs/val_moments": {
+    "alpha_gamma0_range": [
+      0.0,
+      0.1080975029669737
+    ],
+    "alpha_gamma2_range": [
+      0.6752322052653693,
+      0.8940816686528896
+    ],
+    "monotone_in_gamma_all_datasets": true,
+    "min_share_hyb_below_fnd_gamma_gt0": 0.0,
+    "cells_gamma_gt0_hyb_not_always_below_fnd": [
+      "abilene g=0.25",
+      "abilene g=0.5",
+      "nab_aws_cpu g=0.25",
+      "nab_aws_cpu g=0.5",
+      "nab_twitter g=0.25"
+    ],
+    "min_share_floor_holds_gamma_gt0": 0.0,
+    "max_excess_over_better_pct": 1.810534607682568,
+    "nab_aws_cpu_gamma2": {
+      "rmse_hybrid_oos": 3.1955176895145687,
+      "rmse_fnd_degraded": 5.391838271394489,
+      "rmse_decomp": 3.317058125828749,
+      "alpha_val_mean": 0.8622693452110132
+    }
+  },
+  "tirex_zs/val_moments": {
+    "alpha_gamma0_range": [
+      0.027899414450742323,
+      0.05716931230146498
+    ],
+    "alpha_gamma2_range": [
+      0.6924097696653733,
+      0.8913100507310796
+    ],
+    "monotone_in_gamma_all_datasets": true,
+    "min_share_hyb_below_fnd_gamma_gt0": 0.0,
+    "cells_gamma_gt0_hyb_not_always_below_fnd": [
+      "abilene g=0.25",
+      "abilene g=0.5",
+      "geant g=0.25",
+      "nab_aws_cpu g=0.25",
+      "nab_aws_cpu g=0.5"
+    ],
+    "min_share_floor_holds_gamma_gt0": 0.0,
+    "max_excess_over_better_pct": 1.64501204867058,
+    "nab_aws_cpu_gamma2": {
+      "rmse_hybrid_oos": 3.209760558284773,
+      "rmse_fnd_degraded": 5.13992805325847,
+      "rmse_decomp": 3.3589560519679607,
+      "alpha_val_mean": 0.8646711161256897
+    }
+  }
+}

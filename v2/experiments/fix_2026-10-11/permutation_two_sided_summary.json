@@ -1,0 +1,923 @@
+{
+  "n_perm": 10000,
+  "block": "h",
+  "band": 0.05,
+  "chas_vs_bolt": {
+    "cells": 25,
+    "identity_cells": [
+      "geant h=3",
+      "geant h=12",
+      "geant h=24",
+      "nab_aws_cpu h=1",
+      "nab_aws_cpu h=3",
+      "nab_aws_cpu h=6",
+      "nab_aws_cpu h=12",
+      "nab_aws_cpu h=24"
+    ],
+    "rival_wins_more_windows": 13,
+    "winrate_raw": {
+      "hyb_better": 0,
+      "tie": 11,
+      "hyb_worse": 6,
+      "identity": 8,
+      "worse_cells": [
+        "abilene h=3",
+        "abilene h=6",
+        "abilene h=12",
+        "nab_twitter h=1",
+        "nab_twitter h=3",
+        "nab_twitter h=12"
+      ],
+      "better_cells": []
+    },
+    "winrate_holm": {
+      "hyb_better": 0,
+      "tie": 14,
+      "hyb_worse": 3,
+      "identity": 8,
+      "worse_cells": [
+        "abilene h=3",
+        "abilene h=6",
+        "nab_twitter h=3"
+      ],
+      "better_cells": []
+    },
+    "winrate_bh": {
+      "hyb_better": 0,
+      "tie": 12,
+      "hyb_worse": 5,
+      "identity": 8,
+      "worse_cells": [
+        "abilene h=3",
+        "abilene h=6",
+        "abilene h=12",
+        "nab_twitter h=1",
+        "nab_twitter h=3"
+      ],
+      "better_cells": []
+    },
+    "mse_raw": {
+      "hyb_better": 0,
+      "tie": 13,
+      "hyb_worse": 4,
+      "identity": 8,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "abilene h=6",
+        "abilene h=12"
+      ],
+      "better_cells": []
+    },
+    "mse_holm": {
+      "hyb_better": 0,
+      "tie": 14,
+      "hyb_worse": 3,
+      "identity": 8,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "abilene h=6"
+      ],
+      "better_cells": []
+    },
+    "mse_bh": {
+      "hyb_better": 0,
+      "tie": 13,
+      "hyb_worse": 4,
+      "identity": 8,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "abilene h=6",
+        "abilene h=12"
+      ],
+      "better_cells": []
+    }
+  },
+  "chas_vs_chronos2_zs": {
+    "cells": 25,
+    "identity_cells": [],
+    "rival_wins_more_windows": 20,
+    "winrate_raw": {
+      "hyb_better": 3,
+      "tie": 13,
+      "hyb_worse": 9,
+      "identity": 0,
+      "worse_cells": [
+        "cesnet h=1",
+        "cesnet h=3",
+        "abilene h=1",
+        "abilene h=3",
+        "abilene h=6",
+        "abilene h=12",
+        "abilene h=24",
+        "nab_aws_cpu h=1",
+        "nab_twitter h=3"
+      ],
+      "better_cells": [
+        "nab_aws_cpu h=3",
+        "nab_aws_cpu h=6",
+        "nab_aws_cpu h=12"
+      ]
+    },
+    "winrate_holm": {
+      "hyb_better": 0,
+      "tie": 23,
+      "hyb_worse": 2,
+      "identity": 0,
+      "worse_cells": [
+        "abilene h=3",
+        "abilene h=24"
+      ],
+      "better_cells": []
+    },
+    "winrate_bh": {
+      "hyb_better": 2,
+      "tie": 15,
+      "hyb_worse": 8,
+      "identity": 0,
+      "worse_cells": [
+        "cesnet h=1",
+        "abilene h=1",
+        "abilene h=3",
+        "abilene h=6",
+        "abilene h=12",
+        "abilene h=24",
+        "nab_aws_cpu h=1",
+        "nab_twitter h=3"
+      ],
+      "better_cells": [
+        "nab_aws_cpu h=6",
+        "nab_aws_cpu h=12"
+      ]
+    },
+    "mse_raw": {
+      "hyb_better": 1,
+      "tie": 24,
+      "hyb_worse": 0,
+      "identity": 0,
+      "worse_cells": [],
+      "better_cells": [
+        "cesnet h=24"
+      ]
+    },
+    "mse_holm": {
+      "hyb_better": 0,
+      "tie": 25,
+      "hyb_worse": 0,
+      "identity": 0,
+      "worse_cells": [],
+      "better_cells": []
+    },
+    "mse_bh": {
+      "hyb_better": 0,
+      "tie": 25,
+      "hyb_worse": 0,
+      "identity": 0,
+      "worse_cells": [],
+      "better_cells": []
+    }
+  },
+  "chas_vs_chronos2_small_zs": {
+    "cells": 25,
+    "identity_cells": [],
+    "rival_wins_more_windows": 11,
+    "winrate_raw": {
+      "hyb_better": 7,
+      "tie": 14,
+      "hyb_worse": 4,
+      "identity": 0,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "abilene h=6",
+        "nab_aws_cpu h=1"
+      ],
+      "better_cells": [
+        "cesnet h=3",
+        "cesnet h=6",
+        "cesnet h=12",
+        "cesnet h=24",
+        "nab_aws_cpu h=3",
+        "nab_aws_cpu h=6",
+        "nab_aws_cpu h=12"
+      ]
+    },
+    "winrate_holm": {
+      "hyb_better": 1,
+      "tie": 22,
+      "hyb_worse": 2,
+      "identity": 0,
+      "worse_cells": [
+        "abilene h=3",
+        "nab_aws_cpu h=1"
+      ],
+      "better_cells": [
+        "nab_aws_cpu h=6"
+      ]
+    },
+    "winrate_bh": {
+      "hyb_better": 5,
+      "tie": 17,
+      "hyb_worse": 3,
+      "identity": 0,
+      "worse_cells": [
+        "abilene h=3",
+        "abilene h=6",
+        "nab_aws_cpu h=1"
+      ],
+      "better_cells": [
+        "cesnet h=3",
+        "cesnet h=24",
+        "nab_aws_cpu h=3",
+        "nab_aws_cpu h=6",
+        "nab_aws_cpu h=12"
+      ]
+    },
+    "mse_raw": {
+      "hyb_better": 1,
+      "tie": 24,
+      "hyb_worse": 0,
+      "identity": 0,
+      "worse_cells": [],
+      "better_cells": [
+        "cesnet h=24"
+      ]
+    },
+    "mse_holm": {
+      "hyb_better": 0,
+      "tie": 25,
+      "hyb_worse": 0,
+      "identity": 0,
+      "worse_cells": [],
+      "better_cells": []
+    },
+    "mse_bh": {
+      "hyb_better": 0,
+      "tie": 25,
+      "hyb_worse": 0,
+      "identity": 0,
+      "worse_cells": [],
+      "better_cells": []
+    }
+  },
+  "chas_vs_timesfm3_zs": {
+    "cells": 25,
+    "identity_cells": [],
+    "rival_wins_more_windows": 14,
+    "winrate_raw": {
+      "hyb_better": 1,
+      "tie": 20,
+      "hyb_worse": 4,
+      "identity": 0,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=6",
+        "geant h=1",
+        "nab_aws_cpu h=1"
+      ],
+      "better_cells": [
+        "nab_aws_cpu h=6"
+      ]
+    },
+    "winrate_holm": {
+      "hyb_better": 0,
+      "tie": 23,
+      "hyb_worse": 2,
+      "identity": 0,
+      "worse_cells": [
+        "abilene h=1",
+        "nab_aws_cpu h=1"
+      ],
+      "better_cells": []
+    },
+    "winrate_bh": {
+      "hyb_better": 0,
+      "tie": 23,
+      "hyb_worse": 2,
+      "identity": 0,
+      "worse_cells": [
+        "abilene h=1",
+        "nab_aws_cpu h=1"
+      ],
+      "better_cells": []
+    },
+    "mse_raw": {
+      "hyb_better": 0,
+      "tie": 23,
+      "hyb_worse": 2,
+      "identity": 0,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3"
+      ],
+      "better_cells": []
+    },
+    "mse_holm": {
+      "hyb_better": 0,
+      "tie": 25,
+      "hyb_worse": 0,
+      "identity": 0,
+      "worse_cells": [],
+      "better_cells": []
+    },
+    "mse_bh": {
+      "hyb_better": 0,
+      "tie": 25,
+      "hyb_worse": 0,
+      "identity": 0,
+      "worse_cells": [],
+      "better_cells": []
+    }
+  },
+  "chas_vs_flowstate_zs": {
+    "cells": 25,
+    "identity_cells": [],
+    "rival_wins_more_windows": 19,
+    "winrate_raw": {
+      "hyb_better": 2,
+      "tie": 16,
+      "hyb_worse": 7,
+      "identity": 0,
+      "worse_cells": [
+        "cesnet h=1",
+        "cesnet h=3",
+        "cesnet h=6",
+        "abilene h=1",
+        "abilene h=3",
+        "geant h=6",
+        "nab_aws_cpu h=1"
+      ],
+      "better_cells": [
+        "nab_aws_cpu h=6",
+        "nab_aws_cpu h=12"
+      ]
+    },
+    "winrate_holm": {
+      "hyb_better": 0,
+      "tie": 24,
+      "hyb_worse": 1,
+      "identity": 0,
+      "worse_cells": [
+        "abilene h=1"
+      ],
+      "better_cells": []
+    },
+    "winrate_bh": {
+      "hyb_better": 1,
+      "tie": 20,
+      "hyb_worse": 4,
+      "identity": 0,
+      "worse_cells": [
+        "cesnet h=1",
+        "cesnet h=3",
+        "abilene h=1",
+        "abilene h=3"
+      ],
+      "better_cells": [
+        "nab_aws_cpu h=6"
+      ]
+    },
+    "mse_raw": {
+      "hyb_better": 3,
+      "tie": 17,
+      "hyb_worse": 5,
+      "identity": 0,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=12",
+        "abilene h=24",
+        "geant h=3",
+        "geant h=6"
+      ],
+      "better_cells": [
+        "nab_aws_cpu h=3",
+        "nab_aws_cpu h=6",
+        "nab_twitter h=6"
+      ]
+    },
+    "mse_holm": {
+      "hyb_better": 1,
+      "tie": 23,
+      "hyb_worse": 1,
+      "identity": 0,
+      "worse_cells": [
+        "abilene h=1"
+      ],
+      "better_cells": [
+        "nab_aws_cpu h=3"
+      ]
+    },
+    "mse_bh": {
+      "hyb_better": 1,
+      "tie": 23,
+      "hyb_worse": 1,
+      "identity": 0,
+      "worse_cells": [
+        "abilene h=1"
+      ],
+      "better_cells": [
+        "nab_aws_cpu h=3"
+      ]
+    }
+  },
+  "chas_vs_tirex_zs": {
+    "cells": 25,
+    "identity_cells": [],
+    "rival_wins_more_windows": 18,
+    "winrate_raw": {
+      "hyb_better": 3,
+      "tie": 14,
+      "hyb_worse": 8,
+      "identity": 0,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "abilene h=6",
+        "abilene h=12",
+        "abilene h=24",
+        "nab_aws_cpu h=1",
+        "nab_twitter h=3",
+        "nab_twitter h=12"
+      ],
+      "better_cells": [
+        "cesnet h=24",
+        "nab_aws_cpu h=6",
+        "nab_aws_cpu h=12"
+      ]
+    },
+    "winrate_holm": {
+      "hyb_better": 0,
+      "tie": 22,
+      "hyb_worse": 3,
+      "identity": 0,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "nab_aws_cpu h=1"
+      ],
+      "better_cells": []
+    },
+    "winrate_bh": {
+      "hyb_better": 0,
+      "tie": 21,
+      "hyb_worse": 4,
+      "identity": 0,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "abilene h=6",
+        "nab_aws_cpu h=1"
+      ],
+      "better_cells": []
+    },
+    "mse_raw": {
+      "hyb_better": 0,
+      "tie": 21,
+      "hyb_worse": 4,
+      "identity": 0,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "abilene h=6",
+        "abilene h=12"
+      ],
+      "better_cells": []
+    },
+    "mse_holm": {
+      "hyb_better": 0,
+      "tie": 22,
+      "hyb_worse": 3,
+      "identity": 0,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "abilene h=6"
+      ],
+      "better_cells": []
+    },
+    "mse_bh": {
+      "hyb_better": 0,
+      "tie": 22,
+      "hyb_worse": 3,
+      "identity": 0,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "abilene h=6"
+      ],
+      "better_cells": []
+    }
+  },
+  "cha_hybrid_swap_chronos2_vs_own_expert": {
+    "cells": 25,
+    "identity_cells": [
+      "cesnet h=12",
+      "cesnet h=24",
+      "geant h=1",
+      "geant h=3",
+      "geant h=6"
+    ],
+    "rival_wins_more_windows": 12,
+    "winrate_raw": {
+      "hyb_better": 0,
+      "tie": 14,
+      "hyb_worse": 6,
+      "identity": 5,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "abilene h=6",
+        "nab_twitter h=6",
+        "nab_twitter h=12",
+        "nab_twitter h=24"
+      ],
+      "better_cells": []
+    },
+    "winrate_holm": {
+      "hyb_better": 0,
+      "tie": 20,
+      "hyb_worse": 0,
+      "identity": 5,
+      "worse_cells": [],
+      "better_cells": []
+    },
+    "winrate_bh": {
+      "hyb_better": 0,
+      "tie": 20,
+      "hyb_worse": 0,
+      "identity": 5,
+      "worse_cells": [],
+      "better_cells": []
+    },
+    "mse_raw": {
+      "hyb_better": 0,
+      "tie": 18,
+      "hyb_worse": 2,
+      "identity": 5,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3"
+      ],
+      "better_cells": []
+    },
+    "mse_holm": {
+      "hyb_better": 0,
+      "tie": 20,
+      "hyb_worse": 0,
+      "identity": 5,
+      "worse_cells": [],
+      "better_cells": []
+    },
+    "mse_bh": {
+      "hyb_better": 0,
+      "tie": 20,
+      "hyb_worse": 0,
+      "identity": 5,
+      "worse_cells": [],
+      "better_cells": []
+    }
+  },
+  "cha_hybrid_swap_chronos2_small_vs_own_expert": {
+    "cells": 25,
+    "identity_cells": [
+      "cesnet h=24",
+      "abilene h=12",
+      "abilene h=24",
+      "geant h=1",
+      "nab_aws_cpu h=12"
+    ],
+    "rival_wins_more_windows": 11,
+    "winrate_raw": {
+      "hyb_better": 2,
+      "tie": 16,
+      "hyb_worse": 2,
+      "identity": 5,
+      "worse_cells": [
+        "nab_twitter h=12",
+        "nab_twitter h=24"
+      ],
+      "better_cells": [
+        "nab_aws_cpu h=3",
+        "nab_aws_cpu h=6"
+      ]
+    },
+    "winrate_holm": {
+      "hyb_better": 0,
+      "tie": 20,
+      "hyb_worse": 0,
+      "identity": 5,
+      "worse_cells": [],
+      "better_cells": []
+    },
+    "winrate_bh": {
+      "hyb_better": 0,
+      "tie": 20,
+      "hyb_worse": 0,
+      "identity": 5,
+      "worse_cells": [],
+      "better_cells": []
+    },
+    "mse_raw": {
+      "hyb_better": 0,
+      "tie": 20,
+      "hyb_worse": 0,
+      "identity": 5,
+      "worse_cells": [],
+      "better_cells": []
+    },
+    "mse_holm": {
+      "hyb_better": 0,
+      "tie": 20,
+      "hyb_worse": 0,
+      "identity": 5,
+      "worse_cells": [],
+      "better_cells": []
+    },
+    "mse_bh": {
+      "hyb_better": 0,
+      "tie": 20,
+      "hyb_worse": 0,
+      "identity": 5,
+      "worse_cells": [],
+      "better_cells": []
+    }
+  },
+  "cha_hybrid_swap_timesfm3_vs_own_expert": {
+    "cells": 25,
+    "identity_cells": [
+      "geant h=1",
+      "geant h=3",
+      "geant h=12",
+      "geant h=24",
+      "nab_aws_cpu h=3",
+      "nab_aws_cpu h=12",
+      "nab_twitter h=1",
+      "nab_twitter h=24"
+    ],
+    "rival_wins_more_windows": 10,
+    "winrate_raw": {
+      "hyb_better": 0,
+      "tie": 14,
+      "hyb_worse": 3,
+      "identity": 8,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "abilene h=6"
+      ],
+      "better_cells": []
+    },
+    "winrate_holm": {
+      "hyb_better": 0,
+      "tie": 16,
+      "hyb_worse": 1,
+      "identity": 8,
+      "worse_cells": [
+        "abilene h=1"
+      ],
+      "better_cells": []
+    },
+    "winrate_bh": {
+      "hyb_better": 0,
+      "tie": 14,
+      "hyb_worse": 3,
+      "identity": 8,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "abilene h=6"
+      ],
+      "better_cells": []
+    },
+    "mse_raw": {
+      "hyb_better": 0,
+      "tie": 15,
+      "hyb_worse": 2,
+      "identity": 8,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3"
+      ],
+      "better_cells": []
+    },
+    "mse_holm": {
+      "hyb_better": 0,
+      "tie": 16,
+      "hyb_worse": 1,
+      "identity": 8,
+      "worse_cells": [
+        "abilene h=1"
+      ],
+      "better_cells": []
+    },
+    "mse_bh": {
+      "hyb_better": 0,
+      "tie": 16,
+      "hyb_worse": 1,
+      "identity": 8,
+      "worse_cells": [
+        "abilene h=1"
+      ],
+      "better_cells": []
+    }
+  },
+  "cha_hybrid_swap_flowstate_vs_own_expert": {
+    "cells": 25,
+    "identity_cells": [
+      "cesnet h=1",
+      "geant h=1",
+      "geant h=3",
+      "geant h=6",
+      "geant h=12",
+      "geant h=24",
+      "nab_aws_cpu h=1",
+      "nab_aws_cpu h=3",
+      "nab_aws_cpu h=6",
+      "nab_aws_cpu h=12",
+      "nab_aws_cpu h=24"
+    ],
+    "rival_wins_more_windows": 12,
+    "winrate_raw": {
+      "hyb_better": 0,
+      "tie": 8,
+      "hyb_worse": 6,
+      "identity": 11,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "nab_twitter h=1",
+        "nab_twitter h=3",
+        "nab_twitter h=12",
+        "nab_twitter h=24"
+      ],
+      "better_cells": []
+    },
+    "winrate_holm": {
+      "hyb_better": 0,
+      "tie": 12,
+      "hyb_worse": 2,
+      "identity": 11,
+      "worse_cells": [
+        "nab_twitter h=1",
+        "nab_twitter h=3"
+      ],
+      "better_cells": []
+    },
+    "winrate_bh": {
+      "hyb_better": 0,
+      "tie": 10,
+      "hyb_worse": 4,
+      "identity": 11,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "nab_twitter h=1",
+        "nab_twitter h=3"
+      ],
+      "better_cells": []
+    },
+    "mse_raw": {
+      "hyb_better": 0,
+      "tie": 12,
+      "hyb_worse": 2,
+      "identity": 11,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3"
+      ],
+      "better_cells": []
+    },
+    "mse_holm": {
+      "hyb_better": 0,
+      "tie": 13,
+      "hyb_worse": 1,
+      "identity": 11,
+      "worse_cells": [
+        "abilene h=1"
+      ],
+      "better_cells": []
+    },
+    "mse_bh": {
+      "hyb_better": 0,
+      "tie": 13,
+      "hyb_worse": 1,
+      "identity": 11,
+      "worse_cells": [
+        "abilene h=1"
+      ],
+      "better_cells": []
+    }
+  },
+  "cha_hybrid_swap_tirex_vs_own_expert": {
+    "cells": 25,
+    "identity_cells": [
+      "abilene h=12",
+      "abilene h=24",
+      "geant h=1",
+      "geant h=3",
+      "geant h=24",
+      "nab_aws_cpu h=1",
+      "nab_aws_cpu h=3",
+      "nab_aws_cpu h=12",
+      "nab_twitter h=1"
+    ],
+    "rival_wins_more_windows": 9,
+    "winrate_raw": {
+      "hyb_better": 0,
+      "tie": 13,
+      "hyb_worse": 3,
+      "identity": 9,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "abilene h=6"
+      ],
+      "better_cells": []
+    },
+    "winrate_holm": {
+      "hyb_better": 0,
+      "tie": 14,
+      "hyb_worse": 2,
+      "identity": 9,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=6"
+      ],
+      "better_cells": []
+    },
+    "winrate_bh": {
+      "hyb_better": 0,
+      "tie": 13,
+      "hyb_worse": 3,
+      "identity": 9,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "abilene h=6"
+      ],
+      "better_cells": []
+    },
+    "mse_raw": {
+      "hyb_better": 0,
+      "tie": 13,
+      "hyb_worse": 3,
+      "identity": 9,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "abilene h=6"
+      ],
+      "better_cells": []
+    },
+    "mse_holm": {
+      "hyb_better": 0,
+      "tie": 15,
+      "hyb_worse": 1,
+      "identity": 9,
+      "worse_cells": [
+        "abilene h=1"
+      ],
+      "better_cells": []
+    },
+    "mse_bh": {
+      "hyb_better": 0,
+      "tie": 13,
+      "hyb_worse": 3,
+      "identity": 9,
+      "worse_cells": [
+        "abilene h=1",
+        "abilene h=3",
+        "abilene h=6"
+      ],
+      "better_cells": []
+    }
+  },
+  "chas_vs_bolt_per_seed": {
+    "cells_any_seed_sig_worse_mse": 4,
+    "cells_majority_seeds_sig_worse_mse": 4,
+    "cells_majority_seeds_sig_better_mse": 0
+  },
+  "legacy_observed_win_rate_all_match": true,
+  "legacy_p_all_match": true,
+  "legacy_cells_p_ge_0.999": [
+    "abilene h=3",
+    "abilene h=6",
+    "abilene h=12",
+    "abilene h=24",
+    "geant h=3",
+    "geant h=12",
+    "geant h=24",
+    "nab_aws_cpu h=1",
+    "nab_aws_cpu h=3",
+    "nab_aws_cpu h=6",
+    "nab_aws_cpu h=12",
+    "nab_aws_cpu h=24",
+    "nab_twitter h=1",
+    "nab_twitter h=3",
+    "nab_twitter h=6",
+    "nab_twitter h=12",
+    "nab_twitter h=24"
+  ]
+}

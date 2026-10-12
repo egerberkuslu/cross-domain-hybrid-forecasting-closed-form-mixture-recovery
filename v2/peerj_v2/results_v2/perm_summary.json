@@ -1,0 +1,137 @@
+{
+  "B": 20000,
+  "band": 0.05,
+  "seeds": [
+    42,
+    123,
+    2024,
+    31337,
+    7
+  ],
+  "family": "cells whose forecasts differ from Bolt for at least one seed",
+  "block_1": {
+    "raw": {
+      "better": 2,
+      "tie": 6,
+      "worse": 9,
+      "identical": 8
+    },
+    "raw_worse_cells": [
+      "abilene h=3",
+      "abilene h=6",
+      "abilene h=12",
+      "abilene h=24",
+      "nab_twitter h=1",
+      "nab_twitter h=3",
+      "nab_twitter h=6",
+      "nab_twitter h=12",
+      "nab_twitter h=24"
+    ],
+    "raw_better_cells": [
+      "cesnet h=6",
+      "cesnet h=12"
+    ],
+    "holm": {
+      "better": 0,
+      "tie": 9,
+      "worse": 8,
+      "identical": 8
+    },
+    "holm_worse_cells": [
+      "abilene h=3",
+      "abilene h=6",
+      "abilene h=12",
+      "abilene h=24",
+      "nab_twitter h=3",
+      "nab_twitter h=6",
+      "nab_twitter h=12",
+      "nab_twitter h=24"
+    ],
+    "holm_better_cells": [],
+    "n_family": 17,
+    "bolt_wins_more_windows_cells": 13
+  },
+  "block_h": {
+    "raw": {
+      "better": 0,
+      "tie": 11,
+      "worse": 6,
+      "identical": 8
+    },
+    "raw_worse_cells": [
+      "abilene h=3",
+      "abilene h=6",
+      "abilene h=12",
+      "nab_twitter h=1",
+      "nab_twitter h=3",
+      "nab_twitter h=12"
+    ],
+    "raw_better_cells": [],
+    "holm": {
+      "better": 0,
+      "tie": 14,
+      "worse": 3,
+      "identical": 8
+    },
+    "holm_worse_cells": [
+      "abilene h=3",
+      "abilene h=6",
+      "nab_twitter h=3"
+    ],
+    "holm_better_cells": [],
+    "n_family": 17,
+    "bolt_wins_more_windows_cells": 13
+  },
+  "block_2h": {
+    "raw": {
+      "better": 0,
+      "tie": 12,
+      "worse": 5,
+      "identical": 8
+    },
+    "raw_worse_cells": [
+      "abilene h=3",
+      "abilene h=6",
+      "abilene h=12",
+      "nab_twitter h=1",
+      "nab_twitter h=3"
+    ],
+    "raw_better_cells": [],
+    "holm": {
+      "better": 0,
+      "tie": 16,
+      "worse": 1,
+      "identical": 8
+    },
+    "holm_worse_cells": [
+      "abilene h=3"
+    ],
+    "holm_better_cells": [],
+    "n_family": 17,
+    "bolt_wins_more_windows_cells": 13
+  },
+  "block_24": {
+    "raw": {
+      "better": 0,
+      "tie": 14,
+      "worse": 3,
+      "identical": 8
+    },
+    "raw_worse_cells": [
+      "abilene h=3",
+      "abilene h=6",
+      "abilene h=12"
+    ],
+    "raw_better_cells": [],
+    "holm": {
+      "better": 0,
+      "tie": 17,
+      "worse": 0,
+      "identical": 8
+    },
+    "holm_worse_cells": [],
+    "holm_better_cells": [],
+    "n_family": 17,
+    "bolt_wins_more_windows_cells": 13
+  }
+}

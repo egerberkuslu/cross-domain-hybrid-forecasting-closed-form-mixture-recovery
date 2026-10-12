@@ -1,0 +1,6 @@
+# Environment of the v2 analysis scripts (CPU only). Python 3.12.4.
+numpy==1.26.4
+scipy==1.11.4
+pandas==3.0.3
+# Only for experiments/fix_2026-10-11/val_expert_forecasts.py (output already shipped in val_forecasts/):
+# use the pinned environment of ../requirements-lock.txt (torch, darts, chronos-forecasting).

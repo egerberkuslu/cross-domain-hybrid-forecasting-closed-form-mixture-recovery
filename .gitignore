@@ -6,3 +6,6 @@ outputs/predictions/
 *.npz
 *.ckpt
 .DS_Store
+
+# v2: validation-split expert forecasts are small inputs of the v2 analysis and are tracked
+!v2/experiments/fix_2026-10-11/val_forecasts/*.npz

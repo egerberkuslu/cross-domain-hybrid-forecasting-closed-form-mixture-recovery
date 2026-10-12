@@ -9,7 +9,8 @@ provenance for the manuscript
 > Submitted to *PeerJ Computer Science*.
 
 **Code repository:** <https://github.com/egerberkuslu/cross-domain-hybrid-forecasting-closed-form-mixture-recovery>
-**Large artifacts (checkpoints, predictions, metrics):** release v1.0.0 on the same repository's Releases page.
+**Large artifacts (checkpoints, predictions, metrics):** release v1.0.0 on the same repository's Releases page.  
+**Corrected analysis (v2):** see [`v2/README.md`](v2/README.md) and release v2.0.0; v1.0.0 is the submitted version.
 
 ## Description
 

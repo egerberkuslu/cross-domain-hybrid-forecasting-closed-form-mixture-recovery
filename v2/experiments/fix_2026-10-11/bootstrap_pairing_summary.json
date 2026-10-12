@@ -1,0 +1,39 @@
+{
+  "legacy_sd_all_match": true,
+  "h6_iid": {
+    "nab_twitter_smape": {
+      "chas": 91.71688040857069,
+      "bolt": 86.99941269821898,
+      "diff": 4.717467710351707,
+      "chas_boot_sd": 4.131686518668161,
+      "bolt_boot_sd": 4.098859156254706,
+      "diff_boot_sd": 2.0645320685901494,
+      "gap_in_bolt_sd": 1.1509221299182792,
+      "gap_in_diff_sd": 2.2850057803041173
+    },
+    "nab_aws_cpu_rmse_sds": {
+      "chas_boot_sd": 0.34522661374805513,
+      "bolt_boot_sd": 0.34522661374805513
+    },
+    "cells_metric_outside_one_bolt_sd": [
+      "nab_twitter/smape"
+    ]
+  },
+  "h6_mbb6": {
+    "nab_twitter_smape": {
+      "chas": 91.71688040857069,
+      "bolt": 86.99941269821898,
+      "diff": 4.717467710351707,
+      "chas_boot_sd": 8.969204899388902,
+      "bolt_boot_sd": 8.810144426702811,
+      "diff_boot_sd": 3.9825078971957746,
+      "gap_in_bolt_sd": 0.5354586124664945,
+      "gap_in_diff_sd": 1.1845469819842527
+    },
+    "nab_aws_cpu_rmse_sds": {
+      "chas_boot_sd": 0.6485505541691741,
+      "bolt_boot_sd": 0.6485505541691741
+    },
+    "cells_metric_outside_one_bolt_sd": []
+  }
+}

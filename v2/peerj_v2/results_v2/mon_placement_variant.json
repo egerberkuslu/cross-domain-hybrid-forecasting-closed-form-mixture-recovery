@@ -1,0 +1,246 @@
+{
+ "positions": [
+  0.2,
+  0.45,
+  0.7
+ ],
+ "cp_range": "t_arr[0]+20 .. n-110",
+ "horizon": 6,
+ "results": {
+  "cesnet": {
+   "D1": {
+    "fa": 0.009,
+    "fa_min": 0.0,
+    "fa_max": 0.017,
+    "det": 1.0,
+    "lag": 54.0,
+    "pre_info": 0.0,
+    "ctrl": 0.8,
+    "ctrl_lag": 420.0,
+    "share_det_also_ctrl": 0.0
+   },
+   "D2": {
+    "fa": 0.026,
+    "fa_min": 0.019,
+    "fa_max": 0.036,
+    "det": 1.0,
+    "lag": 63.0,
+    "pre_info": 0.0,
+    "ctrl": 1.0,
+    "ctrl_lag": 483.0,
+    "share_det_also_ctrl": 0.0
+   },
+   "D3": {
+    "fa": 0.006,
+    "fa_min": 0.0,
+    "fa_max": 0.012,
+    "det": 1.0,
+    "lag": 64.0,
+    "pre_info": 0.0,
+    "ctrl": 0.6,
+    "ctrl_lag": 487.0,
+    "share_det_also_ctrl": 0.0
+   },
+   "D4": {
+    "fa": 0.0,
+    "fa_min": 0.0,
+    "fa_max": 0.0,
+    "det": 1.0,
+    "lag": 136.0,
+    "pre_info": 0.0,
+    "ctrl": 0.0,
+    "ctrl_lag": null,
+    "share_det_also_ctrl": 0.0
+   },
+   "D2_feasible_share": 0.0
+  },
+  "abilene": {
+   "D1": {
+    "fa": 0.0,
+    "fa_min": 0.0,
+    "fa_max": 0.0,
+    "det": 1.0,
+    "lag": 51.0,
+    "pre_info": 0.0,
+    "ctrl": 0.0,
+    "ctrl_lag": null,
+    "share_det_also_ctrl": 0.0
+   },
+   "D2": {
+    "fa": 0.027,
+    "fa_min": 0.022,
+    "fa_max": 0.03,
+    "det": 1.0,
+    "lag": 53.0,
+    "pre_info": 0.0,
+    "ctrl": 0.667,
+    "ctrl_lag": 109.0,
+    "share_det_also_ctrl": 0.0
+   },
+   "D3": {
+    "fa": 0.0,
+    "fa_min": 0.0,
+    "fa_max": 0.0,
+    "det": 1.0,
+    "lag": 53.0,
+    "pre_info": 0.0,
+    "ctrl": 0.0,
+    "ctrl_lag": null,
+    "share_det_also_ctrl": 0.0
+   },
+   "D4": {
+    "fa": 0.202,
+    "fa_min": 0.202,
+    "fa_max": 0.202,
+    "det": 1.0,
+    "lag": 9.0,
+    "pre_info": 0.667,
+    "ctrl": 1.0,
+    "ctrl_lag": 9.0,
+    "share_det_also_ctrl": 0.667
+   },
+   "D2_feasible_share": 0.0
+  },
+  "geant": {
+   "D1": {
+    "fa": 0.046,
+    "fa_min": 0.033,
+    "fa_max": 0.061,
+    "det": 1.0,
+    "lag": 45.0,
+    "pre_info": 0.133,
+    "ctrl": 1.0,
+    "ctrl_lag": 55.0,
+    "share_det_also_ctrl": 0.247
+   },
+   "D2": {
+    "fa": 0.182,
+    "fa_min": 0.124,
+    "fa_max": 0.257,
+    "det": 1.0,
+    "lag": 44.0,
+    "pre_info": 0.333,
+    "ctrl": 1.0,
+    "ctrl_lag": 45.0,
+    "share_det_also_ctrl": 0.467
+   },
+   "D3": {
+    "fa": 0.044,
+    "fa_min": 0.033,
+    "fa_max": 0.061,
+    "det": 1.0,
+    "lag": 46.5,
+    "pre_info": 0.133,
+    "ctrl": 1.0,
+    "ctrl_lag": 55.0,
+    "share_det_also_ctrl": 0.247
+   },
+   "D4": {
+    "fa": 0.119,
+    "fa_min": 0.119,
+    "fa_max": 0.119,
+    "det": 1.0,
+    "lag": 75.0,
+    "pre_info": 0.0,
+    "ctrl": 1.0,
+    "ctrl_lag": 111.0,
+    "share_det_also_ctrl": 0.013
+   },
+   "D2_feasible_share": 1.0
+  },
+  "nab_aws_cpu": {
+   "D1": {
+    "fa": 0.176,
+    "fa_min": 0.176,
+    "fa_max": 0.176,
+    "det": 1.0,
+    "lag": 9.0,
+    "pre_info": 1.0,
+    "ctrl": 1.0,
+    "ctrl_lag": 9.0,
+    "share_det_also_ctrl": 1.0
+   },
+   "D2": {
+    "fa": 0.321,
+    "fa_min": 0.321,
+    "fa_max": 0.321,
+    "det": 1.0,
+    "lag": 9.0,
+    "pre_info": 1.0,
+    "ctrl": 1.0,
+    "ctrl_lag": 9.0,
+    "share_det_also_ctrl": 1.0
+   },
+   "D3": {
+    "fa": 0.164,
+    "fa_min": 0.164,
+    "fa_max": 0.164,
+    "det": 1.0,
+    "lag": 9.0,
+    "pre_info": 1.0,
+    "ctrl": 1.0,
+    "ctrl_lag": 9.0,
+    "share_det_also_ctrl": 1.0
+   },
+   "D4": {
+    "fa": 0.321,
+    "fa_min": 0.321,
+    "fa_max": 0.321,
+    "det": 1.0,
+    "lag": 9.0,
+    "pre_info": 1.0,
+    "ctrl": 1.0,
+    "ctrl_lag": 9.0,
+    "share_det_also_ctrl": 1.0
+   },
+   "D2_feasible_share": 1.0
+  },
+  "nab_twitter": {
+   "D1": {
+    "fa": 0.096,
+    "fa_min": 0.075,
+    "fa_max": 0.105,
+    "det": 1.0,
+    "lag": 43.0,
+    "pre_info": 0.0,
+    "ctrl": 1.0,
+    "ctrl_lag": 64.0,
+    "share_det_also_ctrl": 0.0
+   },
+   "D2": {
+    "fa": 0.128,
+    "fa_min": 0.128,
+    "fa_max": 0.128,
+    "det": 1.0,
+    "lag": 41.0,
+    "pre_info": 0.0,
+    "ctrl": 1.0,
+    "ctrl_lag": 63.0,
+    "share_det_also_ctrl": 0.0
+   },
+   "D3": {
+    "fa": 0.096,
+    "fa_min": 0.075,
+    "fa_max": 0.105,
+    "det": 1.0,
+    "lag": 43.0,
+    "pre_info": 0.0,
+    "ctrl": 1.0,
+    "ctrl_lag": 64.0,
+    "share_det_also_ctrl": 0.0
+   },
+   "D4": {
+    "fa": 0.15,
+    "fa_min": 0.15,
+    "fa_max": 0.15,
+    "det": 1.0,
+    "lag": 9.0,
+    "pre_info": 1.0,
+    "ctrl": 1.0,
+    "ctrl_lag": 9.0,
+    "share_det_also_ctrl": 1.0
+   },
+   "D2_feasible_share": 1.0
+  }
+ }
+}

@@ -1,0 +1,147 @@
+{
+  "n_pairs": 425,
+  "n_identical": 8,
+  "identical_pairs": [
+    "geant h=3 vs chronos_bolt_zs",
+    "geant h=12 vs chronos_bolt_zs",
+    "geant h=24 vs chronos_bolt_zs",
+    "nab_aws_cpu h=1 vs chronos_bolt_zs",
+    "nab_aws_cpu h=3 vs chronos_bolt_zs",
+    "nab_aws_cpu h=6 vs chronos_bolt_zs",
+    "nab_aws_cpu h=12 vs chronos_bolt_zs",
+    "nab_aws_cpu h=24 vs chronos_bolt_zs"
+  ],
+  "family_size_bh_holm": 417,
+  "origin_raw": {
+    "better": 226,
+    "tie": 196,
+    "worse": 3
+  },
+  "origin_raw_identity_excluded": {
+    "better": 226,
+    "tie": 188,
+    "worse": 3,
+    "identical": 8
+  },
+  "origin_bh": {
+    "better": 215,
+    "tie": 207,
+    "worse": 3
+  },
+  "origin_bh_identity_excluded": {
+    "better": 215,
+    "tie": 199,
+    "worse": 3,
+    "identical": 8
+  },
+  "origin_holm": {
+    "better": 151,
+    "tie": 274,
+    "worse": 0
+  },
+  "origin_holm_identity_excluded": {
+    "better": 151,
+    "tie": 266,
+    "worse": 0,
+    "identical": 8
+  },
+  "flat_raw": {
+    "better": 276,
+    "tie": 135,
+    "worse": 14
+  },
+  "flat_raw_identity_excluded": {
+    "better": 276,
+    "tie": 127,
+    "worse": 14,
+    "identical": 8
+  },
+  "flat_bh": {
+    "better": 269,
+    "tie": 145,
+    "worse": 11
+  },
+  "flat_bh_identity_excluded": {
+    "better": 269,
+    "tie": 137,
+    "worse": 11,
+    "identical": 8
+  },
+  "flat_holm": {
+    "better": 225,
+    "tie": 194,
+    "worse": 6
+  },
+  "flat_holm_identity_excluded": {
+    "better": 225,
+    "tie": 186,
+    "worse": 6,
+    "identical": 8
+  },
+  "bolt_origin_raw": {
+    "better": 0,
+    "tie": 22,
+    "worse": 3
+  },
+  "bolt_origin_bh": {
+    "better": 0,
+    "tie": 22,
+    "worse": 3
+  },
+  "bolt_origin_holm": {
+    "better": 0,
+    "tie": 25,
+    "worse": 0
+  },
+  "bolt_flat_raw": {
+    "better": 1,
+    "tie": 19,
+    "worse": 5
+  },
+  "bolt_flat_bh": {
+    "better": 1,
+    "tie": 19,
+    "worse": 5
+  },
+  "bolt_flat_holm": {
+    "better": 0,
+    "tie": 22,
+    "worse": 3
+  },
+  "bolt_origin_raw_worse_cells": [
+    "abilene h=1",
+    "abilene h=3",
+    "abilene h=6"
+  ],
+  "bolt_origin_raw_better_cells": [],
+  "bolt_origin_holm_worse_cells": [],
+  "bolt_origin_holm_better_cells": [],
+  "bolt_flat_raw_worse_cells": [
+    "abilene h=1",
+    "abilene h=3",
+    "abilene h=6",
+    "abilene h=12",
+    "abilene h=24"
+  ],
+  "bolt_flat_raw_better_cells": [
+    "nab_twitter h=24 p=0.000661"
+  ],
+  "bolt_flat_holm_worse_cells": [
+    "abilene h=3",
+    "abilene h=6",
+    "abilene h=12"
+  ],
+  "bolt_flat_holm_better_cells": [],
+  "abilene_bolt_p_origin": {
+    "1": 0.005571425393680496,
+    "3": 0.004378908120060476,
+    "6": 0.01567952103765302,
+    "12": 0.0763033776948896,
+    "24": 0.34166063374069067
+  },
+  "nab_twitter_h24_bolt": {
+    "p_flat": 0.0006607636445623566,
+    "p_origin": 0.35653118157316666
+  },
+  "geant_h24_bolt_identity": true
+}

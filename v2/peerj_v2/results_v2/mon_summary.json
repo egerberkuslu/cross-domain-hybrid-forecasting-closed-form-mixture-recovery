@@ -1,0 +1,49 @@
+{
+  "horizon": 6,
+  "delay": 6,
+  "smoother": "ema",
+  "ema_lambda": 0.8181818181818182,
+  "traces_d3_nofault_le_5pct": 3,
+  "thresholds": [
+    {
+      "dataset": "abilene",
+      "h_feasible_share": 0.0,
+      "h_mean": 30.0,
+      "tau_mean": 0.5978184470042722,
+      "val_fa_d3_mean": 0.015822784810126583,
+      "n_val": 632
+    },
+    {
+      "dataset": "cesnet",
+      "h_feasible_share": 0.0,
+      "h_mean": 30.0,
+      "tau_mean": 0.38104591826380246,
+      "val_fa_d3_mean": 0.0061571125265392785,
+      "n_val": 942
+    },
+    {
+      "dataset": "geant",
+      "h_feasible_share": 1.0,
+      "h_mean": 19.1,
+      "tau_mean": 0.24828483661641204,
+      "val_fa_d3_mean": 0.013023255813953489,
+      "n_val": 215
+    },
+    {
+      "dataset": "nab_aws_cpu",
+      "h_feasible_share": 1.0,
+      "h_mean": 18.0,
+      "tau_mean": 0.3739268353333238,
+      "val_fa_d3_mean": 0.0,
+      "n_val": 160
+    },
+    {
+      "dataset": "nab_twitter",
+      "h_feasible_share": 1.0,
+      "h_mean": 11.4,
+      "tau_mean": 0.29348257274175615,
+      "val_fa_d3_mean": 0.0,
+      "n_val": 133
+    }
+  ]
+}

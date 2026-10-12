@@ -1,0 +1,53 @@
+    dataset metric      chas  chas_sd      bolt  bolt_sd
+     cesnet   rmse  0.262913 0.007132  0.263375 0.006974
+     cesnet    mae  0.189213 0.004178  0.190664 0.004170
+     cesnet  smape 47.164487 1.407339 47.557464 1.400001
+    abilene   rmse  0.631135 0.062377  0.621035 0.062858
+    abilene    mae  0.270757 0.018328  0.258903 0.018067
+    abilene  smape 47.702762 1.672219 46.476569 1.686015
+      geant   rmse  0.079733 0.003643  0.079738 0.003660
+      geant    mae  0.055494 0.002135  0.055492 0.002134
+      geant  smape 44.239373 2.236637 44.231994 2.235003
+nab_aws_cpu   rmse  2.410107 0.339213  2.410107 0.339213
+nab_aws_cpu    mae  1.161245 0.119617  1.161245 0.119617
+nab_aws_cpu  smape 57.000374 2.707838 57.000374 2.707838
+nab_twitter   rmse  1.250705 0.144723  1.250314 0.145358
+nab_twitter    mae  0.414938 0.045617  0.396817 0.046507
+nab_twitter  smape 91.716880 4.140715 86.999413 4.101153
+    dataset        model metric  sd_before  sd_after  ratio_after_over_before
+     cesnet        CHA-S   rmse   0.003194  0.007132                 2.233185
+     cesnet Chronos-Bolt   rmse   0.007021  0.006974                 0.993312
+     cesnet        CHA-S    mae   0.001867  0.004178                 2.238312
+     cesnet Chronos-Bolt    mae   0.004071  0.004170                 1.024364
+     cesnet        CHA-S  smape   0.606917  1.407339                 2.318832
+     cesnet Chronos-Bolt  smape   1.367230  1.400001                 1.023969
+    abilene        CHA-S   rmse   0.027656  0.062377                 2.255509
+    abilene Chronos-Bolt   rmse   0.058660  0.062858                 1.071553
+    abilene        CHA-S    mae   0.008389  0.018328                 2.184899
+    abilene Chronos-Bolt    mae   0.017075  0.018067                 1.058120
+    abilene        CHA-S  smape   0.728627  1.672219                 2.295027
+    abilene Chronos-Bolt  smape   1.753599  1.686015                 0.961459
+      geant        CHA-S   rmse   0.001611  0.003643                 2.261509
+      geant Chronos-Bolt   rmse   0.003587  0.003660                 1.020480
+      geant        CHA-S    mae   0.000932  0.002135                 2.291474
+      geant Chronos-Bolt    mae   0.002030  0.002134                 1.051567
+      geant        CHA-S  smape   1.010290  2.236637                 2.213857
+      geant Chronos-Bolt  smape   2.201641  2.235003                 1.015153
+nab_aws_cpu        CHA-S   rmse   0.150435  0.339213                 2.254873
+nab_aws_cpu Chronos-Bolt   rmse   0.334926  0.339213                 1.012799
+nab_aws_cpu        CHA-S    mae   0.053435  0.119617                 2.238564
+nab_aws_cpu Chronos-Bolt    mae   0.117533  0.119617                 1.017729
+nab_aws_cpu        CHA-S  smape   1.241159  2.707838                 2.181702
+nab_aws_cpu Chronos-Bolt  smape   2.718318  2.707838                 0.996145
+nab_twitter        CHA-S   rmse   0.064860  0.144723                 2.231326
+nab_twitter Chronos-Bolt   rmse   0.151476  0.145358                 0.959612
+nab_twitter        CHA-S    mae   0.020376  0.045617                 2.238756
+nab_twitter Chronos-Bolt    mae   0.048182  0.046507                 0.965242
+nab_twitter        CHA-S  smape   1.855304  4.140715                 2.231825
+nab_twitter Chronos-Bolt  smape   4.130621  4.101153                 0.992866
+CHA-S SD ratio after/before: mean 2.245 min 2.182 max 2.319
+NAB Twitter sMAPE gap 4.717 = 1.15 Bolt SD (i.i.d.)
+    dataset metric     chas  chas_sd_block6      bolt  bolt_sd_block6  gap_in_bolt_sd_block6
+nab_twitter  smape 91.71688        9.034375 86.999413         8.99352               0.524541
+cells with |gap| > 1 Bolt SD (i.i.d.): [['nab_twitter', 'smape', 1.1502784981948881]]
+cells with |gap| > 1 Bolt SD (block 6): []

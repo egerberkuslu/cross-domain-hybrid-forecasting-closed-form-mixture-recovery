@@ -1,0 +1,32 @@
+done cesnet
+done abilene
+done geant
+done nab_aws_cpu
+done nab_twitter
+                                           1       5      9            13           17
+dataset                               abilene  cesnet  geant  nab_aws_cpu  nab_twitter
+detector                                 comp    comp   comp         comp         comp
+nofault_fa_mean                           0.0   0.006  0.044        0.164        0.096
+nofault_fa_min                            0.0     0.0  0.033        0.164        0.075
+nofault_fa_max                            0.0   0.012  0.061        0.164        0.105
+nofault_any_alarm_share                   0.0     0.6    1.0          1.0          1.0
+det_rate_inj                              1.0     1.0    1.0        0.673          1.0
+lag_median_inj                           90.0    68.5   47.0         55.0          9.0
+lag_p25_inj                              84.0   58.25    9.0         55.0          9.0
+lag_p75_inj                             105.0    82.0   66.0         63.0         12.0
+pre_info_inj                              0.0     0.0  0.267          0.0        0.667
+n_inj                                     150     150    150          150          150
+det_rate_ctl                              0.0     0.6  0.667          0.0          1.0
+lag_median_ctl                            NaN   268.0   27.5          NaN          9.0
+lag_p25_ctl                               NaN   120.0    9.0          NaN          9.0
+lag_p75_ctl                               NaN   412.0   47.5          NaN         12.0
+pre_info_ctl                              0.0     0.0  0.267          0.0        0.667
+n_ctl                                      15      15     15           15           15
+share_inj_detections_also_in_control      0.0     0.0    0.5          0.0          1.0
+             h_feasible_share  h_mean  tau_mean  val_fa_d3_mean  n_val
+dataset                                                               
+abilene                   0.0    30.0     0.598           0.016    632
+cesnet                    0.0    30.0     0.381           0.006    942
+geant                     1.0    19.1     0.248           0.013    215
+nab_aws_cpu               1.0    18.0     0.374           0.000    160
+nab_twitter               1.0    11.4     0.293           0.000    133
