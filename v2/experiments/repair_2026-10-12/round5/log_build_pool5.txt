@@ -1,0 +1,6 @@
+A cesnet 13
+A abilene 0
+A geant 91
+F cesnet 100
+F abilene 100
+accuracy series 104 monitor traces 64 {'A': 0, 'F': 64}

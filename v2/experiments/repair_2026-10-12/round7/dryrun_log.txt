@@ -1,0 +1,31 @@
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+select abilene n_val=698 14s feasible W1=1 W3=1 W4=1 STB7=1 V3=1 ADB=0
+{
+ "P7": {
+  "traces": 1,
+  "need": 1,
+  "success": false,
+  "succeeding_variants": [],
+  "headline": null,
+  "mcnemar_vs_STB7": {}
+ },
+ "arm_X": {
+  "W1": 0,
+  "W3": 0,
+  "W4": 0,
+  "STB7": 0,
+  "V3": 0,
+  "ADB": 0
+ }
+}
+    arm  feasible    c1     c2     c3  joint       det       ctl  null_dense    p_rand  rand_ctrl_c3only_share
+0    W1      True  True  False  False  False  0.666667  0.000000    0.000000  0.000000                    0.00
+1    W3      True  True  False  False  False  0.666667  0.000000    0.000000  0.000000                    0.00
+2    W4      True  True  False  False  False  0.666667  0.000000    0.000000  0.000000                    0.00
+3  STB7      True  True  False  False  False  0.666667  0.000000    0.000000  0.000000                    0.00
+4    V3      True  True  False  False  False  0.666667  0.000000    0.000000  0.000000                    0.00
+5   ADB     False  True  False  False  False  0.833333  0.666667    0.376623  0.270677                    0.04
+Restricted test view refuses without PREREG_7_COMMITTED and REPAIR_STAGE=test: ok
+Restricted view raises on test windows: ok
+dry-run ok; test windows accessed: 0

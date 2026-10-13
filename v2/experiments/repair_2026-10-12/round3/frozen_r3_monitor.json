@@ -1,0 +1,284 @@
+{
+ "stage": "select",
+ "dry_run": false,
+ "traces": [
+  "cesnet_inst193",
+  "cesnet_inst225",
+  "abilene_od1",
+  "abilene_od27",
+  "abilene_od50",
+  "abilene_od95",
+  "abilene_od119",
+  "geant_od1_1",
+  "geant_od4_9",
+  "geant_od8_4",
+  "geant_od16_5",
+  "geant_od19_21"
+ ],
+ "params": {
+  "cesnet_inst193": {
+   "RF": {
+    "G": 30,
+    "K": 2.0,
+    "level": 1.0,
+    "floor": 0.19399393701408868,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": -0.12086614171847034,
+    "sd": 0.38798787402817736,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.19269058845298664,
+    "sd": 0.34021862593375984,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "cesnet_inst225": {
+   "RF": {
+    "G": 60,
+    "K": 2.0,
+    "level": 1.0,
+    "floor": 0.5669813786577937,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": -0.528692184633199,
+    "sd": 1.1339627573155875,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.1704886417153634,
+    "sd": 0.315903471664273,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "abilene_od1": {
+   "RF": {
+    "G": 60,
+    "K": 2.0,
+    "level": 26.5,
+    "floor": 0.214970923101417,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": -0.27353310928316965,
+    "sd": 0.429941846202834,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.1780473530590081,
+    "sd": 1.387627535081266,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "abilene_od27": {
+   "RF": {
+    "G": 30,
+    "K": 2.0,
+    "level": 1.0,
+    "floor": 0.1421877368648503,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": -0.03681233150421037,
+    "sd": 0.2843754737297006,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.059839188517743204,
+    "sd": 0.12766340718388977,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "abilene_od50": {
+   "RF": {
+    "G": 60,
+    "K": 2.0,
+    "level": 2.0,
+    "floor": 0.13022143537729705,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": 0.13456020349230016,
+    "sd": 0.2604428707545941,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.03271999287922515,
+    "sd": 0.05071172216318812,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "abilene_od95": {
+   "RF": {
+    "G": 60,
+    "K": 2.0,
+    "level": 11.5,
+    "floor": 0.20916267589870474,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": -0.09115702127987611,
+    "sd": 0.4183253517974095,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.04918217635247476,
+    "sd": 0.23853815507055035,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "abilene_od119": {
+   "RF": {
+    "G": 60,
+    "K": 2.0,
+    "level": 3.0,
+    "floor": 0.248329735926909,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": -0.18677529798240275,
+    "sd": 0.496659471853818,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.1517897683791967,
+    "sd": 0.642390159966442,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "geant_od1_1": {
+   "RF": {
+    "G": 60,
+    "K": 2.0,
+    "level": 1.0,
+    "floor": 0.3122015713197448,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": -0.23061270903622041,
+    "sd": 0.6244031426394896,
+    "level": 18.0,
+    "feasible": true
+   },
+   "AD": {
+    "mu": 0.6500566728447063,
+    "sd": 1.6537774373034662,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "geant_od4_9": {
+   "RF": {
+    "G": 30,
+    "K": 2.0,
+    "level": 1.0,
+    "floor": 0.1676077956341603,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": -0.5774821901276507,
+    "sd": 0.3352155912683206,
+    "level": 28.5,
+    "feasible": true
+   },
+   "AD": {
+    "mu": 0.5923038507545573,
+    "sd": 1.0405040695520296,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "geant_od8_4": {
+   "RF": {
+    "G": 60,
+    "K": 2.0,
+    "level": 27.0,
+    "floor": 0.31562111042891555,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": -0.6196348323339825,
+    "sd": 0.6312422208578311,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.008424221876322607,
+    "sd": 0.02503039041286748,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "geant_od16_5": {
+   "RF": {
+    "G": 60,
+    "K": 1.0,
+    "level": 28.5,
+    "floor": 0.25730829537014893,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": -0.20299897831830924,
+    "sd": 0.5146165907402979,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.015463132966778589,
+    "sd": 0.0751820715325695,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "geant_od19_21": {
+   "RF": {
+    "G": 30,
+    "K": 2.0,
+    "level": 1.0,
+    "floor": 0.18883141207222837,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": 0.021338139420185972,
+    "sd": 0.37766282414445673,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.20910452088640497,
+    "sd": 0.8289561190668148,
+    "delta": 0.05,
+    "feasible": true
+   }
+  }
+ }
+}

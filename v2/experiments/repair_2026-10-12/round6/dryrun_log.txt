@@ -1,0 +1,28 @@
+select abilene n_val=698 14s feasible R5=1 V1=1 V2=1 V3=1 STB=1 ADB=0
+{
+ "P2": {
+  "traces": 1,
+  "need": 1,
+  "success": false,
+  "succeeding_variants": [],
+  "headline": null,
+  "mcnemar_vs_STB": {}
+ },
+ "arm_X": {
+  "R5": 0,
+  "V1": 0,
+  "V2": 0,
+  "V3": 0,
+  "STB": 1,
+  "ADB": 0
+ }
+}
+   arm  feasible    c1     c2     c3  joint       det       ctl  null_dense    p_rand  rand_ctrl_c3only_share
+0   R5      True  True  False  False  False  1.000000  0.666667    0.467532  0.612878                   0.000
+1   V1      True  True  False  False  False  0.666667  0.000000    0.000000  0.270677                   0.065
+2   V2      True  True  False  False  False  0.666667  0.000000    0.000000  0.000000                   0.000
+3   V3      True  True  False  False  False  0.666667  0.000000    0.000000  0.000000                   0.000
+4  STB      True  True   True   True   True  1.000000  0.000000    0.000000  0.000000                   0.000
+5  ADB     False  True  False  False  False  0.833333  0.666667    0.376623  0.270677                   0.065
+Restricted view raises on test windows: ok
+dry-run ok; test windows accessed: 0

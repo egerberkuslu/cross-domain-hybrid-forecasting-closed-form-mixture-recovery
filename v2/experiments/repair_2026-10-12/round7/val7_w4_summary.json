@@ -1,0 +1,63 @@
+{
+ "note": "design input on revealed test streams (public results); not evidence; rounds 5 and 6 are not re-scored",
+ "revealed_r5_test": {
+  "W4": {
+   "n": 64,
+   "feasible": 37,
+   "c1": 64,
+   "c2": 60,
+   "c3": 56,
+   "joint": 56,
+   "rand_ctrl_c3_share_mean": 0.008671874999999999,
+   "mean_det": 0.9135416666666667,
+   "mean_null_dense": 0.06893511165093899,
+   "by_source_joint": {
+    "abilene": [
+     45,
+     53
+    ],
+    "cesnet": [
+     11,
+     11
+    ]
+   },
+   "failed": [
+    "abilene_od32",
+    "abilene_od43",
+    "abilene_od46",
+    "abilene_od78",
+    "abilene_od104",
+    "abilene_od124",
+    "abilene_od130",
+    "abilene_od131"
+   ]
+  }
+ },
+ "revealed_r6_test": {
+  "W4": {
+   "n": 20,
+   "feasible": 10,
+   "c1": 20,
+   "c2": 18,
+   "c3": 18,
+   "joint": 18,
+   "rand_ctrl_c3_share_mean": 0.00525,
+   "mean_det": 0.9166666666666666,
+   "mean_null_dense": 0.06936231057895752,
+   "by_source_joint": {
+    "abilene": [
+     7,
+     7
+    ],
+    "cesnet": [
+     11,
+     13
+    ]
+   },
+   "failed": [
+    "cesnet_inst202",
+    "cesnet_inst243"
+   ]
+  }
+ }
+}

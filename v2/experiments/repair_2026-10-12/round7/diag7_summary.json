@@ -1,0 +1,172 @@
+{
+ "note": "design diagnosis; validation streams plus the REVEALED round 6 test streams; round 6 is not re-scored",
+ "frozen_r6_sha256": "f170954fdaa3400460798ed094e846702ffacfd5e82b40ecfda60421b0e114f5",
+ "V1": {
+  "c2_failed": {
+   "n": 5,
+   "traces": [
+    "cesnet_inst159",
+    "cesnet_inst202",
+    "cesnet_inst243",
+    "abilene_od110",
+    "cesnet_inst254"
+   ],
+   "feasible": 3,
+   "median_level": 26.0,
+   "median_val_q_step150": 2.988282708993341,
+   "median_test_q_step150": 2.622151258850383,
+   "median_test_het_ratio": 4.6654525730870615,
+   "median_week_profile_corr": 0.11743912040124709,
+   "median_dq_over_qsd": 1.5836188322986704,
+   "median_z_inj": 0.9479354383831271,
+   "median_z_frozen": 0.9913718428249005,
+   "share_cp_Smax_over_level": 0.4666666666666667,
+   "binding_boot_gt_self": 4,
+   "binding_fa_gt_self": 1
+  },
+  "c2_passed": {
+   "n": 15,
+   "traces": [
+    "abilene_od0",
+    "abilene_od112",
+    "cesnet_inst51",
+    "cesnet_inst152",
+    "cesnet_inst177",
+    "cesnet_inst217",
+    "cesnet_inst246",
+    "cesnet_inst271",
+    "abilene_od42",
+    "abilene_od56",
+    "abilene_od82",
+    "abilene_od97",
+    "cesnet_inst26",
+    "cesnet_inst47",
+    "cesnet_inst56"
+   ],
+   "feasible": 10,
+   "median_level": 50.0,
+   "median_val_q_step150": 2.578974947061206,
+   "median_test_q_step150": 2.571723210988242,
+   "median_test_het_ratio": 4.985677861480397,
+   "median_week_profile_corr": 0.3401180975729489,
+   "median_dq_over_qsd": 2.6552535213248922,
+   "median_z_inj": 2.5438065506021355,
+   "median_z_frozen": 3.3255862591903855,
+   "share_cp_Smax_over_level": 0.9777777777777777,
+   "binding_boot_gt_self": 10,
+   "binding_fa_gt_self": 4
+  }
+ },
+ "V3": {
+  "c2_failed": {
+   "n": 4,
+   "traces": [
+    "cesnet_inst159",
+    "cesnet_inst202",
+    "cesnet_inst243",
+    "cesnet_inst254"
+   ],
+   "feasible": 2,
+   "median_level": 59.25,
+   "median_val_q_step150": 3.3951400025928233,
+   "median_test_q_step150": 2.588638075521371,
+   "median_test_het_ratio": 3.5227137894420766,
+   "median_week_profile_corr": 0.21678645555796883,
+   "median_dq_over_qsd": 1.42115732658077,
+   "median_z_inj": 0.8846809131835554,
+   "median_z_frozen": 0.711500813832697,
+   "share_cp_Smax_over_level": 0.25,
+   "binding_boot_gt_self": 3,
+   "binding_fa_gt_self": 0
+  },
+  "c2_passed": {
+   "n": 16,
+   "traces": [
+    "abilene_od0",
+    "abilene_od112",
+    "cesnet_inst51",
+    "cesnet_inst152",
+    "cesnet_inst177",
+    "cesnet_inst217",
+    "cesnet_inst246",
+    "cesnet_inst271",
+    "abilene_od42",
+    "abilene_od56",
+    "abilene_od82",
+    "abilene_od97",
+    "abilene_od110",
+    "cesnet_inst26",
+    "cesnet_inst47",
+    "cesnet_inst56"
+   ],
+   "feasible": 12,
+   "median_level": 45.0,
+   "median_val_q_step150": 2.5756536822679874,
+   "median_test_q_step150": 2.7283875065947383,
+   "median_test_het_ratio": 5.486710018443061,
+   "median_week_profile_corr": 0.30801944900954625,
+   "median_dq_over_qsd": 2.6757686772795495,
+   "median_z_inj": 2.491589603726009,
+   "median_z_frozen": 2.853526244373241,
+   "share_cp_Smax_over_level": 0.9583333333333334,
+   "binding_boot_gt_self": 10,
+   "binding_fa_gt_self": 0
+  }
+ },
+ "STB": {
+  "c2_failed": {
+   "n": 2,
+   "traces": [
+    "cesnet_inst202",
+    "cesnet_inst243"
+   ],
+   "feasible": 2,
+   "median_level": 35.5,
+   "median_val_q_step150": 2.0175932219985677,
+   "median_test_q_step150": 2.090182342677312,
+   "median_test_het_ratio": 4.770627644380944,
+   "median_week_profile_corr": 0.20528336918653145,
+   "median_dq_over_qsd": 1.2498885242945472,
+   "median_z_inj": 2.8859467493933453,
+   "median_z_frozen": null,
+   "share_cp_Smax_over_level": 0.6666666666666666,
+   "binding_boot_gt_self": 0,
+   "binding_fa_gt_self": 0
+  },
+  "c2_passed": {
+   "n": 18,
+   "traces": [
+    "abilene_od0",
+    "abilene_od112",
+    "cesnet_inst51",
+    "cesnet_inst152",
+    "cesnet_inst159",
+    "cesnet_inst177",
+    "cesnet_inst217",
+    "cesnet_inst246",
+    "cesnet_inst271",
+    "abilene_od42",
+    "abilene_od56",
+    "abilene_od82",
+    "abilene_od97",
+    "abilene_od110",
+    "cesnet_inst26",
+    "cesnet_inst47",
+    "cesnet_inst56",
+    "cesnet_inst254"
+   ],
+   "feasible": 18,
+   "median_level": 37.0,
+   "median_val_q_step150": 2.6733447378510036,
+   "median_test_q_step150": 2.728464644443333,
+   "median_test_het_ratio": 4.063877682417649,
+   "median_week_profile_corr": 0.30801944900954625,
+   "median_dq_over_qsd": 2.5983865572908353,
+   "median_z_inj": 2.809258616693594,
+   "median_z_frozen": null,
+   "share_cp_Smax_over_level": 0.9814814814814815,
+   "binding_boot_gt_self": 6,
+   "binding_fa_gt_self": 1
+  }
+ }
+}

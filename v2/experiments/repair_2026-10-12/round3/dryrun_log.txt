@@ -1,0 +1,12 @@
+== r3_stages.py --stage A --dry-run
+non-fresh abilene h6 stage A (quarter of train): rmse bolt 0.1973, eq 0.1984, eq0 0.3798
+non-fresh abilene h6 pseudo stage B: rmse eq 0.1984
+fresh cell structure check: val windows (1008, 168) feature rows (300, 21) no model fit, no accuracy
+dry-run ok; test windows accessed: 0
+== r3_eval.py --stage select --dry-run
+ "success": false,
+dry-run ok; test windows accessed: 0
+== r3_monitor.py --stage select --dry-run
+drifting traces of the fresh pool (rule only, no accuracy): ['cesnet_inst193', 'cesnet_inst225', 'abilene_od1', 'abilene_od27', 'abilene_od50', 'abilene_od95', 'abilene_od119', 'geant_od1_1', 'geant_od4_9', 'geant_od8_4', 'geant_od16_5', 'geant_od19_21']
+ "success": false,
+dry-run ok; test windows accessed: 0

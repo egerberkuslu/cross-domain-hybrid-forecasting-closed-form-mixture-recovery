@@ -1,0 +1,246 @@
+{
+ "M0": [
+  {
+   "dataset": "abilene",
+   "pos": 0.2,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "abilene",
+   "pos": 0.45,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "abilene",
+   "pos": 0.7,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "cesnet",
+   "pos": 0.2,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "cesnet",
+   "pos": 0.45,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "cesnet",
+   "pos": 0.7,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "geant",
+   "pos": 0.2,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "geant",
+   "pos": 0.45,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "geant",
+   "pos": 0.7,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "nab_aws_cpu",
+   "pos": 0.2,
+   "da_only": 0,
+   "other_only": 50,
+   "p": 1.7763568394002505e-15,
+   "p_holm": 2.6645352591003757e-14
+  },
+  {
+   "dataset": "nab_aws_cpu",
+   "pos": 0.45,
+   "da_only": 0,
+   "other_only": 47,
+   "p": 1.4210854715202004e-14,
+   "p_holm": 1.9895196601282805e-13
+  },
+  {
+   "dataset": "nab_aws_cpu",
+   "pos": 0.7,
+   "da_only": 0,
+   "other_only": 33,
+   "p": 2.3283064365386963e-10,
+   "p_holm": 3.026798367500305e-09
+  },
+  {
+   "dataset": "nab_twitter",
+   "pos": 0.2,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "nab_twitter",
+   "pos": 0.45,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "nab_twitter",
+   "pos": 0.7,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  }
+ ],
+ "M1": [
+  {
+   "dataset": "abilene",
+   "pos": 0.2,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "abilene",
+   "pos": 0.45,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "abilene",
+   "pos": 0.7,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "cesnet",
+   "pos": 0.2,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "cesnet",
+   "pos": 0.45,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "cesnet",
+   "pos": 0.7,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "geant",
+   "pos": 0.2,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "geant",
+   "pos": 0.45,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "geant",
+   "pos": 0.7,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "nab_aws_cpu",
+   "pos": 0.2,
+   "da_only": 0,
+   "other_only": 50,
+   "p": 1.7763568394002505e-15,
+   "p_holm": 2.6645352591003757e-14
+  },
+  {
+   "dataset": "nab_aws_cpu",
+   "pos": 0.45,
+   "da_only": 0,
+   "other_only": 47,
+   "p": 1.4210854715202004e-14,
+   "p_holm": 1.9895196601282805e-13
+  },
+  {
+   "dataset": "nab_aws_cpu",
+   "pos": 0.7,
+   "da_only": 0,
+   "other_only": 33,
+   "p": 2.3283064365386963e-10,
+   "p_holm": 3.026798367500305e-09
+  },
+  {
+   "dataset": "nab_twitter",
+   "pos": 0.2,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "nab_twitter",
+   "pos": 0.45,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "dataset": "nab_twitter",
+   "pos": 0.7,
+   "da_only": 0,
+   "other_only": 0,
+   "p": 1.0,
+   "p_holm": 1.0
+  }
+ ]
+}

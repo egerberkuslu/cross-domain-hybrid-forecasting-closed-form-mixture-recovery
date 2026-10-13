@@ -1,0 +1,172 @@
+{
+ "lags_injected_revealed": {
+  "ST": {
+   "n_runs": 1920,
+   "missed_all": 124,
+   "lag_le100": 1590,
+   "lag_100_150": 185,
+   "lag_gt150": 21,
+   "lag_median": 60.0,
+   "lag_q90": 102.0,
+   "lag_by_pos_median": {
+    "0": 61.0,
+    "1": 64.0,
+    "2": 48.0
+   }
+  },
+  "AD": {
+   "n_runs": 1920,
+   "missed_all": 24,
+   "lag_le100": 1840,
+   "lag_100_150": 42,
+   "lag_gt150": 14,
+   "lag_median": 43.0,
+   "lag_q90": 76.0,
+   "lag_by_pos_median": {
+    "0": 49.0,
+    "1": 36.0,
+    "2": 46.0
+   }
+  },
+  "RF": {
+   "n_runs": 1920,
+   "missed_all": 129,
+   "lag_le100": 1562,
+   "lag_100_150": 222,
+   "lag_gt150": 7,
+   "lag_median": 71.0,
+   "lag_q90": 105.0,
+   "lag_by_pos_median": {
+    "0": 76.0,
+    "1": 70.0,
+    "2": 63.0
+   }
+  }
+ },
+ "placebo_detected_lag_revealed": {
+  "ST": {
+   "count": 170.0,
+   "mean": 27.24705882352941,
+   "std": 27.232249365402737,
+   "min": 9.0,
+   "25%": 9.0,
+   "50%": 9.0,
+   "75%": 41.75,
+   "max": 100.0
+  },
+  "AD": {
+   "count": 229.0,
+   "mean": 42.222707423580786,
+   "std": 25.936295262352974,
+   "min": 7.0,
+   "25%": 19.0,
+   "50%": 39.0,
+   "75%": 64.0,
+   "max": 100.0
+  },
+  "RF": {
+   "count": 80.0,
+   "mean": 34.3875,
+   "std": 29.467207154196927,
+   "min": 9.0,
+   "25%": 9.0,
+   "50%": 19.5,
+   "75%": 59.25,
+   "max": 99.0
+  }
+ },
+ "val|ST": {
+  "traces": 64,
+  "mean_placebo_rate": 0.334375,
+  "traces_placebo_ge_0.6": 25,
+  "traces_placebo_0": 32,
+  "placebo_hits_total": 107,
+  "placebo_hits_from_alarm_started_before_clock": 40,
+  "mean_hit_share_prefix": 0.18510088582677164,
+  "mean_hit_share_late": 0.28863636363636364,
+  "mean_onsets_prefix_per100": 6.083907480314961,
+  "mean_onsets_rest_per100": 9.689480558410414,
+  "alarm_at_burn_end": 8,
+  "fa_le_5pct": 19
+ },
+ "val|AD": {
+  "traces": 64,
+  "mean_placebo_rate": 0.759375,
+  "traces_placebo_ge_0.6": 51,
+  "traces_placebo_0": 6,
+  "placebo_hits_total": 243,
+  "placebo_hits_from_alarm_started_before_clock": 0,
+  "mean_hit_share_prefix": 0.013348917322834646,
+  "mean_hit_share_late": 0.01278409090909091,
+  "mean_onsets_prefix_per100": 1.3348917322834644,
+  "mean_onsets_rest_per100": 1.300611296676944,
+  "alarm_at_burn_end": 1,
+  "fa_le_5pct": 64
+ },
+ "val|RF": {
+  "traces": 64,
+  "mean_placebo_rate": 0.375,
+  "traces_placebo_ge_0.6": 27,
+  "traces_placebo_0": 28,
+  "placebo_hits_total": 120,
+  "placebo_hits_from_alarm_started_before_clock": 50,
+  "mean_hit_share_prefix": 0.15889517716535434,
+  "mean_hit_share_late": 0.07230113636363636,
+  "mean_onsets_prefix_per100": 5.1857775590551185,
+  "mean_onsets_rest_per100": 2.3077328953164,
+  "alarm_at_burn_end": 16,
+  "fa_le_5pct": 50,
+  "S_at_burn_end_gt_level": 15,
+  "mean_absz_gt3_prefix": 0.0718503937007874,
+  "mean_absz_gt3_rest": 0.05692690745362894,
+  "corr_placebo_vs_abs_q_shift": 0.282809515970471,
+  "corr_placebo_vs_abs_y_shift": -0.00492742064421979
+ },
+ "test_revealed|ST": {
+  "traces": 64,
+  "mean_placebo_rate": 0.53125,
+  "traces_placebo_ge_0.6": 36,
+  "traces_placebo_0": 22,
+  "placebo_hits_total": 170,
+  "placebo_hits_from_alarm_started_before_clock": 92,
+  "mean_hit_share_prefix": 0.3634350393700787,
+  "mean_hit_share_late": 0.2774147727272727,
+  "mean_onsets_prefix_per100": 12.02632874015748,
+  "mean_onsets_rest_per100": 10.571902496137948,
+  "alarm_at_burn_end": 23,
+  "fa_le_5pct": 23
+ },
+ "test_revealed|AD": {
+  "traces": 64,
+  "mean_placebo_rate": 0.715625,
+  "traces_placebo_ge_0.6": 48,
+  "traces_placebo_0": 9,
+  "placebo_hits_total": 229,
+  "placebo_hits_from_alarm_started_before_clock": 0,
+  "mean_hit_share_prefix": 0.013102854330708662,
+  "mean_hit_share_late": 0.015482954545454545,
+  "mean_onsets_prefix_per100": 1.310285433070866,
+  "mean_onsets_rest_per100": 1.4727511555628827,
+  "alarm_at_burn_end": 0,
+  "fa_le_5pct": 64
+ },
+ "test_revealed|RF": {
+  "traces": 64,
+  "mean_placebo_rate": 0.25,
+  "traces_placebo_ge_0.6": 16,
+  "traces_placebo_0": 36,
+  "placebo_hits_total": 80,
+  "placebo_hits_from_alarm_started_before_clock": 29,
+  "mean_hit_share_prefix": 0.1031619094488189,
+  "mean_hit_share_late": 0.08764204545454546,
+  "mean_onsets_prefix_per100": 3.340305118110236,
+  "mean_onsets_rest_per100": 1.854987543734315,
+  "alarm_at_burn_end": 18,
+  "fa_le_5pct": 58,
+  "S_at_burn_end_gt_level": 17,
+  "mean_absz_gt3_prefix": 0.07744832677165353,
+  "mean_absz_gt3_rest": 0.051294322018892,
+  "corr_placebo_vs_abs_q_shift": -0.23991114604363709,
+  "corr_placebo_vs_abs_y_shift": -0.05292031311063125
+ }
+}

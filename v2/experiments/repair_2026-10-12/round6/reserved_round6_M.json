@@ -1,0 +1,75 @@
+{
+ "round6_M": {
+  "purpose": "Round 6 monitor traces of Paper A (round6/REPAIR_PREREG_6.md). P2_new: never allocated CESNET/Abilene series admitted under the relaxed missingness rule; P2_FG: drifting CESNET/Abilene series of the round5_FG FG_half (their test windows were scored by the F+G round 5 replication, never by E-Q, the guard, Chronos-Bolt mixtures or any monitor); P3: never allocated GEANT OD pairs (descriptive stratum, never pooled).",
+  "rule": {
+   "missing_max": {
+    "cesnet": 0.05,
+    "abilene": 0.16,
+    "geant": 0.07
+   },
+   "zero_max": 0.05,
+   "drift_sd": 0.3,
+   "min_test_windows_h6": {
+    "cesnet": 690,
+    "abilene": 690,
+    "geant": 420
+   }
+  },
+  "P2_new": {
+   "cesnet": [
+    "51",
+    "152",
+    "159",
+    "177",
+    "202",
+    "217",
+    "243",
+    "246",
+    "271"
+   ],
+   "abilene": [
+    "0",
+    "112"
+   ]
+  },
+  "P2_FG": {
+   "cesnet": [
+    "26",
+    "47",
+    "56",
+    "254"
+   ],
+   "abilene": [
+    "42",
+    "56",
+    "82",
+    "97",
+    "110"
+   ]
+  },
+  "P3": {
+   "geant": [
+    "10_12",
+    "10_14",
+    "10_16",
+    "10_2",
+    "10_21",
+    "10_3",
+    "10_9",
+    "15_11",
+    "15_8",
+    "18_11",
+    "1_4",
+    "22_23",
+    "3_15",
+    "4_7",
+    "5_11",
+    "8_11",
+    "8_21",
+    "9_21"
+   ]
+  },
+  "pool6_manifest_sha256": "46757dcba4b7e748972f3adc5b22840436cb721e64ecb1c262e6763f3ac1db86",
+  "note": "Additive block. The round5_FG block stays reserved for the F+G replication; the P2_FG ids are the only shared ids, F+G must not use E-Q or monitor outputs of them."
+ }
+}

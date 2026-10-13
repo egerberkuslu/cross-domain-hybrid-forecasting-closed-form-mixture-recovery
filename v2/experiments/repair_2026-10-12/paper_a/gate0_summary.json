@@ -1,0 +1,27 @@
+{
+  "n_cells": 25,
+  "cells_with_xfit_headroom_ge_0.5pct": 0,
+  "gate0a_pass_run_V1_V4": false,
+  "mean_xfit_nb_L48": -0.025598394794792628,
+  "median_xfit_nb_L48": -0.017440577048304994,
+  "max_xfit_nb_L48": 0.0014469822365247964,
+  "mean_xfit_prev_L48": -0.035243074484407375,
+  "mean_insample_oracle_L48": 0.01712468214697642,
+  "cells_xfit_nb_ge_0.5pct_L24": 1,
+  "cells_xfit_nb_ge_0.5pct_L96": 0,
+  "cells_xfit_prev_ge_0.5pct_L48": 0,
+  "mean_drift_transfer_loss": 0.003451959339374616,
+  "cells_drift_loss_ge_0.5pct": 4,
+  "mean_const_vs_bolt_gain_val": 0.003117069581286178,
+  "mean_xfit_gain_vs_bolt_val": -0.02239723179416631,
+  "gate0b_cells_ge_0.5pct": 3,
+  "gate0b_pass_run_V5": false,
+  "gate0b_mean_gain": 0.001118030276859579,
+  "per_dataset_xfit_nb_L48": {
+    "abilene": -0.06891178538106876,
+    "cesnet": -0.011479441572259982,
+    "geant": -0.035166532002970305,
+    "nab_aws_cpu": -0.0013552748026149429,
+    "nab_twitter": -0.01107894021504916
+  }
+}

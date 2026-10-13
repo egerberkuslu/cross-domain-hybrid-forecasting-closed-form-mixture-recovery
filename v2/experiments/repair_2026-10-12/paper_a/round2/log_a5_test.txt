@@ -1,0 +1,62 @@
+<CONDA>/lib/python3.12/site-packages/pandas/core/computation/expressions.py:23: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.8.7' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+<CONDA>/lib/python3.12/site-packages/pandas/core/arrays/masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.3.7' currently installed).
+  from pandas.core import (
+{
+ "holm_family_size": 50,
+ "pseudo": false,
+ "experts": {
+  "EB": {
+   "variant": "M3",
+   "cells_win_vs_bolt_holm_and_ge_0.5pct": 1,
+   "cells_loss_vs_bolt_holm": 0,
+   "cells_identical": 1,
+   "cells_tost_equiv": 21,
+   "pooled_gain_vs_bolt": {
+    "mean": 0.004404811563760549,
+    "ci95_cell": [
+     -0.0016580801992967461,
+     0.010022519967741771
+    ]
+   },
+   "pooled_gain_vs_best_control": {
+    "mean": 0.004428052011480785,
+    "ci95_cell": [
+     0.0004079544544798291,
+     0.00851147074940911
+    ],
+    "ci95_two_stage": [
+     -0.0014122972064874865,
+     0.010415560029793153
+    ]
+   },
+   "success": false
+  },
+  "EQ": {
+   "variant": "M3",
+   "cells_win_vs_bolt_holm_and_ge_0.5pct": 3,
+   "cells_loss_vs_bolt_holm": 0,
+   "cells_identical": 2,
+   "cells_tost_equiv": 12,
+   "pooled_gain_vs_bolt": {
+    "mean": 0.030311905986596773,
+    "ci95_cell": [
+     0.016548296728138682,
+     0.045312546121394105
+    ]
+   },
+   "pooled_gain_vs_best_control": {
+    "mean": 0.02940441459676761,
+    "ci95_cell": [
+     0.014060869558186351,
+     0.04580826745745949
+    ],
+    "ci95_two_stage": [
+     -0.0026635154273685364,
+     0.06459232816349139
+    ]
+   },
+   "success": false
+  }
+ }
+}

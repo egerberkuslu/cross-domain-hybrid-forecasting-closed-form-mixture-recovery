@@ -1,0 +1,73 @@
+{
+ "median_gain_round3": 0.0102181905446685,
+ "comps": {
+  "40": {
+   "cesnet": 20,
+   "abilene": 8,
+   "geant": 12
+  },
+  "60": {
+   "cesnet": 30,
+   "abilene": 10,
+   "geant": 20
+  },
+  "75": {
+   "cesnet": 40,
+   "abilene": 10,
+   "geant": 25
+  }
+ },
+ "res": {
+  "40": {
+   "MEDIAN": {
+    "K": 16,
+    "power": 0.965,
+    "mean_wins": 51.165
+   },
+   "EMP": {
+    "K": 16,
+    "power": 0.37,
+    "mean_wins": 25.2825
+   },
+   "TAIL": {
+    "K": 16,
+    "power": 0.935,
+    "mean_wins": 25.71
+   }
+  },
+  "60": {
+   "MEDIAN": {
+    "K": 24,
+    "power": 1.0,
+    "mean_wins": 73.8625
+   },
+   "EMP": {
+    "K": 24,
+    "power": 0.525,
+    "mean_wins": 35.1575
+   },
+   "TAIL": {
+    "K": 24,
+    "power": 0.9575,
+    "mean_wins": 34.9775
+   }
+  },
+  "75": {
+   "MEDIAN": {
+    "K": 30,
+    "power": 1.0,
+    "mean_wins": 89.57
+   },
+   "EMP": {
+    "K": 30,
+    "power": 0.5975,
+    "mean_wins": 42.4125
+   },
+   "TAIL": {
+    "K": 30,
+    "power": 0.9525,
+    "mean_wins": 42.385
+   }
+  }
+ }
+}

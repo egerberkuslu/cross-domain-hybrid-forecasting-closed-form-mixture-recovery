@@ -10,7 +10,8 @@ provenance for the manuscript
 
 **Code repository:** <https://github.com/egerberkuslu/cross-domain-hybrid-forecasting-closed-form-mixture-recovery>
 **Large artifacts (checkpoints, predictions, metrics):** release v1.0.0 on the same repository's Releases page.  
-**Corrected analysis (v2):** see [`v2/README.md`](v2/README.md) and release v2.0.0; v1.0.0 is the submitted version.
+**Corrected analysis (v2):** see [`v2/README.md`](v2/README.md) and release v2.0.0; v1.0.0 is the submitted version.  
+**Pre-registered repair rounds 1 to 7 (v2.1.0):** see [`v2/experiments/repair_2026-10-12/README.md`](v2/experiments/repair_2026-10-12/README.md), the reproduction section below and [`CHANGELOG.md`](CHANGELOG.md).
 
 ## Description
 
@@ -158,8 +159,8 @@ Seeds are `{42, 123, 2024, 7, 31337}` as set in `config/config.yaml`; the
 manuscript uses five seeds for the network cells and three for the
 AI-inference traces.
 
-A full grid run takes about two hours on a single RTX 3060 (the main grid
-phases sum to 1.7 h in the shipped provenance log). Stages 3-6 delegate to
+Re-deriving every number of the main benchmark from raw inputs takes about
+three hours on a single RTX 3060 GPU; the main grid phases alone sum to 1.7 h in the shipped provenance log. Stages 3-6 delegate to
 `pipeline/phase{3,4,5,6}_*.py`, and the phase-5 main runner is resumable, so
 an interrupted grid can be restarted with the same command. It also accepts
 filters directly:
@@ -197,6 +198,45 @@ Results land under `outputs/` following the `paths` block of
 `config/config.yaml`: `outputs/metrics/`, `outputs/predictions/`,
 `outputs/figures/`, `outputs/hyperparameters/`, `outputs/logs/`, and
 `outputs/eval_v3/tables/`.
+
+### Reproducing the repair rounds (v2.1.0)
+
+The revised manuscript reports seven pre-registered repair rounds. Their scripts,
+registrations, frozen parameter files, manifests, summary JSON and result tables are in
+`v2/experiments/repair_2026-10-12/` (rounds 1 and 2 in `paper_a/`, rounds 3 to 7 in
+`round3/` to `round7/`), and the scripts that turn them into the numbers and tables of the
+manuscript are in `v2/peerj_v2/scripts/`. The registrations estimated about 2.5 hours for
+the first stage and about 5 hours for the second stage of repair round 5 on CPU cores.
+Fitted models, per-cell forecast arrays and the derived series are not in git (sizes and
+reasons are listed in the folder README); the raw datasets are not redistributed, as in v2.0.0.
+
+```bash
+# 1. check that the shipped code and registrations equal what was frozen (expects: 125 digests match, 0 mismatch)
+python3 v2/experiments/repair_2026-10-12/verify_frozen.py
+
+# 2. recompute the manuscript numbers and tables of rounds 5 to 7 from the shipped result files (seconds)
+python3 v2/peerj_v2/scripts/make_round5_numbers.py
+python3 v2/peerj_v2/scripts/make_round6_numbers.py
+python3 v2/peerj_v2/scripts/make_round7_numbers.py
+python3 v2/peerj_v2/scripts/make_repair_table.py
+
+# 3. rerun a round from raw data (see the folder README for the workspace links and the run scripts)
+cd v2 && ln -s ../data data && ln -s ../src src && ln -s ../outputs outputs && ln -s ../.venv .chas-venv
+R=experiments/repair_2026-10-12; PY=.chas-venv/bin/python
+$PY $R/fresh_cells/build_pool.py   # needs data/raw; writes the pool and its manifest
+$PY $R/round3/r3_stages.py --stage A && $PY $R/round3/r3_eval.py --stage select && $PY $R/round3/r3_monitor.py --stage select
+REPAIR_STAGE=test $PY $R/round3/r3_stages.py --stage B   # then r3_eval.py and r3_monitor.py with --stage test
+# rounds 4 to 7: same order with r4_*, r5_* ... scripts, or the resumable drivers run_r5.sh, run_r6.sh, run_r7.sh
+```
+
+| Step | Compute (as stated in the manuscript or registered before the run) |
+|---|---|
+| Main benchmark, every number re-derived from raw inputs | about 3 h on one RTX 3060 |
+| Repair round 5, stage A (validation forecasts, 584 cells) | about 2.5 h |
+| Repair round 5, stage B (test forecasts after refit, 584 cells) | about 5 h |
+| Repair round 4 (302 cells) | observed about 1.2 h for stage A and 2.5 h for stage B (about 35 s and 45 s per cell registered) |
+| Repair round 3 (100 cells) | 40 to 60 s per cell for stage A, 60 to 90 s per cell for stage B |
+| Rounds 6 and 7, selection and test stages | 38 and 57 cells, no hour estimate was registered |
 
 ### Tests
 
@@ -288,6 +328,10 @@ metric CSVs (`cha-metrics.tar.gz`, ~1 MB) exceed the git budget and are
 published as assets of release **v1.0.0** on the Releases page of this
 repository. The pipeline regenerates all of them from scratch if they are
 absent.
+
+Release v2.1.0 adds no binary asset: the scripts, registrations and tables of the repair
+rounds are in git, and the model pickles and forecast arrays they produce are regenerated
+by the commands in *Reproducing the repair rounds*.
 
 ## Citation
 

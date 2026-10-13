@@ -1,0 +1,90 @@
+{
+ "expert": "E-Q (quantile gradient boosting on lag and calendar features, median point forecast)",
+ "training_data": {
+  "stage_A_validation_forecasts": "train windows only",
+  "stage_B_test_forecasts": "train + validation windows (refit, same hyper-parameters)"
+ },
+ "null_expert": "E-Q0: same recipe, median model, feature rows shuffled across windows, permutation seed 0",
+ "hyperparameters": {
+  "quantiles": [
+   0.1,
+   0.5,
+   0.9
+  ],
+  "max_iter": 150,
+  "learning_rate": 0.06,
+  "max_depth": 4,
+  "min_samples_leaf": 40,
+  "l2_regularization": 1.0,
+  "early_stopping": false,
+  "random_state": 0
+ },
+ "features_source": {
+  "file": "experiments/repair_2026-10-12/paper_a/round2/experts.py",
+  "sha256": "12dd347abade46ed64113215791ab74dfc81f55f3877e253559cce2ee64a3ada",
+  "function": "features(X, tt, h)"
+ },
+ "mixture": "M2: f = Bolt + alpha (E-Q - Bolt), alpha = Bates-Granger closed form on ALL validation windows (E-Q trained on train only), clipped to [0, 1] and snapped to the 0.05 grid",
+ "bolt": {
+  "model": "amazon/chronos-bolt-small",
+  "hf_snapshot": "772f3d25d38aec6d914c8949dab4462e2d46f5d8",
+  "weights_sha256": "06a6a19bbe74bc10a9cd193bd4bf2bf638ae07f7e0d51653ae7ab8ea968a21dd",
+  "device": "cpu",
+  "dtype": "float32",
+  "batch": 32
+ },
+ "environment": {
+  "sklearn": "1.9.0",
+  "numpy": "1.26.4",
+  "chronos-forecasting": "2.2.2",
+  "python": "3.12.4"
+ },
+ "round2_models_hash_file": "experiments/repair_2026-10-12/paper_a/round2/MODELS_SHA256.txt",
+ "unchanged_from_round3": {
+  "eq_recipe.py": "d45d3ae7ea731d580d3199ce27f5c6f4cd48cee5bc52e2857fa4597bc9cfcf24",
+  "RECIPE_FROZEN.json": "5a96181ebe5633f76daf34646a301c6d5453e2b60e8187b99a57f258c590cde8",
+  "r3_stages.py": "6b3f2e79169e729e73bd17da3f7012a7b2133e5f15623756b957b2c1cb327521",
+  "r3_eval.py": "e8cb9393f24b3f2ea4efdda71c49fb9a24317b4abc7678cd8b252042f412ba8d",
+  "r3_monitor.py": "f99a3f690eef95a95bf5c9f7032299f1d95206273e2404b665a7cb884c8b1e15"
+ },
+ "unchanged_from_round4": {
+  "frozen_r4_guard.json": "566443299bcb80eed5df57d7f9a7afa9cb96b3d07c1185b9ef4a59a9c161a4d8",
+  "r4_guard.py": "84983f9a2c348531958683fefe70549731150024c06cd24ee91ab2ab56175983",
+  "r4_stages.py": "32aadadc9f220f18347ab272eee666f959d69a0f927b2f0dbcb7242aad30ff23",
+  "r4_eval.py": "fca4b390687521c63cb9825ab27db2c6bb9c0c74e397567313168c3bb87cce50",
+  "r4_monitor.py": "86f9deccbd028214da37a6cc656d5fdbed4806c01ab1519f4bf81c6fb2f432b1",
+  "RECIPE4_FROZEN.json": "1c06e8ca852bfea6460f84be5dc0b62c0144124f0ba1609d228d6cc4624d0f71"
+ },
+ "guard": {
+  "file": "round4/frozen_r4_guard.json",
+  "sha256": "566443299bcb80eed5df57d7f9a7afa9cb96b3d07c1185b9ef4a59a9c161a4d8",
+  "chosen": "G2_0.25"
+ },
+ "pool5": {
+  "manifest": "fresh_cells/pool5_manifest.json",
+  "sha256": "80dbdaf63c9867a8da89ca34c875b0777632548a7f61a72fd51997a16828cede",
+  "reserved_series.json": "9836eae9fa6e07be16cb7461d76a0393809cb20df042950199bb3aa4bc1b9398",
+  "partition_F.json": "f39e8c16789e733bcb85dc1c3b1e16586ceed6f936529f050a2a6f8e80646df6",
+  "build_pool5.py": "7266f32f5843c7427db6ecf33edd548d08dc196a831801a32b295fef4954c9b7",
+  "fresh_cells.py": "f4f5a4da72b34d3938865a36f8b66d970d270f8f76387a20d1b6c715f3a50660"
+ },
+ "round5_code": {
+  "r5_stages.py": "1d840c9cd1a73d8194ebd148083b6bd50ef90438a89716fff21d3bdd80ee083b",
+  "r5_eval.py": "7b3bfb7797097563399fe3bf9bef071d45c4156931fe807652b6e62c33b6cd0c",
+  "r5_monitor.py": "384f4b2820add27916a818804e7bdfd4cdbea4d2795af771ca276c9ca44d34fd",
+  "power_calc5.py": "3c4631757dc237130382dddf2651ca0e29f6fa230c11df971626eb784c941f7f",
+  "power_monitor5.py": "f1fa6360f71bc1b3c8c695e75a39d90ee7e3d4fc4cf37683589269c475afbd2a",
+  "r4_data_check.py": "e22268f0211a0895366bde6b7a17cc6a888c61e69964f5e89d365c86f1ca9843",
+  "freeze5.py": "ae9ada8044b2d249aa3592100ee0a6751195c1905b041b301deb66229827425e"
+ },
+ "round5_power": {
+  "power_calc5.json": "cb2a353527457e820f557c5b3acf40d7be2ea74bd79b883e4dc070e62d478e2c",
+  "power_monitor5.json": "ad1237269f142fb697f0df375d76bc665a2c179117a4e14864386742e6c8a10d",
+  "r4_data_check.txt": "3bb0e1244bab1166ff146bf487c978280dcd7d583b8422af555bdd06f76ea7c9"
+ },
+ "commands": {
+  "r4_data_check.txt": "cd experiments/repair_2026-10-12/round5 && PYTHONDONTWRITEBYTECODE=1 ../../../.chas-venv/bin/python r4_data_check.py > r4_data_check.txt 2>/dev/null",
+  "power_calc5.json": "PYTHONDONTWRITEBYTECODE=1 nice -n 19 taskset -c 8-11 .chas-venv/bin/python experiments/repair_2026-10-12/round5/power_calc5.py",
+  "power_monitor5.json": "PYTHONDONTWRITEBYTECODE=1 .chas-venv/bin/python experiments/repair_2026-10-12/round5/power_monitor5.py"
+ }
+}

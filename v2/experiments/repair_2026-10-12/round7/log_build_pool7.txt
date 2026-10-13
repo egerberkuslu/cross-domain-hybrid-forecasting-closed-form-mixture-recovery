@@ -1,0 +1,30 @@
+excluded parent institutions (monitor traces of rounds 4 to 6): 32
+sub ids 546 admissible 451 parent excluded 77 candidates 389
+ip ids 1000 admissible 65 parent excluded 130 candidates 44
+sub built 389 drifting monitor candidates 59
+ip built 44 drifting monitor candidates 19
+{
+ "ids_subnets": 546,
+ "ids_ips": 1000,
+ "admissible_subnets": 451,
+ "admissible_ips": 65,
+ "parent_excluded_subnets": 77,
+ "parent_excluded_ips": 130,
+ "candidates_built_subnets": 389,
+ "candidates_built_ips": 44,
+ "drifting_len_ok_before_corr_rule_subnets": 59,
+ "drifting_len_ok_before_corr_rule_ips": 19,
+ "corr_rule_excluded": [],
+ "drifting_len_ok_subnets": 59,
+ "drifting_len_ok_ips": 19,
+ "after_family_cap_subnets": 30,
+ "after_family_cap_ips": 11,
+ "primary_subnets": 30,
+ "primary_ips": 11,
+ "reserve_subnets": 0,
+ "reserve_ips": 0,
+ "primary_total": 41,
+ "shortfall_vs_60": 19,
+ "institutions_in_primary": 26,
+ "G7": 15
+}

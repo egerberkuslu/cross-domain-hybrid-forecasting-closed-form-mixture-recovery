@@ -1,0 +1,39 @@
+{
+ "sub": {
+  "rule_registered": {
+   "drifting": 58,
+   "institutions": 20,
+   "cap_3": 30,
+   "cap_4": 32,
+   "cap_5": 33,
+   "cap_none": 58
+  },
+  "M7a": {
+   "drifting": 66,
+   "institutions": 21,
+   "cap_3": 32,
+   "cap_4": 34,
+   "cap_5": 35,
+   "cap_none": 66
+  }
+ },
+ "ip": {
+  "rule_registered": {
+   "drifting": 19,
+   "institutions": 12,
+   "cap_3": 17,
+   "cap_4": 18,
+   "cap_5": 19,
+   "cap_none": 19
+  },
+  "M7a": {
+   "drifting": 27,
+   "institutions": 14,
+   "cap_3": 22,
+   "cap_4": 23,
+   "cap_5": 24,
+   "cap_none": 27
+  }
+ },
+ "note": "tv_shift of data7_inventory.profile, not build_pool4.shift; excluded parents are those of rounds 3 to 6 (build_pool7.revealed_monitor_institutions); counts are information only"
+}

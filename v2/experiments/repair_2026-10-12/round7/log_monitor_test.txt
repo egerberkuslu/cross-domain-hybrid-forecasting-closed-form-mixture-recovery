@@ -1,0 +1,201 @@
+test cesnet_sub12 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 1}
+test cesnet_sub21 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 0, 'W4': 0, 'STB7': 0}
+test cesnet_sub23 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 1}
+test cesnet_sub24 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 1}
+test cesnet_sub135 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_sub144 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_sub163 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_sub164 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 1}
+test cesnet_sub167 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_sub245 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 1}
+test cesnet_sub247 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 0, 'W4': 1, 'STB7': 1}
+test cesnet_sub248 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_sub249 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 1}
+test cesnet_sub269 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_sub280 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_sub300 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_sub306 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 1}
+test cesnet_sub317 joint W1/W3/W4/STB7: {'W1': 0, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_sub325 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_sub331 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 1}
+test cesnet_sub361 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_sub364 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 0, 'W4': 0, 'STB7': 0}
+test cesnet_sub375 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_sub376 joint W1/W3/W4/STB7: {'W1': 0, 'W3': 0, 'W4': 0, 'STB7': 0}
+test cesnet_sub392 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_sub428 joint W1/W3/W4/STB7: {'W1': 0, 'W3': 0, 'W4': 0, 'STB7': 0}
+test cesnet_sub429 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 1}
+test cesnet_sub430 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 0, 'W4': 0, 'STB7': 1}
+test cesnet_sub459 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_ip11 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_ip1368 joint W1/W3/W4/STB7: {'W1': 0, 'W3': 0, 'W4': 0, 'STB7': 0}
+test cesnet_ip1580 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 1}
+test cesnet_ip1605 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_ip1774 joint W1/W3/W4/STB7: {'W1': 0, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_ip18683 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_ip35210 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 0, 'W4': 0, 'STB7': 0}
+test cesnet_ip44922 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_ip268100 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test cesnet_ip321100 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 1}
+test cesnet_ip450863 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 0, 'W4': 0, 'STB7': 1}
+test geant_od1_3 joint W1/W3/W4/STB7: {'W1': 0, 'W3': 0, 'W4': 0, 'STB7': 0}
+test geant_od1_9 joint W1/W3/W4/STB7: {'W1': 0, 'W3': 0, 'W4': 0, 'STB7': 1}
+test geant_od3_3 joint W1/W3/W4/STB7: {'W1': 0, 'W3': 0, 'W4': 0, 'STB7': 0}
+test geant_od4_23 joint W1/W3/W4/STB7: {'W1': 0, 'W3': 0, 'W4': 0, 'STB7': 0}
+test geant_od8_2 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test geant_od9_2 joint W1/W3/W4/STB7: {'W1': 0, 'W3': 0, 'W4': 0, 'STB7': 1}
+test geant_od10_7 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 0, 'W4': 0, 'STB7': 0}
+test geant_od15_21 joint W1/W3/W4/STB7: {'W1': 0, 'W3': 0, 'W4': 0, 'STB7': 0}
+test geant_od16_21 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test geant_od17_8 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 1}
+test geant_od19_3 joint W1/W3/W4/STB7: {'W1': 0, 'W3': 1, 'W4': 1, 'STB7': 0}
+test geant_od19_11 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 0, 'W4': 0, 'STB7': 1}
+test geant_od19_16 joint W1/W3/W4/STB7: {'W1': 0, 'W3': 0, 'W4': 0, 'STB7': 0}
+test geant_od20_11 joint W1/W3/W4/STB7: {'W1': 1, 'W3': 1, 'W4': 1, 'STB7': 0}
+test geant_od23_16 joint W1/W3/W4/STB7: {'W1': 0, 'W3': 1, 'W4': 1, 'STB7': 0}
+{
+ "ADB_P7": {
+  "traces": 40,
+  "failed": 27,
+  "c1_false_alarm_excess": 0,
+  "c2_insensitive": 3,
+  "c2_control_alarms": 12,
+  "c3_null_exceeded": 12,
+  "c3_slow_detection": 0
+ },
+ "ADB_G7": {
+  "traces": 15,
+  "failed": 10,
+  "c1_false_alarm_excess": 0,
+  "c2_insensitive": 1,
+  "c2_control_alarms": 7,
+  "c3_null_exceeded": 2,
+  "c3_slow_detection": 0
+ },
+ "STB7_P7": {
+  "traces": 40,
+  "failed": 26,
+  "c1_false_alarm_excess": 3,
+  "c2_insensitive": 0,
+  "c2_control_alarms": 13,
+  "c3_null_exceeded": 10,
+  "c3_slow_detection": 0
+ },
+ "STB7_G7": {
+  "traces": 15,
+  "failed": 11,
+  "c1_false_alarm_excess": 0,
+  "c2_insensitive": 0,
+  "c2_control_alarms": 6,
+  "c3_null_exceeded": 5,
+  "c3_slow_detection": 0
+ },
+ "V3_P7": {
+  "traces": 40,
+  "failed": 8,
+  "c1_false_alarm_excess": 0,
+  "c2_insensitive": 2,
+  "c2_control_alarms": 1,
+  "c3_null_exceeded": 5,
+  "c3_slow_detection": 0
+ },
+ "V3_G7": {
+  "traces": 15,
+  "failed": 10,
+  "c1_false_alarm_excess": 0,
+  "c2_insensitive": 1,
+  "c2_control_alarms": 5,
+  "c3_null_exceeded": 4,
+  "c3_slow_detection": 0
+ },
+ "W1_P7": {
+  "traces": 40,
+  "failed": 5,
+  "c1_false_alarm_excess": 0,
+  "c2_insensitive": 1,
+  "c2_control_alarms": 0,
+  "c3_null_exceeded": 4,
+  "c3_slow_detection": 0
+ },
+ "W1_G7": {
+  "traces": 15,
+  "failed": 9,
+  "c1_false_alarm_excess": 0,
+  "c2_insensitive": 1,
+  "c2_control_alarms": 4,
+  "c3_null_exceeded": 4,
+  "c3_slow_detection": 0
+ },
+ "W3_P7": {
+  "traces": 40,
+  "failed": 9,
+  "c1_false_alarm_excess": 1,
+  "c2_insensitive": 0,
+  "c2_control_alarms": 2,
+  "c3_null_exceeded": 6,
+  "c3_slow_detection": 0
+ },
+ "W3_G7": {
+  "traces": 15,
+  "failed": 9,
+  "c1_false_alarm_excess": 1,
+  "c2_insensitive": 1,
+  "c2_control_alarms": 4,
+  "c3_null_exceeded": 3,
+  "c3_slow_detection": 0
+ },
+ "W4_P7": {
+  "traces": 40,
+  "failed": 8,
+  "c1_false_alarm_excess": 1,
+  "c2_insensitive": 1,
+  "c2_control_alarms": 1,
+  "c3_null_exceeded": 5,
+  "c3_slow_detection": 0
+ },
+ "W4_G7": {
+  "traces": 15,
+  "failed": 9,
+  "c1_false_alarm_excess": 1,
+  "c2_insensitive": 1,
+  "c2_control_alarms": 3,
+  "c3_null_exceeded": 4,
+  "c3_slow_detection": 0
+ }
+}
+{
+ "P7": {
+  "traces": 40,
+  "need": 32,
+  "success": true,
+  "succeeding_variants": [
+   "W1",
+   "W4"
+  ],
+  "headline": "W1",
+  "mcnemar_vs_STB7": {
+   "W1": {
+    "v_only": 21,
+    "stb7_only": 0,
+    "p_one_sided": 4.76837158203125e-07,
+    "p_holm": 9.5367431640625e-07,
+    "claim": true
+   },
+   "W4": {
+    "v_only": 20,
+    "stb7_only": 2,
+    "p_one_sided": 6.0558319091796875e-05,
+    "p_holm": 6.0558319091796875e-05,
+    "claim": true
+   }
+  }
+ },
+ "arm_X": {
+  "W1": 35,
+  "W3": 31,
+  "W4": 32,
+  "STB7": 14,
+  "V3": 32,
+  "ADB": 13
+ }
+}

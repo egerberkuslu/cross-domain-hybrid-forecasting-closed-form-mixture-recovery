@@ -1,0 +1,311 @@
+{
+ "ADB_P2": {
+  "traces": 20,
+  "failed": 11,
+  "c1_false_alarm_excess": 0,
+  "c2_not_shift_specific": 7,
+  "c3_null_exceeded": 3,
+  "c3_slow_detection": 1,
+  "names": {
+   "c1_false_alarm_excess": [],
+   "c2_not_shift_specific": [
+    "abilene_od0",
+    "abilene_od110",
+    "abilene_od82",
+    "cesnet_inst202",
+    "cesnet_inst271",
+    "cesnet_inst51",
+    "cesnet_inst56"
+   ],
+   "c3_null_exceeded": [
+    "cesnet_inst177",
+    "cesnet_inst243",
+    "cesnet_inst47"
+   ],
+   "c3_slow_detection": [
+    "cesnet_inst254"
+   ]
+  }
+ },
+ "ADB_P3": {
+  "traces": 18,
+  "failed": 15,
+  "c1_false_alarm_excess": 0,
+  "c2_not_shift_specific": 11,
+  "c3_null_exceeded": 4,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [],
+   "c2_not_shift_specific": [
+    "geant_od10_14",
+    "geant_od10_16",
+    "geant_od10_3",
+    "geant_od10_9",
+    "geant_od15_11",
+    "geant_od18_11",
+    "geant_od1_4",
+    "geant_od3_15",
+    "geant_od5_11",
+    "geant_od8_21",
+    "geant_od9_21"
+   ],
+   "c3_null_exceeded": [
+    "geant_od10_2",
+    "geant_od15_8",
+    "geant_od4_7",
+    "geant_od8_11"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "R5_P2": {
+  "traces": 20,
+  "failed": 9,
+  "c1_false_alarm_excess": 4,
+  "c2_not_shift_specific": 3,
+  "c3_null_exceeded": 1,
+  "c3_slow_detection": 1,
+  "names": {
+   "c1_false_alarm_excess": [
+    "abilene_od110",
+    "abilene_od56",
+    "abilene_od97",
+    "cesnet_inst271"
+   ],
+   "c2_not_shift_specific": [
+    "abilene_od42",
+    "cesnet_inst202",
+    "cesnet_inst254"
+   ],
+   "c3_null_exceeded": [
+    "abilene_od0"
+   ],
+   "c3_slow_detection": [
+    "cesnet_inst243"
+   ]
+  }
+ },
+ "R5_P3": {
+  "traces": 18,
+  "failed": 10,
+  "c1_false_alarm_excess": 8,
+  "c2_not_shift_specific": 0,
+  "c3_null_exceeded": 2,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [
+    "geant_od10_14",
+    "geant_od10_16",
+    "geant_od10_2",
+    "geant_od10_21",
+    "geant_od15_11",
+    "geant_od18_11",
+    "geant_od5_11",
+    "geant_od8_11"
+   ],
+   "c2_not_shift_specific": [],
+   "c3_null_exceeded": [
+    "geant_od22_23",
+    "geant_od8_21"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "STB_P2": {
+  "traces": 20,
+  "failed": 6,
+  "c1_false_alarm_excess": 0,
+  "c2_not_shift_specific": 2,
+  "c3_null_exceeded": 4,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [],
+   "c2_not_shift_specific": [
+    "cesnet_inst202",
+    "cesnet_inst243"
+   ],
+   "c3_null_exceeded": [
+    "abilene_od110",
+    "abilene_od56",
+    "cesnet_inst26",
+    "cesnet_inst51"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "STB_P3": {
+  "traces": 18,
+  "failed": 15,
+  "c1_false_alarm_excess": 1,
+  "c2_not_shift_specific": 9,
+  "c3_null_exceeded": 5,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [
+    "geant_od10_2"
+   ],
+   "c2_not_shift_specific": [
+    "geant_od10_14",
+    "geant_od10_21",
+    "geant_od10_3",
+    "geant_od10_9",
+    "geant_od15_11",
+    "geant_od15_8",
+    "geant_od1_4",
+    "geant_od3_15",
+    "geant_od4_7"
+   ],
+   "c3_null_exceeded": [
+    "geant_od10_16",
+    "geant_od18_11",
+    "geant_od22_23",
+    "geant_od5_11",
+    "geant_od8_11"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "V1_P2": {
+  "traces": 20,
+  "failed": 5,
+  "c1_false_alarm_excess": 1,
+  "c2_not_shift_specific": 4,
+  "c3_null_exceeded": 0,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [
+    "abilene_od110"
+   ],
+   "c2_not_shift_specific": [
+    "cesnet_inst159",
+    "cesnet_inst202",
+    "cesnet_inst243",
+    "cesnet_inst254"
+   ],
+   "c3_null_exceeded": [],
+   "c3_slow_detection": []
+  }
+ },
+ "V1_P3": {
+  "traces": 18,
+  "failed": 12,
+  "c1_false_alarm_excess": 3,
+  "c2_not_shift_specific": 2,
+  "c3_null_exceeded": 7,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [
+    "geant_od10_2",
+    "geant_od10_21",
+    "geant_od18_11"
+   ],
+   "c2_not_shift_specific": [
+    "geant_od10_12",
+    "geant_od15_8"
+   ],
+   "c3_null_exceeded": [
+    "geant_od10_14",
+    "geant_od10_3",
+    "geant_od15_11",
+    "geant_od22_23",
+    "geant_od5_11",
+    "geant_od8_11",
+    "geant_od8_21"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "V2_P2": {
+  "traces": 20,
+  "failed": 5,
+  "c1_false_alarm_excess": 0,
+  "c2_not_shift_specific": 4,
+  "c3_null_exceeded": 1,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [],
+   "c2_not_shift_specific": [
+    "cesnet_inst159",
+    "cesnet_inst202",
+    "cesnet_inst243",
+    "cesnet_inst254"
+   ],
+   "c3_null_exceeded": [
+    "abilene_od110"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "V2_P3": {
+  "traces": 18,
+  "failed": 10,
+  "c1_false_alarm_excess": 0,
+  "c2_not_shift_specific": 4,
+  "c3_null_exceeded": 6,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [],
+   "c2_not_shift_specific": [
+    "geant_od10_12",
+    "geant_od10_16",
+    "geant_od10_3",
+    "geant_od8_11"
+   ],
+   "c3_null_exceeded": [
+    "geant_od10_14",
+    "geant_od10_2",
+    "geant_od10_21",
+    "geant_od18_11",
+    "geant_od22_23",
+    "geant_od5_11"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "V3_P2": {
+  "traces": 20,
+  "failed": 5,
+  "c1_false_alarm_excess": 0,
+  "c2_not_shift_specific": 4,
+  "c3_null_exceeded": 1,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [],
+   "c2_not_shift_specific": [
+    "cesnet_inst159",
+    "cesnet_inst202",
+    "cesnet_inst243",
+    "cesnet_inst254"
+   ],
+   "c3_null_exceeded": [
+    "abilene_od110"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "V3_P3": {
+  "traces": 18,
+  "failed": 9,
+  "c1_false_alarm_excess": 0,
+  "c2_not_shift_specific": 4,
+  "c3_null_exceeded": 5,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [],
+   "c2_not_shift_specific": [
+    "geant_od10_12",
+    "geant_od10_16",
+    "geant_od10_3",
+    "geant_od8_11"
+   ],
+   "c3_null_exceeded": [
+    "geant_od10_14",
+    "geant_od10_2",
+    "geant_od10_21",
+    "geant_od18_11",
+    "geant_od22_23"
+   ],
+   "c3_slow_detection": []
+  }
+ }
+}

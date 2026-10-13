@@ -1,0 +1,45 @@
+<CONDA>/lib/python3.12/site-packages/pandas/core/computation/expressions.py:23: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.8.7' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+<CONDA>/lib/python3.12/site-packages/pandas/core/arrays/masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.3.7' currently installed).
+  from pandas.core import (
+{
+ "stage": "select",
+ "criterion": "floor",
+ "dry_run": false,
+ "best_per_variant": {
+  "V1": {
+   "cfg": {
+    "W": 384,
+    "kappa": 12.0
+   },
+   "pooled_log_ratio": 0.0016360791785329232,
+   "pooled_excess": 0.0021716010403106533
+  },
+  "V2": {
+   "cfg": {
+    "lam": 0.0
+   },
+   "pooled_log_ratio": 0.0015857188678704242,
+   "pooled_excess": 0.0
+  },
+  "V3": {
+   "cfg": {
+    "W": 96,
+    "q": 0.99
+   },
+   "pooled_log_ratio": 0.010729449403423989,
+   "pooled_excess": 0.00955522906861492
+  },
+  "V4": {
+   "cfg": {
+    "s": 0.25
+   },
+   "pooled_log_ratio": 3.0151067994539493e-05,
+   "pooled_excess": 0.0008142216985179882
+  }
+ },
+ "headline_variant": "V2",
+ "n_cells": 25,
+ "n_seeds": 5,
+ "test_files_read": 0
+}

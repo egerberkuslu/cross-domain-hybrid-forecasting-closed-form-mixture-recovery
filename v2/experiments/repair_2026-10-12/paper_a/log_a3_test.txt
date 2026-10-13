@@ -1,0 +1,22 @@
+<CONDA>/lib/python3.12/site-packages/pandas/core/computation/expressions.py:23: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.8.7' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+<CONDA>/lib/python3.12/site-packages/pandas/core/arrays/masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.3.7' currently installed).
+  from pandas.core import (
+{
+ "headline_model": "L1",
+ "cells_better_than_scalar_holm": 1,
+ "cells_worse_than_scalar_by_gt_1pct": 4,
+ "pooled_gain_vs_best_control": {
+  "mean": -0.004819365849379538,
+  "ci95_cell": [
+   -0.011743442502973978,
+   0.0003599736924976531
+  ],
+  "ci95_two_stage": [
+   -0.017188212471561392,
+   0.001628539731396753
+  ]
+ },
+ "success": false,
+ "pseudo": false
+}

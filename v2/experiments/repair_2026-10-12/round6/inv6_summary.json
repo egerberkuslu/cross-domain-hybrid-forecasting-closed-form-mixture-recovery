@@ -1,0 +1,79 @@
+{
+ "cesnet": {
+  "raw_series": 283,
+  "admissible": 200,
+  "allocated_by_block": {
+   "round3_reserved": 8,
+   "pilot": 2,
+   "F_registered (scored by F+G arms; 64 drifting CESNET/Abilene = round 5 monitor)": 100,
+   "round4/5 A_half (accuracy and round 4 monitor)": 45,
+   "round5_FG half (Paper B replication, Paper A must not use)": 45
+  },
+  "allocated_total": 200,
+  "unallocated_total": 83,
+  "unallocated_admissible": 0,
+  "unallocated_inadmissible": 83,
+  "unallocated_inadmissible_drifting_ge0.3": 12,
+  "test_hours": 1009,
+  "FG_half_drifting_ge0.3": 4,
+  "F_registered_drifting_ge0.3_approx": 11,
+  "inadmissible_reasons": {
+   "ok_missing": 83,
+   "ok_zero": 0,
+   "ok_median": 0
+  }
+ },
+ "abilene": {
+  "raw_series": 144,
+  "admissible": 128,
+  "allocated_by_block": {
+   "round3_reserved": 6,
+   "pilot": 2,
+   "F_registered (scored by F+G arms; 64 drifting CESNET/Abilene = round 5 monitor)": 100,
+   "round4/5 A_half (accuracy and round 4 monitor)": 10,
+   "round5_FG half (Paper B replication, Paper A must not use)": 10
+  },
+  "allocated_total": 128,
+  "unallocated_total": 16,
+  "unallocated_admissible": 0,
+  "unallocated_inadmissible": 16,
+  "unallocated_inadmissible_drifting_ge0.3": 4,
+  "test_hours": 699,
+  "FG_half_drifting_ge0.3": 7,
+  "F_registered_drifting_ge0.3_approx": 59,
+  "inadmissible_reasons": {
+   "ok_missing": 2,
+   "ok_zero": 14,
+   "ok_median": 1
+  }
+ },
+ "geant": {
+  "raw_series": 524,
+  "admissible": 329,
+  "allocated_by_block": {
+   "round3_reserved": 6,
+   "pilot": 1,
+   "F_registered (scored by F+G arms; 64 drifting CESNET/Abilene = round 5 monitor)": 100,
+   "round4/5 A_half (accuracy and round 4 monitor)": 111,
+   "round5_FG half (Paper B replication, Paper A must not use)": 111
+  },
+  "allocated_total": 329,
+  "unallocated_total": 195,
+  "unallocated_admissible": 0,
+  "unallocated_inadmissible": 195,
+  "unallocated_inadmissible_drifting_ge0.3": 118,
+  "test_hours": 428,
+  "FG_half_drifting_ge0.3": 67,
+  "F_registered_drifting_ge0.3_approx": 61,
+  "inadmissible_reasons": {
+   "ok_missing": 195,
+   "ok_zero": 0,
+   "ok_median": 0
+  }
+ },
+ "screen_check_vs_manifest": {
+  "n": 366,
+  "agree_on_0.3_rule": 343,
+  "max_abs_diff": 0.2787525291476187
+ }
+}

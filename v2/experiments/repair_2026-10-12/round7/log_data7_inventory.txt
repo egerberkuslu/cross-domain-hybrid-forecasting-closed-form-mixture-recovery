@@ -1,0 +1,120 @@
+cesnet leftovers 33
+abilene leftovers 14
+geant leftovers 154
+{
+ "abilene": {
+  "leftovers": 14,
+  "drifting_ge0.3": 2,
+  "drifting_len_ok": 2,
+  "drifting_r6_rule": 0,
+  "drifting_M7a": 0,
+  "drifting_M7b": 0,
+  "drifting_M7c": 0,
+  "drifting_nan_share_quantiles": [
+   0.13917525773195877,
+   0.13917525773195877,
+   0.13917525773195877,
+   0.13917525773195877,
+   0.13917525773195877
+  ],
+  "drifting_nan_train_quantiles": [
+   0.19146977600490947,
+   0.19146977600490947,
+   0.19146977600490947,
+   0.19146977600490947,
+   0.19146977600490947
+  ],
+  "drifting_longest_gap_quantiles": [
+   432.0,
+   432.0,
+   432.0,
+   432.0,
+   432.0
+  ],
+  "drifting_test_windows_quantiles": [
+   694.0,
+   694.0,
+   694.0,
+   694.0,
+   694.0
+  ],
+  "drifting_zero_share_gt5pct": 2
+ },
+ "cesnet": {
+  "leftovers": 33,
+  "drifting_ge0.3": 3,
+  "drifting_len_ok": 1,
+  "drifting_r6_rule": 0,
+  "drifting_M7a": 0,
+  "drifting_M7b": 0,
+  "drifting_M7c": 1,
+  "drifting_nan_share_quantiles": [
+   0.3768978862756773,
+   0.399598094671033,
+   0.4222983030663888,
+   0.5361714796070259,
+   0.650044656147663
+  ],
+  "drifting_nan_train_quantiles": [
+   0.10974053594215227,
+   0.22926414291790728,
+   0.3487877498936623,
+   0.42450021267545723,
+   0.5002126754572522
+  ],
+  "drifting_longest_gap_quantiles": [
+   32.0,
+   964.0,
+   1896.0,
+   1998.5,
+   2101.0
+  ],
+  "drifting_test_windows_quantiles": [
+   0.0,
+   0.0,
+   0.0,
+   347.5,
+   695.0
+  ],
+  "drifting_zero_share_gt5pct": 0
+ },
+ "geant": {
+  "leftovers": 154,
+  "drifting_ge0.3": 97,
+  "drifting_len_ok": 49,
+  "drifting_r6_rule": 0,
+  "drifting_M7a": 16,
+  "drifting_M7b": 38,
+  "drifting_M7c": 49,
+  "drifting_nan_share_quantiles": [
+   0.07055107055107056,
+   0.18041418041418042,
+   0.24956124956124956,
+   0.5233415233415234,
+   0.9996489996489997
+  ],
+  "drifting_nan_train_quantiles": [
+   0.07923771313941826,
+   0.20511534603811435,
+   0.2587763289869609,
+   0.4719157472417252,
+   0.9994984954864594
+  ],
+  "drifting_longest_gap_quantiles": [
+   113.0,
+   115.0,
+   251.0,
+   451.0,
+   1723.0
+  ],
+  "drifting_test_windows_quantiles": [
+   0.0,
+   0.0,
+   423.0,
+   423.0,
+   423.0
+  ],
+  "drifting_zero_share_gt5pct": 0
+ }
+}
+EXIT 0

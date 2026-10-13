@@ -1,0 +1,51 @@
+{
+ "EXPLORATORY": true,
+ "cfg": {
+  "V1": {
+   "W": 384,
+   "kappa": 12.0
+  },
+  "V2": {
+   "lam": 0.0
+  },
+  "V3": {
+   "W": 96,
+   "q": 0.99
+  },
+  "V4": {
+   "s": 0.25
+  }
+ },
+ "results": {
+  "V0": {
+   "floor_holds_cells": 18,
+   "max_excess_pct": 3.339139246168532,
+   "mean_rel_vs_bolt_pct": 0.31568927198791474,
+   "mean_alpha": null
+  },
+  "V1": {
+   "floor_holds_cells": 8,
+   "max_excess_pct": 1.2227155972254877,
+   "mean_rel_vs_bolt_pct": 0.2674843734836272,
+   "mean_alpha": 0.0430122664864199
+  },
+  "V2": {
+   "floor_holds_cells": 25,
+   "max_excess_pct": 0.0,
+   "mean_rel_vs_bolt_pct": 0.0,
+   "mean_alpha": 0.0
+  },
+  "V3": {
+   "floor_holds_cells": 1,
+   "max_excess_pct": 5.50158152161675,
+   "mean_rel_vs_bolt_pct": 1.4055879690292823,
+   "mean_alpha": 0.08400345296379744
+  },
+  "V4": {
+   "floor_holds_cells": 18,
+   "max_excess_pct": 3.394873275281407,
+   "mean_rel_vs_bolt_pct": 0.30899592435470646,
+   "mean_alpha": 0.051648652329878246
+  }
+ }
+}

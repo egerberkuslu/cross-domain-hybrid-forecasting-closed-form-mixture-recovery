@@ -1,0 +1,56 @@
+test abilene_od0 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 1}
+test abilene_od112 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 1}
+test cesnet_inst51 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 0}
+test cesnet_inst152 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 1}
+test cesnet_inst159 joint V1/V2/V3/STB: {'V1': 0, 'V2': 0, 'V3': 0, 'STB': 1}
+test cesnet_inst177 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 1}
+test cesnet_inst202 joint V1/V2/V3/STB: {'V1': 0, 'V2': 0, 'V3': 0, 'STB': 0}
+test cesnet_inst217 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 1}
+test cesnet_inst243 joint V1/V2/V3/STB: {'V1': 0, 'V2': 0, 'V3': 0, 'STB': 0}
+test cesnet_inst246 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 1}
+test abilene_od42 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 1}
+test cesnet_inst271 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 1}
+test abilene_od56 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 0}
+test abilene_od82 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 1}
+test abilene_od97 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 1}
+test abilene_od110 joint V1/V2/V3/STB: {'V1': 0, 'V2': 0, 'V3': 0, 'STB': 0}
+test cesnet_inst26 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 0}
+test cesnet_inst47 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 1}
+test cesnet_inst56 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 1}
+test cesnet_inst254 joint V1/V2/V3/STB: {'V1': 0, 'V2': 0, 'V3': 0, 'STB': 1}
+test geant_od10_12 joint V1/V2/V3/STB: {'V1': 0, 'V2': 0, 'V3': 0, 'STB': 1}
+test geant_od10_14 joint V1/V2/V3/STB: {'V1': 0, 'V2': 0, 'V3': 0, 'STB': 0}
+test geant_od10_16 joint V1/V2/V3/STB: {'V1': 1, 'V2': 0, 'V3': 0, 'STB': 0}
+test geant_od10_2 joint V1/V2/V3/STB: {'V1': 0, 'V2': 0, 'V3': 0, 'STB': 0}
+test geant_od10_21 joint V1/V2/V3/STB: {'V1': 0, 'V2': 0, 'V3': 0, 'STB': 0}
+test geant_od10_3 joint V1/V2/V3/STB: {'V1': 0, 'V2': 0, 'V3': 0, 'STB': 0}
+test geant_od10_9 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 0}
+test geant_od15_11 joint V1/V2/V3/STB: {'V1': 0, 'V2': 1, 'V3': 1, 'STB': 0}
+test geant_od15_8 joint V1/V2/V3/STB: {'V1': 0, 'V2': 1, 'V3': 1, 'STB': 0}
+test geant_od18_11 joint V1/V2/V3/STB: {'V1': 0, 'V2': 0, 'V3': 0, 'STB': 0}
+test geant_od1_4 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 0}
+test geant_od22_23 joint V1/V2/V3/STB: {'V1': 0, 'V2': 0, 'V3': 0, 'STB': 0}
+test geant_od3_15 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 0}
+test geant_od4_7 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 0}
+test geant_od5_11 joint V1/V2/V3/STB: {'V1': 0, 'V2': 0, 'V3': 1, 'STB': 0}
+test geant_od8_11 joint V1/V2/V3/STB: {'V1': 0, 'V2': 0, 'V3': 0, 'STB': 0}
+test geant_od8_21 joint V1/V2/V3/STB: {'V1': 0, 'V2': 1, 'V3': 1, 'STB': 1}
+test geant_od9_21 joint V1/V2/V3/STB: {'V1': 1, 'V2': 1, 'V3': 1, 'STB': 1}
+{
+ "P2": {
+  "traces": 20,
+  "need": 16,
+  "success": false,
+  "succeeding_variants": [],
+  "headline": null,
+  "mcnemar_vs_STB": {}
+ },
+ "arm_X": {
+  "R5": 11,
+  "V1": 15,
+  "V2": 15,
+  "V3": 15,
+  "STB": 14,
+  "ADB": 9
+ }
+}

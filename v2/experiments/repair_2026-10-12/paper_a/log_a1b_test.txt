@@ -1,0 +1,42 @@
+<CONDA>/lib/python3.12/site-packages/pandas/core/computation/expressions.py:23: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.8.7' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+<CONDA>/lib/python3.12/site-packages/pandas/core/arrays/masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.3.7' currently installed).
+  from pandas.core import (
+{
+ "criterion": "floor",
+ "headline": "V2",
+ "cfg": {
+  "lam": 0.0
+ },
+ "cells_better_vs_bolt_holm": 0,
+ "cells_worse_vs_bolt_holm": 0,
+ "cells_identical": 25,
+ "cells_tost_equiv": 0,
+ "pooled_gain_vs_best_control": {
+  "mean": -4.4408920985006264e-17,
+  "ci95_cell": [
+   -8.43769498715119e-17,
+   -4.440892098500626e-18
+  ],
+  "ci95_two_stage": [
+   -9.769962616701378e-17,
+   0.0
+  ]
+ },
+ "success": false,
+ "exploratory_override_gate": false,
+ "pseudo": false,
+ "floor": {
+  "holds_variant": 25,
+  "holds_V0": 18,
+  "holds_ctrl_a": 25,
+  "holds_ctrl_b": 25,
+  "gained_vs_V0": 7,
+  "lost_vs_V0": 0,
+  "p_sign_one_sided": 0.0078125,
+  "max_excess_pct_variant": 0.0,
+  "max_excess_pct_V0": 3.33913946623845,
+  "mean_rel_vs_bolt_variant": 0.0
+ },
+ "success_floor": false
+}

@@ -1,0 +1,13 @@
+== r4_stages.py --stage A --dry-run
+non-fresh abilene h6 stage A: rmse bolt 0.1973, eq 0.1984
+non-fresh abilene h6 pseudo stage B: rmse eq 0.1984
+pool-4 structure check cesnet_inst3 (1008, 168) (300, 21) no model fit, no accuracy
+cells in the pool: 302
+dry-run ok; test windows accessed: 0
+== r4_eval.py --stage select --dry-run
+ "success": true,
+ "success_secondary_unscaled_0.5pct": true,
+dry-run ok; test windows accessed: 0
+== r4_monitor.py --stage select --dry-run
+ "success": false,
+dry-run ok; test windows accessed: 0

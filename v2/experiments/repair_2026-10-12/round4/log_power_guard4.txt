@@ -1,0 +1,10 @@
+<CONDA>/lib/python3.12/site-packages/pandas/core/computation/expressions.py:23: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.8.7' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+<CONDA>/lib/python3.12/site-packages/pandas/core/arrays/masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.3.7' currently installed).
+  from pandas.core import (
+<REPO>/experiments/repair_2026-10-12/round4/power_guard4.py:53: RuntimeWarning: divide by zero encountered in divide
+  p = 2 * (1 - norm.cdf(np.abs(est) / se))
+<REPO>/experiments/repair_2026-10-12/round4/power_guard4.py:53: RuntimeWarning: invalid value encountered in divide
+  p = 2 * (1 - norm.cdf(np.abs(est) / se))
+min_gain_0.22pct (0.5 % x retention, effects in guarded units) {'MEDIAN': (24, 1.0), 'EMP': (24, 0.53), 'TAIL': (24, 0.96)}
+min_gain_0.5pct (unscaled threshold, i.e. 1.14 % in unguarded units) {'MEDIAN': (24, 0.57), 'EMP': (24, 0.01), 'TAIL': (24, 0.47)}

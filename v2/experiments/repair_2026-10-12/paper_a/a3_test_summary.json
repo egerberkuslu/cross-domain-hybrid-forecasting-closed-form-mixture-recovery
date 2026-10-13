@@ -1,0 +1,18 @@
+{
+ "headline_model": "L1",
+ "cells_better_than_scalar_holm": 1,
+ "cells_worse_than_scalar_by_gt_1pct": 4,
+ "pooled_gain_vs_best_control": {
+  "mean": -0.004819365849379538,
+  "ci95_cell": [
+   -0.011743442502973978,
+   0.0003599736924976531
+  ],
+  "ci95_two_stage": [
+   -0.017188212471561392,
+   0.001628539731396753
+  ]
+ },
+ "success": false,
+ "pseudo": false
+}

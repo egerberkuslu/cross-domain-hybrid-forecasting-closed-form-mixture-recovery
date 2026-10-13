@@ -1,0 +1,25 @@
+{
+ "criterion": "acc",
+ "headline": "V2",
+ "cfg": {
+  "lam": 0.75
+ },
+ "cells_better_vs_bolt_holm": 0,
+ "cells_worse_vs_bolt_holm": 0,
+ "cells_identical": 0,
+ "cells_tost_equiv": 3,
+ "pooled_gain_vs_best_control": {
+  "mean": 3.700743415417188e-17,
+  "ci95_cell": [
+   0.0,
+   1.1102230246251565e-16
+  ],
+  "ci95_two_stage": [
+   0.0,
+   1.1102230246251565e-16
+  ]
+ },
+ "success": false,
+ "exploratory_override_gate": true,
+ "pseudo": true
+}

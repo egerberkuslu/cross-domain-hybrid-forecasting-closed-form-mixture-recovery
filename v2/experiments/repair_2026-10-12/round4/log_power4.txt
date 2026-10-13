@@ -1,0 +1,11 @@
+<CONDA>/lib/python3.12/site-packages/pandas/core/computation/expressions.py:23: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.8.7' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+<CONDA>/lib/python3.12/site-packages/pandas/core/arrays/masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.3.7' currently installed).
+  from pandas.core import (
+<REPO>/experiments/repair_2026-10-12/round4/power_calc4.py:53: RuntimeWarning: divide by zero encountered in divide
+  p = 2 * (1 - norm.cdf(np.abs(est) / se))
+<REPO>/experiments/repair_2026-10-12/round4/power_calc4.py:53: RuntimeWarning: invalid value encountered in divide
+  p = 2 * (1 - norm.cdf(np.abs(est) / se))
+40 {'MEDIAN': (16, 0.96, 51.2), 'EMP': (16, 0.37, 25.3), 'TAIL': (16, 0.94, 25.7)}
+60 {'MEDIAN': (24, 1.0, 73.9), 'EMP': (24, 0.53, 35.2), 'TAIL': (24, 0.96, 35.0)}
+75 {'MEDIAN': (30, 1.0, 89.6), 'EMP': (30, 0.6, 42.4), 'TAIL': (30, 0.95, 42.4)}

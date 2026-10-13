@@ -1,0 +1,206 @@
+{
+ "mean_gain_round4": {
+  "gb": 0.006035738637867687,
+  "ga": 0.006351933304435421,
+  "gc": 0.004289528515403201,
+  "gnet": 0.0014151186000786547
+ },
+ "comps": {
+  "A104": {
+   "cesnet": 13,
+   "geant": 91
+  },
+  "A104+Fgeant100": {
+   "cesnet": 13,
+   "geant": 191
+  },
+  "A104+F300": {
+   "cesnet": 113,
+   "abilene": 100,
+   "geant": 191
+  },
+  "round4_60": {
+   "cesnet": 30,
+   "abilene": 10,
+   "geant": 20
+  }
+ },
+ "res": {
+  "A104": {
+   "EMP_primary": {
+    "K": 42,
+    "power": 1.0,
+    "power_without_control_mean_condition": 1.0,
+    "mean_wins": 76.695,
+    "mean_losses": 0.0
+   },
+   "EMP_secondary": {
+    "K": 42,
+    "power": 0.3325,
+    "power_without_control_mean_condition": 1.0,
+    "mean_wins": 50.275,
+    "mean_losses": 0.0
+   },
+   "HALF_primary": {
+    "K": 42,
+    "power": 0.7725,
+    "power_without_control_mean_condition": 1.0,
+    "mean_wins": 50.275,
+    "mean_losses": 3.905
+   },
+   "HALF_secondary": {
+    "K": 42,
+    "power": 0.0,
+    "power_without_control_mean_condition": 0.5775,
+    "mean_wins": 39.2825,
+    "mean_losses": 3.905
+   },
+   "NET_primary": {
+    "K": 42,
+    "power": 0.6025,
+    "power_without_control_mean_condition": 0.6025,
+    "mean_wins": 75.665,
+    "mean_losses": 0.0
+   },
+   "NET_secondary": {
+    "K": 42,
+    "power": 0.6025,
+    "power_without_control_mean_condition": 0.6025,
+    "mean_wins": 50.0175,
+    "mean_losses": 0.0
+   }
+  },
+  "A104+Fgeant100": {
+   "EMP_primary": {
+    "K": 82,
+    "power": 1.0,
+    "power_without_control_mean_condition": 1.0,
+    "mean_wins": 0.0,
+    "mean_losses": 0.0
+   },
+   "EMP_secondary": {
+    "K": 82,
+    "power": 0.4575,
+    "power_without_control_mean_condition": 1.0,
+    "mean_wins": 0.0,
+    "mean_losses": 0.0
+   },
+   "HALF_primary": {
+    "K": 82,
+    "power": 0.92,
+    "power_without_control_mean_condition": 1.0,
+    "mean_wins": 0.0,
+    "mean_losses": 0.0
+   },
+   "HALF_secondary": {
+    "K": 82,
+    "power": 0.0,
+    "power_without_control_mean_condition": 0.865,
+    "mean_wins": 0.0,
+    "mean_losses": 0.0
+   },
+   "NET_primary": {
+    "K": 82,
+    "power": 0.83,
+    "power_without_control_mean_condition": 0.83,
+    "mean_wins": 0.0,
+    "mean_losses": 0.0
+   },
+   "NET_secondary": {
+    "K": 82,
+    "power": 0.83,
+    "power_without_control_mean_condition": 0.83,
+    "mean_wins": 0.0,
+    "mean_losses": 0.0
+   }
+  },
+  "A104+F300": {
+   "EMP_primary": {
+    "K": 162,
+    "power": 1.0,
+    "power_without_control_mean_condition": 1.0,
+    "mean_wins": 0.0,
+    "mean_losses": 0.0
+   },
+   "EMP_secondary": {
+    "K": 162,
+    "power": 0.785,
+    "power_without_control_mean_condition": 1.0,
+    "mean_wins": 0.0,
+    "mean_losses": 0.0
+   },
+   "HALF_primary": {
+    "K": 162,
+    "power": 1.0,
+    "power_without_control_mean_condition": 1.0,
+    "mean_wins": 0.0,
+    "mean_losses": 0.0
+   },
+   "HALF_secondary": {
+    "K": 162,
+    "power": 0.0,
+    "power_without_control_mean_condition": 0.03,
+    "mean_wins": 0.0,
+    "mean_losses": 0.0
+   },
+   "NET_primary": {
+    "K": 162,
+    "power": 1.0,
+    "power_without_control_mean_condition": 1.0,
+    "mean_wins": 0.0,
+    "mean_losses": 0.0
+   },
+   "NET_secondary": {
+    "K": 162,
+    "power": 1.0,
+    "power_without_control_mean_condition": 1.0,
+    "mean_wins": 0.0,
+    "mean_losses": 0.0
+   }
+  },
+  "round4_60": {
+   "EMP_primary": {
+    "K": 24,
+    "power": 1.0,
+    "power_without_control_mean_condition": 1.0,
+    "mean_wins": 65.9,
+    "mean_losses": 0.0
+   },
+   "EMP_secondary": {
+    "K": 24,
+    "power": 0.1175,
+    "power_without_control_mean_condition": 0.93,
+    "mean_wins": 49.6675,
+    "mean_losses": 0.0
+   },
+   "HALF_primary": {
+    "K": 24,
+    "power": 0.4075,
+    "power_without_control_mean_condition": 0.7525,
+    "mean_wins": 48.7025,
+    "mean_losses": 11.2925
+   },
+   "HALF_secondary": {
+    "K": 24,
+    "power": 0.0,
+    "power_without_control_mean_condition": 0.0025,
+    "mean_wins": 36.6125,
+    "mean_losses": 11.2925
+   },
+   "NET_primary": {
+    "K": 24,
+    "power": 0.6725,
+    "power_without_control_mean_condition": 0.6725,
+    "mean_wins": 65.9625,
+    "mean_losses": 0.0
+   },
+   "NET_secondary": {
+    "K": 24,
+    "power": 0.6475,
+    "power_without_control_mean_condition": 0.6475,
+    "mean_wins": 50.39,
+    "mean_losses": 0.0
+   }
+  }
+ }
+}

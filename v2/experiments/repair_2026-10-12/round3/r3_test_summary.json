@@ -1,0 +1,51 @@
+{
+ "cells": 100,
+ "holm_family": 100,
+ "K_wins_required": 8,
+ "cells_win": 11,
+ "cells_loss": 0,
+ "cells_identical": 8,
+ "cells_tost_equiv": 72,
+ "pooled_gain_vs_bolt": {
+  "mean": 0.00499395231017552,
+  "ci95_cell": [
+   -0.000552617054801049,
+   0.01006043251402707
+  ],
+  "ci95_series_clustered": [
+   -0.0069556829911303865,
+   0.013666548202684644
+  ]
+ },
+ "pooled_gain_vs_best_control": {
+  "mean": 0.006211984297953635,
+  "ci95_cell": [
+   7.40294309928831e-05,
+   0.012056647373490985
+  ],
+  "ci95_series_clustered": [
+   -0.007115707384491272,
+   0.017895699023799033
+  ]
+ },
+ "per_source": {
+  "abilene_od": {
+   "cells": 30,
+   "wins": 3,
+   "mean_gain": -0.0013706954884553388
+  },
+  "cesnet_inst": {
+   "cells": 40,
+   "wins": 8,
+   "mean_gain": 0.013263125818817884
+  },
+  "geant_od": {
+   "cells": 30,
+   "wins": 0,
+   "mean_gain": 0.000333035430616561
+  }
+ },
+ "mean_rel_best_single_vs_bolt": 0.014150238242000299,
+ "success": false,
+ "pseudo": false
+}

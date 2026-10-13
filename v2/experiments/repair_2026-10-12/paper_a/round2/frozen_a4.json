@@ -1,0 +1,766 @@
+{
+ "stage": "select",
+ "dry_run": false,
+ "headline": "DA",
+ "val_detection_mean": {
+  "DA": 1.0,
+  "DB": 0.528
+ },
+ "val_fa_mean": {
+  "DA": 0.01606908046948998,
+  "DB": 0.02310956038859249
+ },
+ "params": {
+  "cesnet|42": {
+   "DA": {
+    "cfg": [
+     240,
+     60,
+     2.0
+    ],
+    "burn": 300,
+    "level": 22.0,
+    "floor": 0.0685421596554619,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.024922118380062305,
+    "n_feasible_cfgs": 12
+   },
+   "DB": {
+    "cfg": [
+     60,
+     240,
+     60
+    ],
+    "burn": 359,
+    "level": 0.8500000000000005,
+    "floor": 0.0685421596554619,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.0,
+    "n_feasible_cfgs": 2
+   }
+  },
+  "cesnet|123": {
+   "DA": {
+    "cfg": [
+     120,
+     10,
+     2.0
+    ],
+    "burn": 300,
+    "level": 6.0,
+    "floor": 0.06814096523097878,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.024630541871921183,
+    "n_feasible_cfgs": 13
+   },
+   "DB": {
+    "cfg": [
+     60,
+     240,
+     60
+    ],
+    "burn": 359,
+    "level": 0.8250000000000004,
+    "floor": 0.06814096523097878,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.024013722126929673,
+    "n_feasible_cfgs": 2
+   }
+  },
+  "cesnet|2024": {
+   "DA": {
+    "cfg": [
+     120,
+     10,
+     2.0
+    ],
+    "burn": 300,
+    "level": 11.0,
+    "floor": 0.06340962591237084,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.027093596059113302,
+    "n_feasible_cfgs": 12
+   },
+   "DB": {
+    "cfg": [
+     60,
+     240,
+     60
+    ],
+    "burn": 359,
+    "level": 0.8250000000000004,
+    "floor": 0.06340962591237084,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.008576329331046312,
+    "n_feasible_cfgs": 2
+   }
+  },
+  "cesnet|31337": {
+   "DA": {
+    "cfg": [
+     120,
+     30,
+     2.0
+    ],
+    "burn": 300,
+    "level": 47.0,
+    "floor": 0.06616327947618099,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.027777777777777776,
+    "n_feasible_cfgs": 12
+   },
+   "DB": {
+    "cfg": [
+     60,
+     240,
+     60
+    ],
+    "burn": 359,
+    "level": 0.8250000000000004,
+    "floor": 0.06616327947618099,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.008576329331046312,
+    "n_feasible_cfgs": 2
+   }
+  },
+  "cesnet|7": {
+   "DA": {
+    "cfg": [
+     30,
+     10,
+     1.0
+    ],
+    "burn": 300,
+    "level": 40.0,
+    "floor": 0.06717956443029266,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.022172949002217297,
+    "n_feasible_cfgs": 12
+   },
+   "DB": {
+    "cfg": [
+     60,
+     240,
+     60
+    ],
+    "burn": 359,
+    "level": 0.8250000000000004,
+    "floor": 0.06717956443029266,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.02058319039451115,
+    "n_feasible_cfgs": 2
+   }
+  },
+  "abilene|42": {
+   "DA": {
+    "cfg": [
+     30,
+     10,
+     1.0
+    ],
+    "burn": 300,
+    "level": 44.0,
+    "floor": 0.09719291266394611,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.02702702702702703,
+    "n_feasible_cfgs": 8
+   },
+   "DB": {
+    "cfg": [
+     60,
+     120,
+     30
+    ],
+    "burn": 209,
+    "level": 0.8250000000000004,
+    "floor": 0.09719291266394611,
+    "feasible": true,
+    "val_det": 0.7,
+    "val_fa": 0.03546099290780142,
+    "n_feasible_cfgs": 1
+   }
+  },
+  "abilene|123": {
+   "DA": {
+    "cfg": [
+     30,
+     10,
+     1.0
+    ],
+    "burn": 300,
+    "level": 47.0,
+    "floor": 0.09785762510795998,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.028716216216216218,
+    "n_feasible_cfgs": 8
+   },
+   "DB": {
+    "cfg": [
+     60,
+     120,
+     30
+    ],
+    "burn": 209,
+    "level": 0.8000000000000005,
+    "floor": 0.09785762510795998,
+    "feasible": true,
+    "val_det": 0.9,
+    "val_fa": 0.03309692671394799,
+    "n_feasible_cfgs": 1
+   }
+  },
+  "abilene|2024": {
+   "DA": {
+    "cfg": [
+     30,
+     10,
+     1.0
+    ],
+    "burn": 300,
+    "level": 39.0,
+    "floor": 0.09475066950486356,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.02533783783783784,
+    "n_feasible_cfgs": 6
+   },
+   "DB": {
+    "cfg": [
+     45,
+     90,
+     30
+    ],
+    "burn": 209,
+    "level": 0.9750000000000005,
+    "floor": 0.09475066950486356,
+    "feasible": true,
+    "val_det": 0.9,
+    "val_fa": 0.038461538461538464,
+    "n_feasible_cfgs": 2
+   }
+  },
+  "abilene|31337": {
+   "DA": {
+    "cfg": [
+     30,
+     10,
+     1.0
+    ],
+    "burn": 300,
+    "level": 43.0,
+    "floor": 0.0976829203276391,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.02533783783783784,
+    "n_feasible_cfgs": 8
+   },
+   "DB": {
+    "cfg": [
+     60,
+     120,
+     30
+    ],
+    "burn": 209,
+    "level": 0.8250000000000004,
+    "floor": 0.0976829203276391,
+    "feasible": true,
+    "val_det": 0.7,
+    "val_fa": 0.03309692671394799,
+    "n_feasible_cfgs": 1
+   }
+  },
+  "abilene|7": {
+   "DA": {
+    "cfg": [
+     30,
+     10,
+     1.0
+    ],
+    "burn": 250,
+    "level": 41.0,
+    "floor": 0.0948982866992847,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.02533783783783784,
+    "n_feasible_cfgs": 5
+   },
+   "DB": {
+    "cfg": [
+     60,
+     120,
+     30
+    ],
+    "burn": 209,
+    "level": 0.8000000000000005,
+    "floor": 0.0948982866992847,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.03546099290780142,
+    "n_feasible_cfgs": 2
+   }
+  },
+  "geant|42": {
+   "DA": {
+    "cfg": [
+     30,
+     30,
+     2.0
+    ],
+    "burn": 90,
+    "level": 48.0,
+    "floor": 0.04167870237126236,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.025806451612903226,
+    "n_feasible_cfgs": 7
+   },
+   "DB": {
+    "cfg": [
+     60,
+     240,
+     60
+    ],
+    "burn": 0,
+    "level": 0.9750000000000005,
+    "floor": 0.04167870237126236,
+    "feasible": false,
+    "val_det": NaN,
+    "val_fa": NaN,
+    "n_feasible_cfgs": 0
+   }
+  },
+  "geant|123": {
+   "DA": {
+    "cfg": [
+     30,
+     30,
+     2.0
+    ],
+    "burn": 90,
+    "level": 22.0,
+    "floor": 0.04610991021241048,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.03870967741935484,
+    "n_feasible_cfgs": 13
+   },
+   "DB": {
+    "cfg": [
+     30,
+     60,
+     10
+    ],
+    "burn": 99,
+    "level": 0.9750000000000005,
+    "floor": 0.04610991021241048,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.02586206896551724,
+    "n_feasible_cfgs": 1
+   }
+  },
+  "geant|2024": {
+   "DA": {
+    "cfg": [
+     30,
+     10,
+     2.0
+    ],
+    "burn": 90,
+    "level": 9.0,
+    "floor": 0.03437250200232827,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.03428571428571429,
+    "n_feasible_cfgs": 14
+   },
+   "DB": {
+    "cfg": [
+     30,
+     60,
+     10
+    ],
+    "burn": 99,
+    "level": 0.9500000000000006,
+    "floor": 0.03437250200232827,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.04310344827586207,
+    "n_feasible_cfgs": 1
+   }
+  },
+  "geant|31337": {
+   "DA": {
+    "cfg": [
+     30,
+     10,
+     2.0
+    ],
+    "burn": 70,
+    "level": 39.0,
+    "floor": 0.039761202697133416,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.02857142857142857,
+    "n_feasible_cfgs": 2
+   },
+   "DB": {
+    "cfg": [
+     30,
+     60,
+     10
+    ],
+    "burn": 99,
+    "level": 0.9750000000000005,
+    "floor": 0.039761202697133416,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.017241379310344827,
+    "n_feasible_cfgs": 1
+   }
+  },
+  "geant|7": {
+   "DA": {
+    "cfg": [
+     30,
+     60,
+     1.0
+    ],
+    "burn": 90,
+    "level": 49.0,
+    "floor": 0.04378369757566276,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.016,
+    "n_feasible_cfgs": 9
+   },
+   "DB": {
+    "cfg": [
+     30,
+     60,
+     10
+    ],
+    "burn": 99,
+    "level": 0.9500000000000006,
+    "floor": 0.04378369757566276,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.0,
+    "n_feasible_cfgs": 1
+   }
+  },
+  "nab_aws_cpu|42": {
+   "DA": {
+    "cfg": [
+     60,
+     10,
+     0.5
+    ],
+    "burn": 70,
+    "level": 40.0,
+    "floor": 0.04714920977533295,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.0,
+    "n_feasible_cfgs": 8
+   },
+   "DB": {
+    "cfg": [
+     60,
+     240,
+     60
+    ],
+    "burn": 0,
+    "level": 0.9750000000000005,
+    "floor": 0.04714920977533295,
+    "feasible": false,
+    "val_det": NaN,
+    "val_fa": NaN,
+    "n_feasible_cfgs": 0
+   }
+  },
+  "nab_aws_cpu|123": {
+   "DA": {
+    "cfg": [
+     60,
+     10,
+     0.5
+    ],
+    "burn": 70,
+    "level": 39.0,
+    "floor": 0.04602193770179631,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.0,
+    "n_feasible_cfgs": 8
+   },
+   "DB": {
+    "cfg": [
+     60,
+     240,
+     60
+    ],
+    "burn": 0,
+    "level": 0.9750000000000005,
+    "floor": 0.04602193770179631,
+    "feasible": false,
+    "val_det": NaN,
+    "val_fa": NaN,
+    "n_feasible_cfgs": 0
+   }
+  },
+  "nab_aws_cpu|2024": {
+   "DA": {
+    "cfg": [
+     60,
+     10,
+     0.5
+    ],
+    "burn": 70,
+    "level": 42.0,
+    "floor": 0.04823257485747138,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.0,
+    "n_feasible_cfgs": 8
+   },
+   "DB": {
+    "cfg": [
+     60,
+     240,
+     60
+    ],
+    "burn": 0,
+    "level": 0.9750000000000005,
+    "floor": 0.04823257485747138,
+    "feasible": false,
+    "val_det": NaN,
+    "val_fa": NaN,
+    "n_feasible_cfgs": 0
+   }
+  },
+  "nab_aws_cpu|31337": {
+   "DA": {
+    "cfg": [
+     60,
+     10,
+     0.5
+    ],
+    "burn": 70,
+    "level": 39.0,
+    "floor": 0.04693843001829748,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.0,
+    "n_feasible_cfgs": 8
+   },
+   "DB": {
+    "cfg": [
+     60,
+     240,
+     60
+    ],
+    "burn": 0,
+    "level": 0.9750000000000005,
+    "floor": 0.04693843001829748,
+    "feasible": false,
+    "val_det": NaN,
+    "val_fa": NaN,
+    "n_feasible_cfgs": 0
+   }
+  },
+  "nab_aws_cpu|7": {
+   "DA": {
+    "cfg": [
+     60,
+     10,
+     0.5
+    ],
+    "burn": 70,
+    "level": 39.0,
+    "floor": 0.046130381077504175,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.0,
+    "n_feasible_cfgs": 8
+   },
+   "DB": {
+    "cfg": [
+     60,
+     240,
+     60
+    ],
+    "burn": 0,
+    "level": 0.9750000000000005,
+    "floor": 0.046130381077504175,
+    "feasible": false,
+    "val_det": NaN,
+    "val_fa": NaN,
+    "n_feasible_cfgs": 0
+   }
+  },
+  "nab_twitter|42": {
+   "DA": {
+    "cfg": [
+     30,
+     10,
+     0.5
+    ],
+    "burn": 60,
+    "level": 51.0,
+    "floor": 0.04546512123619994,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.0,
+    "n_feasible_cfgs": 6
+   },
+   "DB": {
+    "cfg": [
+     60,
+     240,
+     60
+    ],
+    "burn": 0,
+    "level": 0.9750000000000005,
+    "floor": 0.04546512123619994,
+    "feasible": false,
+    "val_det": NaN,
+    "val_fa": NaN,
+    "n_feasible_cfgs": 0
+   }
+  },
+  "nab_twitter|123": {
+   "DA": {
+    "cfg": [
+     30,
+     10,
+     0.5
+    ],
+    "burn": 60,
+    "level": 51.0,
+    "floor": 0.04775796993446276,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.0,
+    "n_feasible_cfgs": 6
+   },
+   "DB": {
+    "cfg": [
+     60,
+     240,
+     60
+    ],
+    "burn": 0,
+    "level": 0.9750000000000005,
+    "floor": 0.04775796993446276,
+    "feasible": false,
+    "val_det": NaN,
+    "val_fa": NaN,
+    "n_feasible_cfgs": 0
+   }
+  },
+  "nab_twitter|2024": {
+   "DA": {
+    "cfg": [
+     30,
+     10,
+     0.5
+    ],
+    "burn": 60,
+    "level": 50.0,
+    "floor": 0.04740032202465389,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.0,
+    "n_feasible_cfgs": 6
+   },
+   "DB": {
+    "cfg": [
+     60,
+     240,
+     60
+    ],
+    "burn": 0,
+    "level": 0.9750000000000005,
+    "floor": 0.04740032202465389,
+    "feasible": false,
+    "val_det": NaN,
+    "val_fa": NaN,
+    "n_feasible_cfgs": 0
+   }
+  },
+  "nab_twitter|31337": {
+   "DA": {
+    "cfg": [
+     30,
+     10,
+     0.5
+    ],
+    "burn": 60,
+    "level": 49.0,
+    "floor": 0.04630816088683415,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.0,
+    "n_feasible_cfgs": 6
+   },
+   "DB": {
+    "cfg": [
+     60,
+     240,
+     60
+    ],
+    "burn": 0,
+    "level": 0.9750000000000005,
+    "floor": 0.04630816088683415,
+    "feasible": false,
+    "val_det": NaN,
+    "val_fa": NaN,
+    "n_feasible_cfgs": 0
+   }
+  },
+  "nab_twitter|7": {
+   "DA": {
+    "cfg": [
+     30,
+     10,
+     0.5
+    ],
+    "burn": 60,
+    "level": 52.0,
+    "floor": 0.047797514598542305,
+    "feasible": true,
+    "val_det": 1.0,
+    "val_fa": 0.0,
+    "n_feasible_cfgs": 6
+   },
+   "DB": {
+    "cfg": [
+     60,
+     240,
+     60
+    ],
+    "burn": 0,
+    "level": 0.9750000000000005,
+    "floor": 0.047797514598542305,
+    "feasible": false,
+    "val_det": NaN,
+    "val_fa": NaN,
+    "n_feasible_cfgs": 0
+   }
+  }
+ },
+ "test_files_read": 0
+}

@@ -1,0 +1,9 @@
+{
+ "traces": 12,
+ "need": 10,
+ "cond1_fa_le5": 9,
+ "cond2_shift_specific": 11,
+ "cond3_above_placebo": 8,
+ "success": false,
+ "pseudo": false
+}

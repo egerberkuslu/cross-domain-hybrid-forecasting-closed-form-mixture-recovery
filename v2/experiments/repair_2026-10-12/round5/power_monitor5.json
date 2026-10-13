@@ -1,0 +1,71 @@
+{
+ "round4_patterns_by_source": {
+  "abilene": [
+   5,
+   6,
+   4
+  ],
+  "cesnet": [
+   4,
+   5,
+   4
+  ]
+ },
+ "n_traces_by_source": {
+  "abilene": 6,
+  "cesnet": 6
+ },
+ "res": {
+  "12_round4_design": {
+   "POST": {
+    "n": 12,
+    "need": 10,
+    "power": 0.03225
+   },
+   "P90": {
+    "n": 12,
+    "need": 10,
+    "power": 0.70275
+   },
+   "P95": {
+    "n": 12,
+    "need": 10,
+    "power": 0.9515
+   }
+  },
+  "30": {
+   "POST": {
+    "n": 30,
+    "need": 24,
+    "power": 0.0205
+   },
+   "P90": {
+    "n": 30,
+    "need": 24,
+    "power": 0.936
+   },
+   "P95": {
+    "n": 30,
+    "need": 24,
+    "power": 0.99825
+   }
+  },
+  "64_all_F": {
+   "POST": {
+    "n": 64,
+    "need": 52,
+    "power": 0.01525
+   },
+   "P90": {
+    "n": 64,
+    "need": 52,
+    "power": 0.97025
+   },
+   "P95": {
+    "n": 64,
+    "need": 52,
+    "power": 1.0
+   }
+  }
+ }
+}

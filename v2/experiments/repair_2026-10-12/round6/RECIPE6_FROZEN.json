@@ -1,0 +1,85 @@
+{
+ "expert": "E-Q (quantile gradient boosting on lag and calendar features, median point forecast)",
+ "training_data": {
+  "stage_A_validation_forecasts": "train windows only",
+  "stage_B_test_forecasts": "train + validation windows (refit, same hyper-parameters)"
+ },
+ "null_expert": "E-Q0: same recipe, median model, feature rows shuffled across windows, permutation seed 0",
+ "hyperparameters": {
+  "quantiles": [
+   0.1,
+   0.5,
+   0.9
+  ],
+  "max_iter": 150,
+  "learning_rate": 0.06,
+  "max_depth": 4,
+  "min_samples_leaf": 40,
+  "l2_regularization": 1.0,
+  "early_stopping": false,
+  "random_state": 0
+ },
+ "features_source": {
+  "file": "experiments/repair_2026-10-12/paper_a/round2/experts.py",
+  "sha256": "12dd347abade46ed64113215791ab74dfc81f55f3877e253559cce2ee64a3ada",
+  "function": "features(X, tt, h)"
+ },
+ "mixture": "M2: f = Bolt + alpha (E-Q - Bolt), alpha = Bates-Granger closed form on ALL validation windows (E-Q trained on train only), clipped to [0, 1] and snapped to the 0.05 grid",
+ "bolt": {
+  "model": "amazon/chronos-bolt-small",
+  "hf_snapshot": "772f3d25d38aec6d914c8949dab4462e2d46f5d8",
+  "weights_sha256": "06a6a19bbe74bc10a9cd193bd4bf2bf638ae07f7e0d51653ae7ab8ea968a21dd",
+  "device": "cpu",
+  "dtype": "float32",
+  "batch": 32
+ },
+ "environment": {
+  "sklearn": "1.9.0",
+  "numpy": "1.26.4",
+  "chronos-forecasting": "2.2.2",
+  "python": "3.12.4"
+ },
+ "round2_models_hash_file": "experiments/repair_2026-10-12/paper_a/round2/MODELS_SHA256.txt",
+ "unchanged_from_earlier_rounds": {
+  "paper_a/a2.py": "d915197bacddf57efa687c819a41f7be10f2c2b7420443a45d6db05879234dc0",
+  "paper_a/stats_tools.py": "3e8b97b101f1d8d73364d26876ee7b5e695708560628a6ba52a0e62079160fe1",
+  "paper_a/rcommon.py": "747cddd2ac9c76b8ca61dccd76521c09a9beffeec59e80f214716d711785ac33",
+  "round3/eq_recipe.py": "d45d3ae7ea731d580d3199ce27f5c6f4cd48cee5bc52e2857fa4597bc9cfcf24",
+  "round3/RECIPE_FROZEN.json": "5a96181ebe5633f76daf34646a301c6d5453e2b60e8187b99a57f258c590cde8",
+  "round3/r3_stages.py": "6b3f2e79169e729e73bd17da3f7012a7b2133e5f15623756b957b2c1cb327521",
+  "round3/r3_monitor.py": "f99a3f690eef95a95bf5c9f7032299f1d95206273e2404b665a7cb884c8b1e15",
+  "round4/r4_monitor.py": "86f9deccbd028214da37a6cc656d5fdbed4806c01ab1519f4bf81c6fb2f432b1",
+  "round4/frozen_r4_guard.json": "566443299bcb80eed5df57d7f9a7afa9cb96b3d07c1185b9ef4a59a9c161a4d8",
+  "round5/r5_stages.py": "1d840c9cd1a73d8194ebd148083b6bd50ef90438a89716fff21d3bdd80ee083b",
+  "round5/RECIPE5_FROZEN.json": "b78bbedfa3e2dac67735b34220db08c5a6c74bd9b0eaacb57f34d974110c2f5c",
+  "fresh_cells/fresh_cells.py": "f4f5a4da72b34d3938865a36f8b66d970d270f8f76387a20d1b6c715f3a50660",
+  "fresh_cells/build_pool4.py": "44a5dab666886d1381476e9457ff4f7fe6d835058ec7db7e1118b0bd87ed9060",
+  "../fix_2026-10-11/monitor_far.py": "c281d994bcf2bcedb35de47eaa979ce861dd0d024e353b73fc421e539e9a782c"
+ },
+ "round6_code": {
+  "r6_lib.py": "32a0a541ccabff7ec8b66550b75eb3f472cfb8157a1a66ddce38f7725f8fb0d7",
+  "r6_monitor.py": "581a2f4b1c070cd2a2c302968c17a5a5b7eaf59be63e11508ba5b1ec049a910f",
+  "r6_stages.py": "37c11cdd42c141b962b2f0bf5aabea424ff4ffe3b06e89c076daeb0cba42d1ce",
+  "build_pool6.py": "e517c97a9db878f7800976a6f01cf50ec39e2c0c2f5f689bd5f57f7a4ac8df1a",
+  "power6.py": "c54cc451bc9b8e7a6b82da0d4a3484a187753cebed82b19f3f41aa2ba2a9aa0f",
+  "diag6.py": "68b7ff0a2b2e1b497f97efc6579269f084bbd2017c988b830151f0dc725f4a28",
+  "classify6.py": "1e747f6064a8dc1d41c4eb1f221a04f9ed2e4ff32f067d47ccf4690118b309d1",
+  "val6.py": "78412c0bf4588166ba79fe8c493e3da5f9f2f9874454d51bc0f2239d1cd5ed27",
+  "inv6.py": "9d3beb54cad0ec23787626a12f8e380037718f3fb6b2fbb35005dd3214c33ace",
+  "classify6_r6.py": "243fb0643d46178ce00df0f3b11292bb30d0b06a5a8f95ff4d1d3491466b81bd"
+ },
+ "round6_outputs": {
+  "power6.json": "55f52160c1241a26eacaddcd8f093b39e99f1fa73e12645963af484044c86e5b",
+  "power6_combined.json": "1c1c79114c2b946692ecf678ed4c890bd5aa518e672f3a41000e4bd7439d0161",
+  "power6_scenarios.json": "72cb2a4c8c17e5b7ef2748f17ab43eb8e60bfceb113f0b6ccd5a276e539ba5a9",
+  "pool6_manifest.json": "46757dcba4b7e748972f3adc5b22840436cb721e64ecb1c262e6763f3ac1db86",
+  "reserved_round6_M.json": "11d6a77079252b5cf7bb4a6f821afbeb43ca7ce60fc6e070db4f45e65d19a314",
+  "dryrun_log.txt": "6813693df0360c45a17f7a9a7906826c1fbc784ac9f0c29f692f76d64f8c3d05"
+ },
+ "pool6_manifest_sha256": "46757dcba4b7e748972f3adc5b22840436cb721e64ecb1c262e6763f3ac1db86",
+ "commands": {
+  "build_pool6": "cd experiments/repair_2026-10-12/round6 && PYTHONDONTWRITEBYTECODE=1 nice -n 19 taskset -c 12-15 ../../../.chas-venv/bin/python build_pool6.py",
+  "dry_run": "PYTHONDONTWRITEBYTECODE=1 nice -n 19 taskset -c 12-15 .chas-venv/bin/python experiments/repair_2026-10-12/round6/r6_monitor.py --stage select --dry-run   (from the repository root)",
+  "pipeline": "bash experiments/repair_2026-10-12/round6/run_r6.sh   (UNTIL=select stops after the select phase)"
+ }
+}

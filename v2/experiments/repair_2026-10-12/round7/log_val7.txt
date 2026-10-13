@@ -1,0 +1,301 @@
+abilene_od0 revealed_r6_test {'V3': 1, 'W1': 0, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od112 revealed_r6_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+cesnet_inst51 revealed_r6_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+cesnet_inst159 revealed_r6_test {'V3': 0, 'W1': 1, 'W2': 0, 'W3': 0, 'STB7': 0}
+cesnet_inst152 revealed_r6_test {'V3': 1, 'W1': 0, 'W2': 1, 'W3': 1, 'STB7': 1}
+cesnet_inst177 revealed_r6_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+cesnet_inst202 revealed_r6_test {'V3': 0, 'W1': 0, 'W2': 0, 'W3': 1, 'STB7': 0}
+cesnet_inst217 revealed_r6_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+cesnet_inst243 revealed_r6_test {'V3': 0, 'W1': 0, 'W2': 0, 'W3': 0, 'STB7': 0}
+cesnet_inst271 revealed_r6_test {'V3': 1, 'W1': 1, 'W2': 0, 'W3': 1, 'STB7': 1}
+cesnet_inst246 revealed_r6_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od42 revealed_r6_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od56 revealed_r6_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+abilene_od82 revealed_r6_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od97 revealed_r6_test {'V3': 1, 'W1': 1, 'W2': 0, 'W3': 1, 'STB7': 1}
+abilene_od110 revealed_r6_test {'V3': 0, 'W1': 0, 'W2': 0, 'W3': 1, 'STB7': 0}
+cesnet_inst26 revealed_r6_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+cesnet_inst47 revealed_r6_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+cesnet_inst56 revealed_r6_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+cesnet_inst254 revealed_r6_test {'V3': 0, 'W1': 1, 'W2': 0, 'W3': 1, 'STB7': 0}
+cesnet_inst29 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+cesnet_inst98 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+cesnet_inst103 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+cesnet_inst105 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+cesnet_inst118 revealed_r5_test {'V3': 0, 'W1': 1, 'W2': 1, 'W3': 0, 'STB7': 0}
+cesnet_inst178 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+cesnet_inst192 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 0, 'W3': 1, 'STB7': 1}
+cesnet_inst238 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+cesnet_inst266 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+cesnet_inst270 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 0, 'STB7': 1}
+cesnet_inst284 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+abilene_od2 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+abilene_od4 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od11 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od5 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od13 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od14 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 0, 'W3': 1, 'STB7': 1}
+abilene_od17 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+abilene_od18 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od20 revealed_r5_test {'V3': 1, 'W1': 0, 'W2': 0, 'W3': 1, 'STB7': 0}
+abilene_od23 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od25 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 0, 'W3': 1, 'STB7': 1}
+abilene_od28 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od32 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 0, 'STB7': 1}
+abilene_od41 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od43 revealed_r5_test {'V3': 0, 'W1': 0, 'W2': 1, 'W3': 0, 'STB7': 0}
+abilene_od44 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+abilene_od46 revealed_r5_test {'V3': 0, 'W1': 1, 'W2': 0, 'W3': 0, 'STB7': 1}
+abilene_od52 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+abilene_od55 revealed_r5_test {'V3': 1, 'W1': 0, 'W2': 0, 'W3': 1, 'STB7': 0}
+abilene_od59 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+abilene_od61 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+abilene_od62 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od65 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od66 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+abilene_od67 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od68 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+abilene_od71 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od74 revealed_r5_test {'V3': 0, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+abilene_od75 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od78 revealed_r5_test {'V3': 1, 'W1': 0, 'W2': 1, 'W3': 0, 'STB7': 0}
+abilene_od80 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od81 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od87 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od88 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+abilene_od90 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od92 revealed_r5_test {'V3': 1, 'W1': 0, 'W2': 1, 'W3': 1, 'STB7': 0}
+abilene_od93 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od94 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od98 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od99 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 0, 'W3': 1, 'STB7': 1}
+abilene_od100 revealed_r5_test {'V3': 0, 'W1': 0, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od101 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od102 revealed_r5_test {'V3': 0, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+abilene_od104 revealed_r5_test {'V3': 0, 'W1': 1, 'W2': 1, 'W3': 0, 'STB7': 0}
+abilene_od107 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od109 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 0, 'W3': 1, 'STB7': 0}
+abilene_od113 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+abilene_od124 revealed_r5_test {'V3': 1, 'W1': 0, 'W2': 1, 'W3': 0, 'STB7': 1}
+abilene_od130 revealed_r5_test {'V3': 1, 'W1': 0, 'W2': 0, 'W3': 0, 'STB7': 1}
+abilene_od131 revealed_r5_test {'V3': 0, 'W1': 0, 'W2': 0, 'W3': 0, 'STB7': 0}
+abilene_od136 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 0}
+abilene_od142 revealed_r5_test {'V3': 1, 'W1': 0, 'W2': 0, 'W3': 1, 'STB7': 0}
+abilene_od141 revealed_r5_test {'V3': 1, 'W1': 1, 'W2': 1, 'W3': 1, 'STB7': 1}
+{
+ "revealed_r5_test": {
+  "STB7": {
+   "n": 64,
+   "feasible": 64,
+   "c1": 62,
+   "c2": 54,
+   "c3": 38,
+   "joint": 38,
+   "rand_ctrl_c3_share_mean": 0.020859375,
+   "mean_det": 0.9661458333333334,
+   "mean_null_dense": 0.3265833761562179,
+   "by_source_joint": {
+    "abilene": [
+     32,
+     53
+    ],
+    "cesnet": [
+     6,
+     11
+    ]
+   }
+  },
+  "V3": {
+   "n": 64,
+   "feasible": 56,
+   "c1": 64,
+   "c2": 61,
+   "c3": 56,
+   "joint": 56,
+   "rand_ctrl_c3_share_mean": 0.008828125,
+   "mean_det": 0.9260416666666667,
+   "mean_null_dense": 0.07465050686723348,
+   "by_source_joint": {
+    "abilene": [
+     46,
+     53
+    ],
+    "cesnet": [
+     10,
+     11
+    ]
+   }
+  },
+  "W1": {
+   "n": 64,
+   "feasible": 53,
+   "c1": 64,
+   "c2": 61,
+   "c3": 54,
+   "joint": 54,
+   "rand_ctrl_c3_share_mean": 0.015859375000000002,
+   "mean_det": 0.9322916666666666,
+   "mean_null_dense": 0.10862608614407175,
+   "by_source_joint": {
+    "abilene": [
+     43,
+     53
+    ],
+    "cesnet": [
+     11,
+     11
+    ]
+   }
+  },
+  "W2": {
+   "n": 64,
+   "feasible": 54,
+   "c1": 64,
+   "c2": 58,
+   "c3": 53,
+   "joint": 53,
+   "rand_ctrl_c3_share_mean": 0.02140625,
+   "mean_det": 0.8765625,
+   "mean_null_dense": 0.10356909277772587,
+   "by_source_joint": {
+    "abilene": [
+     43,
+     53
+    ],
+    "cesnet": [
+     10,
+     11
+    ]
+   }
+  },
+  "W3": {
+   "n": 64,
+   "feasible": 40,
+   "c1": 64,
+   "c2": 60,
+   "c3": 54,
+   "joint": 54,
+   "rand_ctrl_c3_share_mean": 0.009062500000000001,
+   "mean_det": 0.9088541666666667,
+   "mean_null_dense": 0.08571049004951883,
+   "by_source_joint": {
+    "abilene": [
+     45,
+     53
+    ],
+    "cesnet": [
+     9,
+     11
+    ]
+   }
+  }
+ },
+ "revealed_r6_test": {
+  "STB7": {
+   "n": 20,
+   "feasible": 20,
+   "c1": 18,
+   "c2": 12,
+   "c3": 9,
+   "joint": 9,
+   "rand_ctrl_c3_share_mean": 0.017499999999999998,
+   "mean_det": 1.0,
+   "mean_null_dense": 0.5443380360646548,
+   "by_source_joint": {
+    "abilene": [
+     4,
+     7
+    ],
+    "cesnet": [
+     5,
+     13
+    ]
+   }
+  },
+  "V3": {
+   "n": 20,
+   "feasible": 14,
+   "c1": 20,
+   "c2": 16,
+   "c3": 15,
+   "joint": 15,
+   "rand_ctrl_c3_share_mean": 0.0,
+   "mean_det": 0.8183333333333334,
+   "mean_null_dense": 0.040301784546388865,
+   "by_source_joint": {
+    "abilene": [
+     6,
+     7
+    ],
+    "cesnet": [
+     9,
+     13
+    ]
+   }
+  },
+  "W1": {
+   "n": 20,
+   "feasible": 14,
+   "c1": 20,
+   "c2": 18,
+   "c3": 15,
+   "joint": 15,
+   "rand_ctrl_c3_share_mean": 0.0,
+   "mean_det": 0.9116666666666667,
+   "mean_null_dense": 0.07439035784359524,
+   "by_source_joint": {
+    "abilene": [
+     5,
+     7
+    ],
+    "cesnet": [
+     10,
+     13
+    ]
+   }
+  },
+  "W2": {
+   "n": 20,
+   "feasible": 19,
+   "c1": 20,
+   "c2": 15,
+   "c3": 13,
+   "joint": 13,
+   "rand_ctrl_c3_share_mean": 0.006,
+   "mean_det": 0.7583333333333334,
+   "mean_null_dense": 0.08587205527374911,
+   "by_source_joint": {
+    "abilene": [
+     5,
+     7
+    ],
+    "cesnet": [
+     8,
+     13
+    ]
+   }
+  },
+  "W3": {
+   "n": 20,
+   "feasible": 11,
+   "c1": 20,
+   "c2": 18,
+   "c3": 18,
+   "joint": 18,
+   "rand_ctrl_c3_share_mean": 0.004,
+   "mean_det": 0.8666666666666666,
+   "mean_null_dense": 0.05707745491918155,
+   "by_source_joint": {
+    "abilene": [
+     7,
+     7
+    ],
+    "cesnet": [
+     11,
+     13
+    ]
+   }
+  }
+ }
+}
+EXIT 0

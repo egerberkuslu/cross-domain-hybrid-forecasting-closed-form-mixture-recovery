@@ -1,0 +1,28 @@
+<CONDA>/lib/python3.12/site-packages/pandas/core/computation/expressions.py:23: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.8.7' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+<CONDA>/lib/python3.12/site-packages/pandas/core/arrays/masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.3.7' currently installed).
+  from pandas.core import (
+{
+ "stage": "select",
+ "dry_run": false,
+ "headline": "M1",
+ "val_detection_mean": {
+  "M0": 1.0,
+  "M1": 1.0,
+  "M2": 1.0,
+  "M3": 1.0,
+  "M4": 1.0,
+  "M5a": 1.0,
+  "M5b": 1.0
+ },
+ "val_fa_mean": {
+  "M0": 0.00700063063012387,
+  "M1": 0.008461866727291219,
+  "M2": 0.03358348413460559,
+  "M3": 0.0038538810543249195,
+  "M4": 0.010381083373558048,
+  "M5a": 0.02209470934211679,
+  "M5b": 0.012382789196863354
+ },
+ "test_files_read": 0
+}

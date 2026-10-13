@@ -1,0 +1,133 @@
+abilene_od0 revealed_r6_test {'W4': 1}
+abilene_od112 revealed_r6_test {'W4': 1}
+cesnet_inst51 revealed_r6_test {'W4': 1}
+cesnet_inst152 revealed_r6_test {'W4': 1}
+cesnet_inst159 revealed_r6_test {'W4': 1}
+cesnet_inst177 revealed_r6_test {'W4': 1}
+cesnet_inst202 revealed_r6_test {'W4': 0}
+cesnet_inst217 revealed_r6_test {'W4': 1}
+cesnet_inst243 revealed_r6_test {'W4': 0}
+abilene_od42 revealed_r6_test {'W4': 1}
+cesnet_inst246 revealed_r6_test {'W4': 1}
+cesnet_inst271 revealed_r6_test {'W4': 1}
+abilene_od56 revealed_r6_test {'W4': 1}
+abilene_od82 revealed_r6_test {'W4': 1}
+abilene_od97 revealed_r6_test {'W4': 1}
+abilene_od110 revealed_r6_test {'W4': 1}
+cesnet_inst26 revealed_r6_test {'W4': 1}
+cesnet_inst47 revealed_r6_test {'W4': 1}
+cesnet_inst56 revealed_r6_test {'W4': 1}
+cesnet_inst254 revealed_r6_test {'W4': 1}
+cesnet_inst29 revealed_r5_test {'W4': 1}
+cesnet_inst98 revealed_r5_test {'W4': 1}
+cesnet_inst103 revealed_r5_test {'W4': 1}
+cesnet_inst105 revealed_r5_test {'W4': 1}
+cesnet_inst118 revealed_r5_test {'W4': 1}
+cesnet_inst178 revealed_r5_test {'W4': 1}
+cesnet_inst192 revealed_r5_test {'W4': 1}
+cesnet_inst238 revealed_r5_test {'W4': 1}
+cesnet_inst266 revealed_r5_test {'W4': 1}
+cesnet_inst270 revealed_r5_test {'W4': 1}
+abilene_od2 revealed_r5_test {'W4': 1}
+cesnet_inst284 revealed_r5_test {'W4': 1}
+abilene_od4 revealed_r5_test {'W4': 1}
+abilene_od5 revealed_r5_test {'W4': 1}
+abilene_od11 revealed_r5_test {'W4': 1}
+abilene_od13 revealed_r5_test {'W4': 1}
+abilene_od14 revealed_r5_test {'W4': 1}
+abilene_od17 revealed_r5_test {'W4': 1}
+abilene_od18 revealed_r5_test {'W4': 1}
+abilene_od20 revealed_r5_test {'W4': 1}
+abilene_od23 revealed_r5_test {'W4': 1}
+abilene_od25 revealed_r5_test {'W4': 1}
+abilene_od28 revealed_r5_test {'W4': 1}
+abilene_od32 revealed_r5_test {'W4': 0}
+abilene_od41 revealed_r5_test {'W4': 1}
+abilene_od43 revealed_r5_test {'W4': 0}
+abilene_od44 revealed_r5_test {'W4': 1}
+abilene_od46 revealed_r5_test {'W4': 0}
+abilene_od52 revealed_r5_test {'W4': 1}
+abilene_od55 revealed_r5_test {'W4': 1}
+abilene_od59 revealed_r5_test {'W4': 1}
+abilene_od61 revealed_r5_test {'W4': 1}
+abilene_od62 revealed_r5_test {'W4': 1}
+abilene_od65 revealed_r5_test {'W4': 1}
+abilene_od66 revealed_r5_test {'W4': 1}
+abilene_od67 revealed_r5_test {'W4': 1}
+abilene_od68 revealed_r5_test {'W4': 1}
+abilene_od71 revealed_r5_test {'W4': 1}
+abilene_od74 revealed_r5_test {'W4': 1}
+abilene_od75 revealed_r5_test {'W4': 1}
+abilene_od78 revealed_r5_test {'W4': 0}
+abilene_od80 revealed_r5_test {'W4': 1}
+abilene_od81 revealed_r5_test {'W4': 1}
+abilene_od87 revealed_r5_test {'W4': 1}
+abilene_od88 revealed_r5_test {'W4': 1}
+abilene_od90 revealed_r5_test {'W4': 1}
+abilene_od92 revealed_r5_test {'W4': 1}
+abilene_od93 revealed_r5_test {'W4': 1}
+abilene_od94 revealed_r5_test {'W4': 1}
+abilene_od98 revealed_r5_test {'W4': 1}
+abilene_od99 revealed_r5_test {'W4': 1}
+abilene_od100 revealed_r5_test {'W4': 1}
+abilene_od101 revealed_r5_test {'W4': 1}
+abilene_od102 revealed_r5_test {'W4': 1}
+abilene_od104 revealed_r5_test {'W4': 0}
+abilene_od107 revealed_r5_test {'W4': 1}
+abilene_od109 revealed_r5_test {'W4': 1}
+abilene_od113 revealed_r5_test {'W4': 1}
+abilene_od124 revealed_r5_test {'W4': 0}
+abilene_od130 revealed_r5_test {'W4': 0}
+abilene_od131 revealed_r5_test {'W4': 0}
+abilene_od136 revealed_r5_test {'W4': 1}
+abilene_od141 revealed_r5_test {'W4': 1}
+abilene_od142 revealed_r5_test {'W4': 1}
+{
+ "revealed_r5_test": {
+  "W4": {
+   "n": 64,
+   "feasible": 37,
+   "c1": 64,
+   "c2": 60,
+   "c3": 56,
+   "joint": 56,
+   "rand_ctrl_c3_share_mean": 0.008671874999999999,
+   "mean_det": 0.9135416666666667,
+   "mean_null_dense": 0.06893511165093899,
+   "by_source_joint": {
+    "abilene": [
+     45,
+     53
+    ],
+    "cesnet": [
+     11,
+     11
+    ]
+   }
+  }
+ },
+ "revealed_r6_test": {
+  "W4": {
+   "n": 20,
+   "feasible": 10,
+   "c1": 20,
+   "c2": 18,
+   "c3": 18,
+   "joint": 18,
+   "rand_ctrl_c3_share_mean": 0.00525,
+   "mean_det": 0.9166666666666666,
+   "mean_null_dense": 0.06936231057895752,
+   "by_source_joint": {
+    "abilene": [
+     7,
+     7
+    ],
+    "cesnet": [
+     11,
+     13
+    ]
+   }
+  }
+ }
+}
+EXIT 0

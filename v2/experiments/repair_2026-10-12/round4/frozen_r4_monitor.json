@@ -1,0 +1,284 @@
+{
+ "stage": "select",
+ "dry_run": false,
+ "traces": [
+  "cesnet_inst3",
+  "cesnet_inst37",
+  "cesnet_inst49",
+  "cesnet_inst111",
+  "cesnet_inst262",
+  "cesnet_inst275",
+  "abilene_od6",
+  "abilene_od35",
+  "abilene_od49",
+  "abilene_od63",
+  "abilene_od76",
+  "abilene_od89"
+ ],
+ "params": {
+  "cesnet_inst3": {
+   "RF": {
+    "G": 30,
+    "K": 2.0,
+    "level": 9.0,
+    "floor": 0.2703629148423323,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": -0.7020212092328859,
+    "sd": 0.5407258296846646,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.04736004252347157,
+    "sd": 0.0860067530367291,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "cesnet_inst37": {
+   "RF": {
+    "G": 30,
+    "K": 2.0,
+    "level": 1.0,
+    "floor": 0.1758214430142605,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": -0.04472049654492232,
+    "sd": 0.351642886028521,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.07318883158599963,
+    "sd": 0.21557708576777843,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "cesnet_inst49": {
+   "RF": {
+    "G": 60,
+    "K": 2.0,
+    "level": 3.0,
+    "floor": 0.18927075998711448,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": -0.005929729640319238,
+    "sd": 0.37854151997422897,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.5347685526673921,
+    "sd": 5.486714183281773,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "cesnet_inst111": {
+   "RF": {
+    "G": 60,
+    "K": 2.0,
+    "level": 23.5,
+    "floor": 0.19977941363127205,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": -0.48392672708250095,
+    "sd": 0.3995588272625441,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.40172529737037366,
+    "sd": 1.247832487746053,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "cesnet_inst262": {
+   "RF": {
+    "G": 60,
+    "K": 2.0,
+    "level": 1.0,
+    "floor": 0.14644247403359006,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": 0.013477502756849325,
+    "sd": 0.29288494806718013,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.03275386741614988,
+    "sd": 0.04826022945588226,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "cesnet_inst275": {
+   "RF": {
+    "G": 60,
+    "K": 2.0,
+    "level": 1.0,
+    "floor": 0.22242757067330995,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": -0.2948454735269104,
+    "sd": 0.4448551413466199,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.03550516813970023,
+    "sd": 0.05784556402603029,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "abilene_od6": {
+   "RF": {
+    "G": 60,
+    "K": 2.0,
+    "level": 27.5,
+    "floor": 0.13283707875160689,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": 0.0568523972444379,
+    "sd": 0.26567415750321377,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.2582565856362601,
+    "sd": 0.9536881523840238,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "abilene_od35": {
+   "RF": {
+    "G": 60,
+    "K": 2.0,
+    "level": 18.5,
+    "floor": 0.17035829628069768,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": -0.1034907177011232,
+    "sd": 0.34071659256139536,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.039722537972250546,
+    "sd": 0.07856008704444468,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "abilene_od49": {
+   "RF": {
+    "G": 60,
+    "K": 2.0,
+    "level": 30.0,
+    "floor": 0.13810913115410753,
+    "feasible": false,
+    "val_det": NaN
+   },
+   "ST": {
+    "mu": -0.08716970105288899,
+    "sd": 0.27621826230821506,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.04299766118005219,
+    "sd": 0.08639224684157736,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "abilene_od63": {
+   "RF": {
+    "G": 60,
+    "K": 2.0,
+    "level": 1.0,
+    "floor": 0.16377291376125871,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": -0.13943527791224916,
+    "sd": 0.32754582752251743,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.04952813746031027,
+    "sd": 0.1068224777429011,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "abilene_od76": {
+   "RF": {
+    "G": 60,
+    "K": 2.0,
+    "level": 23.0,
+    "floor": 0.09785375944077336,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": -0.04430471024312416,
+    "sd": 0.19570751888154672,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.03574338321482872,
+    "sd": 0.05904241769322156,
+    "delta": 0.05,
+    "feasible": true
+   }
+  },
+  "abilene_od89": {
+   "RF": {
+    "G": 60,
+    "K": 2.0,
+    "level": 25.5,
+    "floor": 0.15969697056492851,
+    "feasible": true,
+    "val_det": 1.0
+   },
+   "ST": {
+    "mu": 0.009948321331482412,
+    "sd": 0.31939394112985703,
+    "level": 30.0,
+    "feasible": false
+   },
+   "AD": {
+    "mu": 0.05013333165782741,
+    "sd": 0.11893683310033538,
+    "delta": 0.05,
+    "feasible": true
+   }
+  }
+ }
+}

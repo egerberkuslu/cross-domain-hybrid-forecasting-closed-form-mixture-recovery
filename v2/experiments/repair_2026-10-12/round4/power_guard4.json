@@ -1,0 +1,44 @@
+{
+ "retention": 0.4375,
+ "comp": {
+  "cesnet": 30,
+  "abilene": 10,
+  "geant": 20
+ },
+ "res": {
+  "min_gain_0.22pct (0.5 % x retention, effects in guarded units)": {
+   "MEDIAN": {
+    "K": 24,
+    "power": 1.0,
+    "mean_wins": 73.8625
+   },
+   "EMP": {
+    "K": 24,
+    "power": 0.525,
+    "mean_wins": 35.1575
+   },
+   "TAIL": {
+    "K": 24,
+    "power": 0.9575,
+    "mean_wins": 34.9775
+   }
+  },
+  "min_gain_0.5pct (unscaled threshold, i.e. 1.14 % in unguarded units)": {
+   "MEDIAN": {
+    "K": 24,
+    "power": 0.5725,
+    "mean_wins": 50.9125
+   },
+   "EMP": {
+    "K": 24,
+    "power": 0.0125,
+    "mean_wins": 30.7925
+   },
+   "TAIL": {
+    "K": 24,
+    "power": 0.475,
+    "mean_wins": 30.935
+   }
+  }
+ }
+}

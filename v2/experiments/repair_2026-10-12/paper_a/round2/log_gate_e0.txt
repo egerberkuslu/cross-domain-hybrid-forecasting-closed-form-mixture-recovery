@@ -1,0 +1,130 @@
+<CONDA>/lib/python3.12/site-packages/pandas/core/computation/expressions.py:23: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.8.7' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+<CONDA>/lib/python3.12/site-packages/pandas/core/arrays/masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.3.7' currently installed).
+  from pandas.core import (
+{
+ "minimum_cells": {
+  "a": 15,
+  "b": 8,
+  "c": 6
+ },
+ "experts": {
+  "EQ": {
+   "n_cells": 25,
+   "a_cells_r_le_1.2": 13,
+   "b_cells_gin_ge_1pct": 20,
+   "c_cells_goos_ge_0.5pct": 17,
+   "pass": false,
+   "median_r": 1.1751975497857738,
+   "median_rho": 0.8264683914914603,
+   "cells_r_le_1.2_and_rho_le_0.8": 2,
+   "mean_g_in": 0.02491307150745862,
+   "max_g_in": 0.09968046382207052,
+   "mean_g_oos": 0.021331103296849303,
+   "max_g_oos": 0.07691288845958666,
+   "cells_g3_ge_0.5pct": 17,
+   "mean_g3": 0.022715564060822615,
+   "cells_xfit_ge_0.5pct": 1,
+   "mean_xfit": -0.01795275302294151
+  },
+  "ER": {
+   "n_cells": 25,
+   "a_cells_r_le_1.2": 5,
+   "b_cells_gin_ge_1pct": 11,
+   "c_cells_goos_ge_0.5pct": 8,
+   "pass": false,
+   "median_r": 1.6119889142099069,
+   "median_rho": 0.692747664750048,
+   "cells_r_le_1.2_and_rho_le_0.8": 0,
+   "mean_g_in": 0.008061760727512942,
+   "max_g_in": 0.03401756226639863,
+   "mean_g_oos": 0.004606716165604636,
+   "max_g_oos": 0.0445663061521977,
+   "cells_g3_ge_0.5pct": 10,
+   "mean_g3": 0.005971040721348594,
+   "cells_xfit_ge_0.5pct": 0,
+   "mean_xfit": -0.019856666118472196
+  },
+  "EB": {
+   "n_cells": 25,
+   "a_cells_r_le_1.2": 17,
+   "b_cells_gin_ge_1pct": 10,
+   "c_cells_goos_ge_0.5pct": 6,
+   "pass": true,
+   "median_r": 1.062822587157328,
+   "median_rho": 0.9546201365063975,
+   "cells_r_le_1.2_and_rho_le_0.8": 0,
+   "mean_g_in": 0.011517848230746473,
+   "max_g_in": 0.04167078905303756,
+   "mean_g_oos": -0.0005677217046796024,
+   "max_g_oos": 0.03419193741607307,
+   "cells_g3_ge_0.5pct": 7,
+   "mean_g3": 0.002295002592242022,
+   "cells_xfit_ge_0.5pct": 0,
+   "mean_xfit": -0.021987414170365843
+  },
+  "EX": {
+   "n_cells": 25,
+   "a_cells_r_le_1.2": 10,
+   "b_cells_gin_ge_1pct": 12,
+   "c_cells_goos_ge_0.5pct": 6,
+   "pass": false,
+   "median_r": 1.2340409006792996,
+   "median_rho": 0.7881888673798001,
+   "cells_r_le_1.2_and_rho_le_0.8": 3,
+   "mean_g_in": 0.021202233351140923,
+   "max_g_in": 0.08175336375419817,
+   "mean_g_oos": -0.04874148284499257,
+   "max_g_oos": 0.04656223038213536,
+   "cells_g3_ge_0.5pct": 6,
+   "mean_g3": -0.04713280312743222,
+   "cells_xfit_ge_0.5pct": 6,
+   "mean_xfit": -0.020912494057335525
+  },
+  "EQ0": {
+   "n_cells": 25,
+   "a_cells_r_le_1.2": 0,
+   "b_cells_gin_ge_1pct": 1,
+   "c_cells_goos_ge_0.5pct": 4,
+   "pass": false,
+   "median_r": 2.282617663507863,
+   "median_rho": 0.6257293841154278,
+   "cells_r_le_1.2_and_rho_le_0.8": 0,
+   "mean_g_in": 0.0033065187880788383,
+   "max_g_in": 0.010878208837813763,
+   "mean_g_oos": 0.0010776007971467516,
+   "max_g_oos": 0.011602342822654044,
+   "cells_g3_ge_0.5pct": 8,
+   "mean_g3": 0.002851879228250414,
+   "cells_xfit_ge_0.5pct": 0,
+   "mean_xfit": -0.01635427400822999
+  },
+  "EB0": {
+   "n_cells": 25,
+   "a_cells_r_le_1.2": 19,
+   "b_cells_gin_ge_1pct": 2,
+   "c_cells_goos_ge_0.5pct": 2,
+   "pass": false,
+   "median_r": 1.0577611895954997,
+   "median_rho": 0.9944122993259169,
+   "cells_r_le_1.2_and_rho_le_0.8": 0,
+   "mean_g_in": 0.0024726589511151163,
+   "max_g_in": 0.014907816920131434,
+   "mean_g_oos": -0.0008200984057080918,
+   "max_g_oos": 0.01066394524849823,
+   "cells_g3_ge_0.5pct": 7,
+   "mean_g3": 0.0013714587288926367,
+   "cells_xfit_ge_0.5pct": 0,
+   "mean_xfit": -0.010961003047556485
+  }
+ },
+ "passing_headline_candidates": [
+  "EB"
+ ],
+ "best": "EB",
+ "test_candidates": [
+  "EB",
+  "EQ"
+ ],
+ "note": "EX is a reference and is not eligible; null experts are reported for scale; EQ is a secondary candidate that misses (a) only"
+}

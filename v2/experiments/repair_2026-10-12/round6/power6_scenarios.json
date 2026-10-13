@@ -1,0 +1,74 @@
+{
+ "V1": {
+  "n": 20,
+  "k": 16,
+  "feasible_P2": 13,
+  "revealed_pass_rate_feasible": 0.8163,
+  "revealed_pass_rate_infeasible": 0.9333,
+  "revealed_pass_rate_all64": 0.8438,
+  "power_homogeneous_revealed_rate": 0.808,
+  "power_feasible_infeasible_split": 0.857,
+  "power_split_and_two_traces_fail": 0.504,
+  "k_if_infeasible_traces_dropped": 11,
+  "power_infeasible_traces_dropped": 0.563,
+  "infeasible_traces": [
+   "abilene_od0",
+   "cesnet_inst202",
+   "cesnet_inst217",
+   "cesnet_inst243",
+   "cesnet_inst246",
+   "abilene_od82",
+   "abilene_od97"
+  ]
+ },
+ "V2": {
+  "n": 20,
+  "k": 16,
+  "feasible_P2": 13,
+  "revealed_pass_rate_feasible": 0.8333,
+  "revealed_pass_rate_infeasible": 0.9375,
+  "revealed_pass_rate_all64": 0.8594,
+  "power_homogeneous_revealed_rate": 0.861,
+  "power_feasible_infeasible_split": 0.894,
+  "power_split_and_two_traces_fail": 0.569,
+  "k_if_infeasible_traces_dropped": 11,
+  "power_infeasible_traces_dropped": 0.628,
+  "infeasible_traces": [
+   "abilene_od0",
+   "cesnet_inst202",
+   "cesnet_inst217",
+   "cesnet_inst243",
+   "cesnet_inst246",
+   "abilene_od82",
+   "abilene_od97"
+  ]
+ },
+ "V3": {
+  "n": 20,
+  "k": 16,
+  "feasible_P2": 14,
+  "revealed_pass_rate_feasible": 0.875,
+  "revealed_pass_rate_infeasible": 0.875,
+  "revealed_pass_rate_all64": 0.875,
+  "power_homogeneous_revealed_rate": 0.905,
+  "power_feasible_infeasible_split": 0.905,
+  "power_split_and_two_traces_fail": 0.605,
+  "k_if_infeasible_traces_dropped": 12,
+  "power_infeasible_traces_dropped": 0.749,
+  "infeasible_traces": [
+   "abilene_od0",
+   "cesnet_inst202",
+   "cesnet_inst217",
+   "cesnet_inst243",
+   "abilene_od82",
+   "abilene_od97"
+  ]
+ },
+ "note": {
+  "fail_traces": [
+   "cesnet_inst159",
+   "cesnet_inst217"
+  ],
+  "rates": "revealed round 5 test, validation-selected variants, by validation feasibility (val6_rows.csv)"
+ }
+}

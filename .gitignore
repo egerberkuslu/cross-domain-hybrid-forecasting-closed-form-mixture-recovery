@@ -9,3 +9,10 @@ outputs/predictions/
 
 # v2: validation-split expert forecasts are small inputs of the v2 analysis and are tracked
 !v2/experiments/fix_2026-10-11/val_forecasts/*.npz
+
+# v2.1.0: local links created to run the repair rounds (see v2/experiments/repair_2026-10-12/README.md)
+/v2/data
+/v2/src
+/v2/outputs
+/v2/.chas-venv
+run_r*.local.sh

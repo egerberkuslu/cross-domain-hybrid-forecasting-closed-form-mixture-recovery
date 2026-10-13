@@ -1,0 +1,70 @@
+== r5_stages.py --stage A --dry-run
+non-fresh abilene h6 stage A: rmse bolt 0.1973, eq 0.1984
+non-fresh abilene h6 pseudo stage B: rmse eq 0.1984
+pool-5 structure check cesnet_inst176 (1008, 168) (300, 21) no model fit, no accuracy
+cells in the pool: 584
+dry-run ok; test windows accessed: 0
+== r5_eval.py --stage select --dry-run (non-fresh Abilene aggregate, pseudo stage B, B = 2000; values are not results)
+{
+ "guard": "G2_0.25",
+ "min_gain_primary": 0.0021875,
+ "cells": 2,
+ "series": 1,
+ "K_wins_required": 1,
+ "cells_win_primary": 2,
+ "cells_win_at_0.5pct": 2,
+ "cells_loss": 0,
+ "cells_identical": 0,
+ "cells_tost_equiv": 1,
+ "median_cell_gain": 0.03071804235732034,
+ "pooled_gain_vs_bolt": {
+  "mean": 0.03071804235732034,
+  "ci95_cell": [
+   0.03016008049247576,
+   0.03127600422216492
+  ],
+  "ci95_series_clustered": [
+   0.03016008049247576,
+   0.03127600422216492
+  ]
+ },
+ "control_a_permuted_rows": {
+  "mean": 0.04744499995015794,
+  "lo": 0.044850251318837686,
+  "hi": 0.050039748581478194,
+  "p_one_sided": 9.999000099990002e-05
+ },
+ "control_b_null_expert": {
+  "mean": 0.02968605060795848,
+  "lo": 0.0289813605993261,
+  "hi": 0.03039074061659086,
+  "p_one_sided": 9.999000099990002e-05
+ },
+ "control_holm_adjusted_p": [
+  0.00019998000199980003,
+  0.00019998000199980003
+ ],
+ "controls_ok": true,
+ "round4_comparison_best_of_two_controls_reported_only": {
+  "mean": 0.02968605060795848,
+  "lo": 0.0289813605993261,
+  "hi": 0.03039074061659086,
+  "p_one_sided": 9.999000099990002e-05
+ },
+ "success": true,
+ "success_secondary_0.5pct": true,
+ "pseudo": true
+}
+dry-run ok; test windows accessed: 0
+== r5_monitor.py --stage select --dry-run
+{
+ "traces": 1,
+ "need": 1,
+ "cond1_fa_le5": 1,
+ "cond2_shift_specific": 0,
+ "cond3_above_placebo": 0,
+ "success": false,
+ "pseudo": true
+}
+{"c1": {"pass": 1, "n": 1, "wilson95": [0.20654329147389294, 1.0]}, "c2": {"pass": 0, "n": 1, "wilson95": [0.0, 0.7934567085261071]}, "c3": {"pass": 0, "n": 1, "wilson95": [0.0, 0.7934567085261071]}}
+dry-run ok; test windows accessed: 0

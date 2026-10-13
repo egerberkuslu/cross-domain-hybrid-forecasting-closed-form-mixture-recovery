@@ -1,0 +1,69 @@
+{
+ "expert": "E-Q (quantile gradient boosting on lag and calendar features, median point forecast)",
+ "training_data": {
+  "stage_A_validation_forecasts": "train windows only",
+  "stage_B_test_forecasts": "train + validation windows (refit, same hyper-parameters)"
+ },
+ "null_expert": "E-Q0: same recipe, median model, feature rows shuffled across windows, permutation seed 0",
+ "hyperparameters": {
+  "quantiles": [
+   0.1,
+   0.5,
+   0.9
+  ],
+  "max_iter": 150,
+  "learning_rate": 0.06,
+  "max_depth": 4,
+  "min_samples_leaf": 40,
+  "l2_regularization": 1.0,
+  "early_stopping": false,
+  "random_state": 0
+ },
+ "features_source": {
+  "file": "experiments/repair_2026-10-12/paper_a/round2/experts.py",
+  "sha256": "12dd347abade46ed64113215791ab74dfc81f55f3877e253559cce2ee64a3ada",
+  "function": "features(X, tt, h)"
+ },
+ "mixture": "M2: f = Bolt + alpha (E-Q - Bolt), alpha = Bates-Granger closed form on ALL validation windows (E-Q trained on train only), clipped to [0, 1] and snapped to the 0.05 grid",
+ "bolt": {
+  "model": "amazon/chronos-bolt-small",
+  "hf_snapshot": "772f3d25d38aec6d914c8949dab4462e2d46f5d8",
+  "weights_sha256": "06a6a19bbe74bc10a9cd193bd4bf2bf638ae07f7e0d51653ae7ab8ea968a21dd",
+  "device": "cpu",
+  "dtype": "float32",
+  "batch": 32
+ },
+ "environment": {
+  "sklearn": "1.9.0",
+  "numpy": "1.26.4",
+  "chronos-forecasting": "2.2.2",
+  "python": "3.12.4"
+ },
+ "round2_models_hash_file": "experiments/repair_2026-10-12/paper_a/round2/MODELS_SHA256.txt",
+ "unchanged_from_round3": {
+  "eq_recipe.py": "d45d3ae7ea731d580d3199ce27f5c6f4cd48cee5bc52e2857fa4597bc9cfcf24",
+  "RECIPE_FROZEN.json": "5a96181ebe5633f76daf34646a301c6d5453e2b60e8187b99a57f258c590cde8",
+  "r3_stages.py": "6b3f2e79169e729e73bd17da3f7012a7b2133e5f15623756b957b2c1cb327521",
+  "r3_eval.py": "e8cb9393f24b3f2ea4efdda71c49fb9a24317b4abc7678cd8b252042f412ba8d",
+  "r3_monitor.py": "f99a3f690eef95a95bf5c9f7032299f1d95206273e2404b665a7cb884c8b1e15"
+ },
+ "guard": {
+  "file": "round4/frozen_r4_guard.json",
+  "sha256": "566443299bcb80eed5df57d7f9a7afa9cb96b3d07c1185b9ef4a59a9c161a4d8",
+  "chosen": "G2_0.25"
+ },
+ "pool4": {
+  "manifest": "fresh_cells/pool4_manifest.json",
+  "sha256": "7988ca52a7c3639558168b3aa1df22c5ad6fcb457761c2f036814aaf4d1aa2e8",
+  "reserved_series.json": "e21c458f1c6c0932866c9189f5f27cab131cbab13ea6fbe2994d76feaf016a34"
+ },
+ "round4_code": {
+  "r4_guard.py": "84983f9a2c348531958683fefe70549731150024c06cd24ee91ab2ab56175983",
+  "r4_stages.py": "32aadadc9f220f18347ab272eee666f959d69a0f927b2f0dbcb7242aad30ff23",
+  "r4_eval.py": "fca4b390687521c63cb9825ab27db2c6bb9c0c74e397567313168c3bb87cce50",
+  "r4_monitor.py": "86f9deccbd028214da37a6cc656d5fdbed4806c01ab1519f4bf81c6fb2f432b1",
+  "power_calc4.py": "3e766cd65f1dccc0a0982ea31fabccf885f8dbc58dedf3dd7f1ee81304d10862",
+  "power_guard4.py": "63c42402f718882604bc32eee3fb87ff9ea636b75f96cfd0cb2a852249173868",
+  "power_monitor4.py": "246741aa608d7c67dbac315ce3cd6339069f843bc7443ed9f9b4a5b9f8a7b81c"
+ }
+}

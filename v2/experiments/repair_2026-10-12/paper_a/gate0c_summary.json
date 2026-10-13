@@ -1,0 +1,11 @@
+{
+  "cells_headroom_ge_0.5pct": 4,
+  "mean_headroom": 0.0038792874264607664,
+  "max_headroom": 0.03231206174809487,
+  "cells_floor_fails": 9,
+  "mean_excess_pct_where_floor_fails": 1.027384432079824,
+  "max_excess_pct": 3.3391261763372704,
+  "max_test_oracle_constant_gain_vs_bolt": 0.005683443303890523,
+  "mean_test_oracle_constant_gain_vs_bolt": 0.0008140548942915656,
+  "cells_test_oracle_gain_vs_bolt_ge_0.5pct": 1
+}

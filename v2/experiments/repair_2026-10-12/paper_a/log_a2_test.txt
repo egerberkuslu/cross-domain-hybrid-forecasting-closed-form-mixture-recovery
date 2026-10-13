@@ -1,0 +1,260 @@
+<CONDA>/lib/python3.12/site-packages/pandas/core/computation/expressions.py:23: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.8.7' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+<CONDA>/lib/python3.12/site-packages/pandas/core/arrays/masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.3.7' currently installed).
+  from pandas.core import (
+{
+ "headline": "M1",
+ "best_M5": "M5a",
+ "cond1_fa_le5_traces": 3,
+ "cond2_shift_specific_traces": 3,
+ "noninferiority_lo95": 0.0,
+ "cond3": false,
+ "success": false,
+ "mcnemar": {
+  "M0": [
+   {
+    "dataset": "abilene",
+    "pos": 0.2,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "abilene",
+    "pos": 0.45,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "abilene",
+    "pos": 0.7,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "cesnet",
+    "pos": 0.2,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "cesnet",
+    "pos": 0.45,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "cesnet",
+    "pos": 0.7,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "geant",
+    "pos": 0.2,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "geant",
+    "pos": 0.45,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "geant",
+    "pos": 0.7,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "nab_aws_cpu",
+    "pos": 0.2,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "nab_aws_cpu",
+    "pos": 0.45,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "nab_aws_cpu",
+    "pos": 0.7,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "nab_twitter",
+    "pos": 0.2,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "nab_twitter",
+    "pos": 0.45,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "nab_twitter",
+    "pos": 0.7,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   }
+  ],
+  "M5a": [
+   {
+    "dataset": "abilene",
+    "pos": 0.2,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "abilene",
+    "pos": 0.45,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "abilene",
+    "pos": 0.7,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "cesnet",
+    "pos": 0.2,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "cesnet",
+    "pos": 0.45,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "cesnet",
+    "pos": 0.7,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "geant",
+    "pos": 0.2,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "geant",
+    "pos": 0.45,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "geant",
+    "pos": 0.7,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "nab_aws_cpu",
+    "pos": 0.2,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "nab_aws_cpu",
+    "pos": 0.45,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "nab_aws_cpu",
+    "pos": 0.7,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "nab_twitter",
+    "pos": 0.2,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "nab_twitter",
+    "pos": 0.45,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "dataset": "nab_twitter",
+    "pos": 0.7,
+    "b_head_only": 0,
+    "c_other_only": 0,
+    "p": 1.0,
+    "p_holm": 1.0
+   }
+  ]
+ },
+ "pseudo": false
+}

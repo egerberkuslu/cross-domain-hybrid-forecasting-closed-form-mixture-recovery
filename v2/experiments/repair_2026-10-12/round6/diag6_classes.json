@@ -1,0 +1,59 @@
+{
+ "rf_traces": 64,
+ "c3_fail": 20,
+ "fail_c2": 2,
+ "fail_placebo_ge_0.6": 10,
+ "fail_slow_detection_cap100_with_low_placebo": 9,
+ "fail_resolution_only": 0,
+ "placebo_ge_0.6_and_alarm_on_at_burn_end": 4,
+ "placebo_ge_0.6_traces_total_all64": 16,
+ "max_placebo_hits_of5_passing_given_inj_hits_of30_cap100": {
+  "18": 0,
+  "19": 0,
+  "20": 1,
+  "21": 1,
+  "22": 1,
+  "23": 1,
+  "24": 1,
+  "25": 2,
+  "26": 2,
+  "27": 2,
+  "28": 3,
+  "29": 3,
+  "30": 4
+ },
+ "rf_det150_mean": 0.9291666666666667,
+ "rf_det100_mean": 0.8135416666666667,
+ "traces_det100_le_0.7": 20,
+ "traces_det150_eq1": 49,
+ "names": {
+  "cause_c2_fail": [
+   "abilene_od131",
+   "abilene_od78"
+  ],
+  "cause_placebo_ge_0.6": [
+   "abilene_od100",
+   "abilene_od102",
+   "abilene_od130",
+   "abilene_od142",
+   "abilene_od17",
+   "abilene_od20",
+   "abilene_od55",
+   "abilene_od61",
+   "abilene_od62",
+   "cesnet_inst192"
+  ],
+  "cause_slow_cap100": [
+   "abilene_od107",
+   "abilene_od109",
+   "abilene_od11",
+   "abilene_od124",
+   "abilene_od131",
+   "abilene_od32",
+   "abilene_od5",
+   "abilene_od99",
+   "cesnet_inst118"
+  ],
+  "cause_resolution_only": []
+ }
+}

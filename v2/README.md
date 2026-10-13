@@ -1,6 +1,6 @@
 # v2: corrected analysis and reproducibility scripts
 
-This folder holds the corrected statistical analysis that accompanies the revised version of the manuscript. Release **v1.0.0** is the version that was submitted and is left unchanged. Release **v2.0.0** adds this folder and does not alter any v1 file, apart from a pointer to this folder in the top-level README. The forecasts, checkpoints and training code are the v1 ones, so v2 reruns no model and trains nothing. Every number below is recomputed from the per-window prediction tensors of the v1.0.0 release.
+This folder holds the corrected statistical analysis that accompanies the revised version of the manuscript. Release **v1.0.0** is the version that was submitted and is left unchanged. Release **v2.0.0** adds this folder and does not alter any v1 file, apart from a pointer to this folder in the top-level README. Release **v2.1.0** adds the pre-registered repair rounds 1 to 7 (`experiments/repair_2026-10-12/`) and the scripts that produce the repair numbers of the manuscript; it changes no file of v2.0.0. The forecasts, checkpoints and training code are the v1 ones, so v2 reruns no model and trains nothing. Every number below is recomputed from the per-window prediction tensors of the v1.0.0 release.
 
 ## What changed against v1
 
@@ -21,8 +21,10 @@ v2/
   README.md
   requirements-analysis.txt
   peerj_v2/
-    scripts/            analysis scripts of the revised manuscript
+    scripts/            analysis scripts of the revised manuscript (v2.1.0 adds make_round{5,6,7}_numbers.py and make_repair_table.py)
+    numbers_round{5,6,7}.{json,tex}, tables/   (v2.1.0) macros and tables of the repair rounds
     results_v2/         their outputs (CSV, JSON, logs, the two monitor figures)
+  experiments/repair_2026-10-12/   (v2.1.0) pre-registered repair rounds, see its README
   experiments/fix_2026-10-11/
     *.py, run_all.sh    recomputation scripts (closed form, TOST, degradation, stacked OLS, ...)
     *.csv, *.json       their outputs
@@ -70,6 +72,8 @@ Commands run from `v2/peerj_v2/scripts/` for the first group and from the reposi
 | Stacked least squares with intercept against the grid weight (16 of 25 cells) | `experiments/fix_2026-10-11/stacked_ols.py` | `stacked_ols_cells.csv`, `stacked_ols_summary.json` |
 | Multi-metric bootstrap standard deviations with per-seed pairing (h=6) | `peerj_v2/scripts/recompute_multimetric_sd.py` (run from the repository root) | `peerj_v2/scripts/multimetric_h6_recomputed.csv`, `multimetric_h6_before_after.csv`, `multimetric_h6_block6.csv` |
 | Cross-check of the same bootstrap standard deviations (fix-wave implementation) | `experiments/fix_2026-10-11/bootstrap_pairing.py --B 1000` | `bootstrap_paired.csv`, `bootstrap_paired_h6_table.csv` |
+| Repair-round numbers of the manuscript (rounds 5 to 7 macros, repair table, monitor tables of rounds 6 and 7) | `peerj_v2/scripts/make_round5_numbers.py`, `make_round6_numbers.py`, `make_round7_numbers.py`, `make_repair_table.py` (run from the repository root) | `peerj_v2/numbers_round5.json`, `numbers_round6.json`, `numbers_round7.json` (and `.tex`), `peerj_v2/tables/repair_round.tex`, `monitor_round6.tex`, `monitor_round7.tex` |
+| Every pre-registered repair round (accuracy round 5, monitor round 7): registrations, frozen parameters, stage scripts and result tables | `experiments/repair_2026-10-12/round{3..7}/`, `paper_a/`; commands and compute estimates in `experiments/repair_2026-10-12/README.md` | `r*_test_summary.json`, `r*_monitor_summary.json`, `r*_test_cells.csv` in each round folder; integrity check `experiments/repair_2026-10-12/verify_frozen.py` |
 
 `monitor_injection_runs.csv` (the per-run injection results of the fix-wave monitor script `monitor_far.py`) is shipped gzip-compressed because the plain file is 12 MB.
 

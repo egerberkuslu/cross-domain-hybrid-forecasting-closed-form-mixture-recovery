@@ -1,0 +1,40 @@
+<REPO>/.chas-venv/lib/python3.12/site-packages/sklearn/base.py:525: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.8.0 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+{"cell": "cesnet_h1", "n_test": 1007, "max_dy": 0.0, "max_dbolt": 0.01070946455001831, "median_dbolt": 0.0014712810516357422}
+{"cell": "cesnet_h3", "n_test": 1007, "max_dy": 0.0, "max_dbolt": 0.01070946455001831, "median_dbolt": 0.001441657543182373}
+{"cell": "cesnet_h6", "n_test": 1007, "max_dy": 0.0, "max_dbolt": 0.012683689594268799, "median_dbolt": 0.0014650821685791016}
+{"cell": "cesnet_h12", "n_test": 1007, "max_dy": 0.0, "max_dbolt": 0.012683689594268799, "median_dbolt": 0.001448601484298706}
+{"cell": "cesnet_h24", "n_test": 1007, "max_dy": 0.0, "max_dbolt": 0.012683689594268799, "median_dbolt": 0.0014381706714630127}
+<REPO>/.chas-venv/lib/python3.12/site-packages/sklearn/base.py:525: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.8.0 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+{"cell": "abilene_h1", "n_test": 699, "max_dy": 0.0, "max_dbolt": 0.03804636001586914, "median_dbolt": 0.0014766454696655273}
+{"cell": "abilene_h3", "n_test": 699, "max_dy": 0.0, "max_dbolt": 0.04628467559814453, "median_dbolt": 0.0015540122985839844}
+{"cell": "abilene_h6", "n_test": 699, "max_dy": 0.0, "max_dbolt": 0.04714155197143555, "median_dbolt": 0.0015505552291870117}
+{"cell": "abilene_h12", "n_test": 699, "max_dy": 0.0, "max_dbolt": 0.04926347732543945, "median_dbolt": 0.0015006065368652344}
+{"cell": "abilene_h24", "n_test": 699, "max_dy": 0.0, "max_dbolt": 0.04926347732543945, "median_dbolt": 0.0014683455228805542}
+<REPO>/.chas-venv/lib/python3.12/site-packages/sklearn/base.py:525: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.8.0 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+{"cell": "geant_h1", "n_test": 428, "max_dy": 0.0, "max_dbolt": 0.0045719146728515625, "median_dbolt": 0.0005311183631420135}
+{"cell": "geant_h3", "n_test": 428, "max_dy": 0.0, "max_dbolt": 0.004931420087814331, "median_dbolt": 0.0005559623241424561}
+{"cell": "geant_h6", "n_test": 428, "max_dy": 0.0, "max_dbolt": 0.005022108554840088, "median_dbolt": 0.0005538016557693481}
+{"cell": "geant_h12", "n_test": 428, "max_dy": 0.0, "max_dbolt": 0.005022108554840088, "median_dbolt": 0.0005929023027420044}
+{"cell": "geant_h24", "n_test": 428, "max_dy": 0.0, "max_dbolt": 0.0068437159061431885, "median_dbolt": 0.0005983319133520126}
+<REPO>/.chas-venv/lib/python3.12/site-packages/sklearn/base.py:525: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.8.0 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+{"cell": "nab_aws_cpu_h1", "n_test": 225, "max_dy": 0.0, "max_dbolt": 0.06101799011230469, "median_dbolt": 0.0031228065490722656}
+{"cell": "nab_aws_cpu_h3", "n_test": 225, "max_dy": 0.0, "max_dbolt": 0.07335090637207031, "median_dbolt": 0.003039836883544922}
+{"cell": "nab_aws_cpu_h6", "n_test": 225, "max_dy": 0.0, "max_dbolt": 0.1035928726196289, "median_dbolt": 0.0028777122497558594}
+{"cell": "nab_aws_cpu_h12", "n_test": 225, "max_dy": 0.0, "max_dbolt": 0.0803976058959961, "median_dbolt": 0.0028032660484313965}
+{"cell": "nab_aws_cpu_h24", "n_test": 225, "max_dy": 0.0, "max_dbolt": 0.04941987991333008, "median_dbolt": 0.0027210116386413574}
+<REPO>/.chas-venv/lib/python3.12/site-packages/sklearn/base.py:525: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.8.0 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+{"cell": "nab_twitter_h1", "n_test": 199, "max_dy": 0.0, "max_dbolt": 0.015003204345703125, "median_dbolt": 0.0009416118264198303}
+{"cell": "nab_twitter_h3", "n_test": 199, "max_dy": 0.0, "max_dbolt": 0.015003204345703125, "median_dbolt": 0.0009416118264198303}
+{"cell": "nab_twitter_h6", "n_test": 199, "max_dy": 0.0, "max_dbolt": 0.015003204345703125, "median_dbolt": 0.0009116828441619873}
+{"cell": "nab_twitter_h12", "n_test": 199, "max_dy": 0.0, "max_dbolt": 0.015003204345703125, "median_dbolt": 0.0008127987384796143}
+{"cell": "nab_twitter_h24", "n_test": 199, "max_dy": 0.0, "max_dbolt": 0.030628204345703125, "median_dbolt": 0.000760495662689209}

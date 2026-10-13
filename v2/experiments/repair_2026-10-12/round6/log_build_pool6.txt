@@ -1,0 +1,163 @@
+candidates 148
+P2_FG abilene_od15 0.218 699 False
+P2_FG abilene_od29 0.222 699 False
+P2_FG abilene_od42 0.524 699 True
+P2_FG abilene_od56 0.306 699 True
+P2_FG abilene_od69 0.024 699 False
+P2_FG abilene_od82 0.581 699 True
+P2_FG abilene_od97 0.703 699 True
+P2_FG abilene_od110 0.584 699 True
+P2_FG abilene_od126 0.249 699 False
+P2_FG abilene_od140 0.012 699 False
+P2_new abilene_od0 0.585 699 True
+P2_new abilene_od112 0.54 699 True
+P2_FG cesnet_inst9 0.242 1007 False
+P2_FG cesnet_inst14 0.075 1007 False
+P2_FG cesnet_inst22 0.22 1007 False
+P2_FG cesnet_inst26 2.226 1007 True
+P2_FG cesnet_inst30 0.137 1007 False
+P2_FG cesnet_inst35 0.153 1007 False
+P2_FG cesnet_inst39 0.196 1007 False
+P2_FG cesnet_inst47 0.478 1007 True
+P2_FG cesnet_inst52 0.134 1007 False
+P2_FG cesnet_inst56 0.391 1007 True
+P2_FG cesnet_inst60 0.0 1007 False
+P2_FG cesnet_inst68 0.299 1007 False
+P2_FG cesnet_inst77 0.084 1007 False
+P2_FG cesnet_inst81 0.051 1007 False
+P2_FG cesnet_inst85 0.061 1007 False
+P2_FG cesnet_inst89 0.056 1007 False
+P2_FG cesnet_inst96 0.101 1007 False
+P2_FG cesnet_inst104 0.009 1007 False
+P2_FG cesnet_inst109 0.02 1007 False
+P2_FG cesnet_inst113 0.071 1007 False
+P2_FG cesnet_inst117 0.02 1007 False
+P2_FG cesnet_inst121 0.033 1007 False
+P2_FG cesnet_inst129 0.076 1007 False
+P2_FG cesnet_inst134 0.164 1007 False
+P2_FG cesnet_inst138 0.276 1007 False
+P2_FG cesnet_inst144 0.165 1007 False
+P2_FG cesnet_inst153 0.103 1007 False
+P2_FG cesnet_inst160 0.21 1007 False
+P2_FG cesnet_inst168 0.039 1007 False
+P2_FG cesnet_inst172 0.031 1007 False
+P2_FG cesnet_inst179 0.081 1007 False
+P2_FG cesnet_inst183 0.002 1007 False
+P2_FG cesnet_inst188 0.076 1007 False
+P2_FG cesnet_inst194 0.096 1007 False
+P2_FG cesnet_inst199 0.163 1007 False
+P2_FG cesnet_inst205 0.086 1007 False
+P2_FG cesnet_inst210 0.084 1007 False
+P2_FG cesnet_inst216 0.015 1007 False
+P2_FG cesnet_inst221 0.159 1007 False
+P2_FG cesnet_inst228 0.076 1007 False
+P2_FG cesnet_inst234 0.181 1007 False
+P2_FG cesnet_inst239 0.04 1007 False
+P2_FG cesnet_inst254 0.472 1007 True
+P2_FG cesnet_inst269 0.12 1007 False
+P2_FG cesnet_inst281 0.033 1007 False
+P2_new cesnet_inst4 0.059 1007 False
+P2_new cesnet_inst13 0.085 1007 False
+P2_new cesnet_inst18 0.132 1007 False
+P2_new cesnet_inst19 0.024 1007 False
+P2_new cesnet_inst43 0.06 1007 False
+P2_new cesnet_inst45 0.019 1007 False
+P2_new cesnet_inst51 0.414 1007 True
+P2_new cesnet_inst62 0.056 1007 False
+P2_new cesnet_inst65 0.001 1007 False
+P2_new cesnet_inst70 0.03 1007 False
+P2_new cesnet_inst73 0.044 1007 False
+P2_new cesnet_inst76 0.061 1007 False
+P2_new cesnet_inst91 0.042 1007 False
+P2_new cesnet_inst93 0.149 1007 False
+P2_new cesnet_inst102 0.012 1007 False
+P2_new cesnet_inst132 0.1 1007 False
+P2_new cesnet_inst147 0.11 1007 False
+P2_new cesnet_inst150 0.108 1007 False
+P2_new cesnet_inst152 0.315 1007 True
+P2_new cesnet_inst157 0.004 1007 False
+P2_new cesnet_inst159 0.393 1007 True
+P2_new cesnet_inst161 0.053 1007 False
+P2_new cesnet_inst163 0.123 1007 False
+P2_new cesnet_inst173 0.175 1007 False
+P2_new cesnet_inst177 0.322 1007 True
+P2_new cesnet_inst202 0.59 1007 True
+P2_new cesnet_inst204 0.042 1007 False
+P2_new cesnet_inst214 0.174 1007 False
+P2_new cesnet_inst217 1.027 1007 True
+P2_new cesnet_inst223 0.051 1007 False
+P2_new cesnet_inst226 0.012 1007 False
+P2_new cesnet_inst231 0.119 1007 False
+P2_new cesnet_inst233 0.191 1007 False
+P2_new cesnet_inst242 0.183 1007 False
+P2_new cesnet_inst243 0.65 1007 True
+P2_new cesnet_inst244 0.093 1007 False
+P2_new cesnet_inst245 0.158 1007 False
+P2_new cesnet_inst246 0.874 1007 True
+P2_new cesnet_inst251 0.073 1007 False
+P2_new cesnet_inst255 0.007 1007 False
+P2_new cesnet_inst256 0.068 1007 False
+P2_new cesnet_inst257 0.108 1007 False
+P2_new cesnet_inst258 0.049 1007 False
+P2_new cesnet_inst259 0.2 1007 False
+P2_new cesnet_inst263 0.265 1007 False
+P2_new cesnet_inst267 0.133 1007 False
+P2_new cesnet_inst271 0.335 710 True
+P2_new cesnet_inst272 0.035 1007 False
+P2_new cesnet_inst279 0.206 1007 False
+P2_new cesnet_inst280 0.168 1007 False
+P3 geant_od10_1 0.124 428 False
+P3 geant_od10_12 0.699 428 True
+P3 geant_od10_14 0.896 428 True
+P3 geant_od10_15 0.101 428 False
+P3 geant_od10_16 3.717 428 True
+P3 geant_od10_17 0.009 428 False
+P3 geant_od10_18 0.105 428 False
+P3 geant_od10_19 0.071 428 False
+P3 geant_od10_2 0.794 428 True
+P3 geant_od10_20 0.274 428 False
+P3 geant_od10_21 0.737 428 True
+P3 geant_od10_3 0.985 428 True
+P3 geant_od10_9 0.915 428 True
+P3 geant_od12_14 0.104 428 False
+P3 geant_od14_20 0.253 428 False
+P3 geant_od15_11 0.396 428 True
+P3 geant_od15_8 0.379 428 True
+P3 geant_od18_11 0.55 428 True
+P3 geant_od18_15 0.287 428 False
+P3 geant_od18_23 0.29 428 False
+P3 geant_od19_14 0.014 428 False
+P3 geant_od19_20 0.226 428 False
+P3 geant_od19_5 0.155 428 False
+P3 geant_od1_4 0.386 428 True
+P3 geant_od20_19 0.187 428 False
+P3 geant_od22_23 0.324 428 True
+P3 geant_od23_11 0.195 428 False
+P3 geant_od23_18 0.214 428 False
+P3 geant_od23_19 0.009 428 False
+P3 geant_od23_20 0.026 428 False
+P3 geant_od3_15 0.489 428 True
+P3 geant_od4_7 0.85 428 True
+P3 geant_od5_11 0.612 428 True
+P3 geant_od5_19 0.184 428 False
+P3 geant_od6_22 0.085 428 False
+P3 geant_od6_5 0.008 428 False
+P3 geant_od8_11 0.459 428 True
+P3 geant_od8_15 0.265 428 False
+P3 geant_od8_21 0.535 428 True
+P3 geant_od9_14 0.085 428 False
+P3 geant_od9_21 0.513 428 True
+{
+ "candidates": 148,
+ "P2_new_candidates": 52,
+ "P2_FG_candidates": 55,
+ "P3_candidates": 41,
+ "P2_total": 20,
+ "P2_by_source": {
+  "cesnet": 13,
+  "abilene": 7
+ },
+ "P2_new": 11,
+ "P2_FG": 9,
+ "P3_geant": 18
+}

@@ -1,0 +1,372 @@
+{
+ "ADB_P7": {
+  "traces": 40,
+  "failed": 27,
+  "c1_false_alarm_excess": 0,
+  "c2_insensitive": 3,
+  "c2_control_alarms": 12,
+  "c3_null_exceeded": 12,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [],
+   "c2_insensitive": [
+    "cesnet_ip1368",
+    "cesnet_ip1605",
+    "cesnet_sub249"
+   ],
+   "c2_control_alarms": [
+    "cesnet_ip1580",
+    "cesnet_ip18683",
+    "cesnet_ip268100",
+    "cesnet_ip321100",
+    "cesnet_ip35210",
+    "cesnet_ip450863",
+    "cesnet_sub135",
+    "cesnet_sub245",
+    "cesnet_sub269",
+    "cesnet_sub280",
+    "cesnet_sub375",
+    "cesnet_sub459"
+   ],
+   "c3_null_exceeded": [
+    "cesnet_sub12",
+    "cesnet_sub163",
+    "cesnet_sub23",
+    "cesnet_sub24",
+    "cesnet_sub247",
+    "cesnet_sub248",
+    "cesnet_sub300",
+    "cesnet_sub306",
+    "cesnet_sub317",
+    "cesnet_sub364",
+    "cesnet_sub428",
+    "cesnet_sub430"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "ADB_G7": {
+  "traces": 15,
+  "failed": 10,
+  "c1_false_alarm_excess": 0,
+  "c2_insensitive": 1,
+  "c2_control_alarms": 7,
+  "c3_null_exceeded": 2,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [],
+   "c2_insensitive": [
+    "geant_od19_3"
+   ],
+   "c2_control_alarms": [
+    "geant_od10_7",
+    "geant_od15_21",
+    "geant_od17_8",
+    "geant_od19_16",
+    "geant_od1_3",
+    "geant_od8_2",
+    "geant_od9_2"
+   ],
+   "c3_null_exceeded": [
+    "geant_od1_9",
+    "geant_od3_3"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "STB7_P7": {
+  "traces": 40,
+  "failed": 26,
+  "c1_false_alarm_excess": 3,
+  "c2_insensitive": 0,
+  "c2_control_alarms": 13,
+  "c3_null_exceeded": 10,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [
+    "cesnet_ip1368",
+    "cesnet_ip1605",
+    "cesnet_sub375"
+   ],
+   "c2_insensitive": [],
+   "c2_control_alarms": [
+    "cesnet_ip268100",
+    "cesnet_ip44922",
+    "cesnet_sub135",
+    "cesnet_sub144",
+    "cesnet_sub269",
+    "cesnet_sub300",
+    "cesnet_sub317",
+    "cesnet_sub325",
+    "cesnet_sub361",
+    "cesnet_sub364",
+    "cesnet_sub376",
+    "cesnet_sub392",
+    "cesnet_sub459"
+   ],
+   "c3_null_exceeded": [
+    "cesnet_ip11",
+    "cesnet_ip1774",
+    "cesnet_ip18683",
+    "cesnet_ip35210",
+    "cesnet_sub163",
+    "cesnet_sub167",
+    "cesnet_sub21",
+    "cesnet_sub248",
+    "cesnet_sub280",
+    "cesnet_sub428"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "STB7_G7": {
+  "traces": 15,
+  "failed": 11,
+  "c1_false_alarm_excess": 0,
+  "c2_insensitive": 0,
+  "c2_control_alarms": 6,
+  "c3_null_exceeded": 5,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [],
+   "c2_insensitive": [],
+   "c2_control_alarms": [
+    "geant_od10_7",
+    "geant_od16_21",
+    "geant_od19_16",
+    "geant_od1_3",
+    "geant_od20_11",
+    "geant_od8_2"
+   ],
+   "c3_null_exceeded": [
+    "geant_od15_21",
+    "geant_od19_3",
+    "geant_od23_16",
+    "geant_od3_3",
+    "geant_od4_23"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "V3_P7": {
+  "traces": 40,
+  "failed": 8,
+  "c1_false_alarm_excess": 0,
+  "c2_insensitive": 2,
+  "c2_control_alarms": 1,
+  "c3_null_exceeded": 5,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [],
+   "c2_insensitive": [
+    "cesnet_ip1368",
+    "cesnet_sub135"
+   ],
+   "c2_control_alarms": [
+    "cesnet_sub376"
+   ],
+   "c3_null_exceeded": [
+    "cesnet_ip1774",
+    "cesnet_ip35210",
+    "cesnet_sub245",
+    "cesnet_sub361",
+    "cesnet_sub428"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "V3_G7": {
+  "traces": 15,
+  "failed": 10,
+  "c1_false_alarm_excess": 0,
+  "c2_insensitive": 1,
+  "c2_control_alarms": 5,
+  "c3_null_exceeded": 4,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [],
+   "c2_insensitive": [
+    "geant_od9_2"
+   ],
+   "c2_control_alarms": [
+    "geant_od19_16",
+    "geant_od19_3",
+    "geant_od1_3",
+    "geant_od23_16",
+    "geant_od8_2"
+   ],
+   "c3_null_exceeded": [
+    "geant_od1_9",
+    "geant_od20_11",
+    "geant_od3_3",
+    "geant_od4_23"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "W1_P7": {
+  "traces": 40,
+  "failed": 5,
+  "c1_false_alarm_excess": 0,
+  "c2_insensitive": 1,
+  "c2_control_alarms": 0,
+  "c3_null_exceeded": 4,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [],
+   "c2_insensitive": [
+    "cesnet_ip1368"
+   ],
+   "c2_control_alarms": [],
+   "c3_null_exceeded": [
+    "cesnet_ip1774",
+    "cesnet_sub317",
+    "cesnet_sub376",
+    "cesnet_sub428"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "W1_G7": {
+  "traces": 15,
+  "failed": 9,
+  "c1_false_alarm_excess": 0,
+  "c2_insensitive": 1,
+  "c2_control_alarms": 4,
+  "c3_null_exceeded": 4,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [],
+   "c2_insensitive": [
+    "geant_od9_2"
+   ],
+   "c2_control_alarms": [
+    "geant_od19_16",
+    "geant_od19_3",
+    "geant_od1_3",
+    "geant_od23_16"
+   ],
+   "c3_null_exceeded": [
+    "geant_od15_21",
+    "geant_od1_9",
+    "geant_od3_3",
+    "geant_od4_23"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "W3_P7": {
+  "traces": 40,
+  "failed": 9,
+  "c1_false_alarm_excess": 1,
+  "c2_insensitive": 0,
+  "c2_control_alarms": 2,
+  "c3_null_exceeded": 6,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [
+    "cesnet_sub21"
+   ],
+   "c2_insensitive": [],
+   "c2_control_alarms": [
+    "cesnet_sub376",
+    "cesnet_sub430"
+   ],
+   "c3_null_exceeded": [
+    "cesnet_ip1368",
+    "cesnet_ip35210",
+    "cesnet_ip450863",
+    "cesnet_sub247",
+    "cesnet_sub364",
+    "cesnet_sub428"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "W3_G7": {
+  "traces": 15,
+  "failed": 9,
+  "c1_false_alarm_excess": 1,
+  "c2_insensitive": 1,
+  "c2_control_alarms": 4,
+  "c3_null_exceeded": 3,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [
+    "geant_od10_7"
+   ],
+   "c2_insensitive": [
+    "geant_od9_2"
+   ],
+   "c2_control_alarms": [
+    "geant_od19_11",
+    "geant_od19_16",
+    "geant_od1_3",
+    "geant_od1_9"
+   ],
+   "c3_null_exceeded": [
+    "geant_od15_21",
+    "geant_od3_3",
+    "geant_od4_23"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "W4_P7": {
+  "traces": 40,
+  "failed": 8,
+  "c1_false_alarm_excess": 1,
+  "c2_insensitive": 1,
+  "c2_control_alarms": 1,
+  "c3_null_exceeded": 5,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [
+    "cesnet_sub21"
+   ],
+   "c2_insensitive": [
+    "cesnet_ip1368"
+   ],
+   "c2_control_alarms": [
+    "cesnet_sub376"
+   ],
+   "c3_null_exceeded": [
+    "cesnet_ip35210",
+    "cesnet_ip450863",
+    "cesnet_sub364",
+    "cesnet_sub428",
+    "cesnet_sub430"
+   ],
+   "c3_slow_detection": []
+  }
+ },
+ "W4_G7": {
+  "traces": 15,
+  "failed": 9,
+  "c1_false_alarm_excess": 1,
+  "c2_insensitive": 1,
+  "c2_control_alarms": 3,
+  "c3_null_exceeded": 4,
+  "c3_slow_detection": 0,
+  "names": {
+   "c1_false_alarm_excess": [
+    "geant_od10_7"
+   ],
+   "c2_insensitive": [
+    "geant_od9_2"
+   ],
+   "c2_control_alarms": [
+    "geant_od19_11",
+    "geant_od19_16",
+    "geant_od1_3"
+   ],
+   "c3_null_exceeded": [
+    "geant_od15_21",
+    "geant_od1_9",
+    "geant_od3_3",
+    "geant_od4_23"
+   ],
+   "c3_slow_detection": []
+  }
+ }
+}

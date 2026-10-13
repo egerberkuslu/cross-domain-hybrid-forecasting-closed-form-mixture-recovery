@@ -1,0 +1,21 @@
+{
+ "stage": "select",
+ "dry_run": false,
+ "experts": {
+  "EB": {
+   "pooled_log_ratio_vs_bolt": {
+    "M2": 0.0004982760396358869,
+    "M3": -0.0023677912635124625
+   },
+   "headline_variant": "M3"
+  },
+  "EQ": {
+   "pooled_log_ratio_vs_bolt": {
+    "M2": -0.02189691134772732,
+    "M3": -0.023316663630739875
+   },
+   "headline_variant": "M3"
+  }
+ },
+ "test_files_read": 0
+}

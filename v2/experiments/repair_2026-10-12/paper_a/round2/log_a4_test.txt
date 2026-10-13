@@ -1,0 +1,12 @@
+<CONDA>/lib/python3.12/site-packages/pandas/core/computation/expressions.py:23: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.8.7' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+<CONDA>/lib/python3.12/site-packages/pandas/core/arrays/masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.3.7' currently installed).
+  from pandas.core import (
+{
+ "headline": "DA",
+ "cond1_fa_le5_traces": 3,
+ "cond2_shift_specific_traces": 3,
+ "cond3_above_permuted_clock_traces": 3,
+ "success": false,
+ "pseudo": false
+}

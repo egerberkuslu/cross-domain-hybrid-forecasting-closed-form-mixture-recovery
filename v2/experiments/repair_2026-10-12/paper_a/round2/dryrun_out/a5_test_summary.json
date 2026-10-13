@@ -1,0 +1,58 @@
+{
+ "holm_family_size": 6,
+ "pseudo": true,
+ "experts": {
+  "EB": {
+   "variant": "M3",
+   "cells_win_vs_bolt_holm_and_ge_0.5pct": 0,
+   "cells_loss_vs_bolt_holm": 0,
+   "cells_identical": 0,
+   "cells_tost_equiv": 3,
+   "pooled_gain_vs_bolt": {
+    "mean": -0.0028737284004047847,
+    "ci95_cell": [
+     -0.00808323011803469,
+     0.0020842626382830964
+    ]
+   },
+   "pooled_gain_vs_best_control": {
+    "mean": -0.0037634965466320316,
+    "ci95_cell": [
+     -0.006792067079411712,
+     0.0004905770534356924
+    ],
+    "ci95_two_stage": [
+     -0.006792067079411712,
+     0.0004905770534356924
+    ]
+   },
+   "success": false
+  },
+  "EQ": {
+   "variant": "M3",
+   "cells_win_vs_bolt_holm_and_ge_0.5pct": 0,
+   "cells_loss_vs_bolt_holm": 0,
+   "cells_identical": 0,
+   "cells_tost_equiv": 3,
+   "pooled_gain_vs_bolt": {
+    "mean": 0.012664386347693549,
+    "ci95_cell": [
+     0.0018919328491250331,
+     0.021184128353242127
+    ]
+   },
+   "pooled_gain_vs_best_control": {
+    "mean": 0.0038696147520426902,
+    "ci95_cell": [
+     -0.0013674960654521673,
+     0.012988883511201643
+    ],
+    "ci95_two_stage": [
+     -0.0013674960654521673,
+     0.012988883511201643
+    ]
+   },
+   "success": false
+  }
+ }
+}

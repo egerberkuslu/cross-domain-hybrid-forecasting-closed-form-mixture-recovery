@@ -1,0 +1,38 @@
+{
+ "criterion": "floor",
+ "headline": "V2",
+ "cfg": {
+  "lam": 0.75
+ },
+ "cells_better_vs_bolt_holm": 0,
+ "cells_worse_vs_bolt_holm": 0,
+ "cells_identical": 0,
+ "cells_tost_equiv": 3,
+ "pooled_gain_vs_best_control": {
+  "mean": 3.700743415417188e-17,
+  "ci95_cell": [
+   0.0,
+   1.1102230246251565e-16
+  ],
+  "ci95_two_stage": [
+   0.0,
+   1.1102230246251565e-16
+  ]
+ },
+ "success": false,
+ "exploratory_override_gate": true,
+ "pseudo": true,
+ "floor": {
+  "holds_variant": 3,
+  "holds_V0": 2,
+  "holds_ctrl_a": 3,
+  "holds_ctrl_b": 3,
+  "gained_vs_V0": 1,
+  "lost_vs_V0": 0,
+  "p_sign_one_sided": 0.5,
+  "max_excess_pct_variant": -0.04674682452653345,
+  "max_excess_pct_V0": 0.1405120495949541,
+  "mean_rel_vs_bolt_variant": -0.0032519447848218994
+ },
+ "success_floor": false
+}

@@ -1,0 +1,58 @@
+{
+ "guard": "G2_0.25",
+ "retention": 0.4375,
+ "min_gain_primary": 0.0021875,
+ "cells": 300,
+ "K_wins_required": 24,
+ "cells_win": 66,
+ "cells_win_at_0.5pct": 50,
+ "cells_loss": 0,
+ "cells_identical": 20,
+ "cells_tost_equiv": 275,
+ "median_cell_gain": 0.0034595699596786655,
+ "pooled_gain_vs_bolt": {
+  "mean": 0.006035738637867725,
+  "ci95_cell": [
+   0.005204451216265632,
+   0.006944607071922168
+  ],
+  "ci95_series_clustered": [
+   0.004586724545599159,
+   0.007715132486400148
+  ]
+ },
+ "pooled_gain_vs_best_control": {
+  "mean": 0.0014151186000786675,
+  "ci95_cell": [
+   0.0006012716293382312,
+   0.0021663695946934633
+  ],
+  "ci95_series_clustered": [
+   -2.4259813213750194e-05,
+   0.0028791867934095817
+  ]
+ },
+ "per_source": {
+  "abilene_od": {
+   "cells": 50,
+   "wins": 21,
+   "mean_gain": 0.009881612024863486,
+   "median_gain": 0.008623479772855491
+  },
+  "cesnet_inst": {
+   "cells": 150,
+   "wins": 22,
+   "mean_gain": 0.002810542462460818,
+   "median_gain": 0.002117206044090547
+  },
+  "geant_od": {
+   "cells": 100,
+   "wins": 23,
+   "mean_gain": 0.008950596207480208,
+   "median_gain": 0.006061850558784054
+  }
+ },
+ "success": false,
+ "success_secondary_unscaled_0.5pct": false,
+ "pseudo": false
+}

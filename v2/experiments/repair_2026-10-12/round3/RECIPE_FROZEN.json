@@ -1,0 +1,44 @@
+{
+ "expert": "E-Q (quantile gradient boosting on lag and calendar features, median point forecast)",
+ "training_data": {
+  "stage_A_validation_forecasts": "train windows only",
+  "stage_B_test_forecasts": "train + validation windows (refit, same hyper-parameters)"
+ },
+ "null_expert": "E-Q0: same recipe, median model, feature rows shuffled across windows, permutation seed 0",
+ "hyperparameters": {
+  "quantiles": [
+   0.1,
+   0.5,
+   0.9
+  ],
+  "max_iter": 150,
+  "learning_rate": 0.06,
+  "max_depth": 4,
+  "min_samples_leaf": 40,
+  "l2_regularization": 1.0,
+  "early_stopping": false,
+  "random_state": 0
+ },
+ "features_source": {
+  "file": "experiments/repair_2026-10-12/paper_a/round2/experts.py",
+  "sha256": "12dd347abade46ed64113215791ab74dfc81f55f3877e253559cce2ee64a3ada",
+  "function": "features(X, tt, h)"
+ },
+ "mixture": "M2: f = Bolt + alpha (E-Q - Bolt), alpha = Bates-Granger closed form on ALL validation windows (E-Q trained on train only), clipped to [0, 1] and snapped to the 0.05 grid",
+ "bolt": {
+  "model": "amazon/chronos-bolt-small",
+  "hf_snapshot": "772f3d25d38aec6d914c8949dab4462e2d46f5d8",
+  "weights_sha256": "06a6a19bbe74bc10a9cd193bd4bf2bf638ae07f7e0d51653ae7ab8ea968a21dd",
+  "device": "cpu",
+  "dtype": "float32",
+  "batch": 32
+ },
+ "environment": {
+  "sklearn": "1.9.0",
+  "numpy": "1.26.4",
+  "chronos-forecasting": "2.2.2",
+  "python": "3.12.4"
+ },
+ "round2_models_hash_file": "experiments/repair_2026-10-12/paper_a/round2/MODELS_SHA256.txt",
+ "eq_recipe.py_sha256": "d45d3ae7ea731d580d3199ce27f5c6f4cd48cee5bc52e2857fa4597bc9cfcf24"
+}
